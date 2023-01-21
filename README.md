@@ -2,7 +2,7 @@
 This is my personal repository for subjects at Faculty of information technology of Czech Technical University in Prague.
 
 Courses at 1<sup>st</sup> semester:
-- [BIE-PA1](CTU/PA1);
+- [BIE-PA1](/PA1);
 - BIE-UOS;
 - BIE-DML;
 - BIE-LA1;
