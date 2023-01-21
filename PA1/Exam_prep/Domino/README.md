@@ -1,5 +1,6 @@
 # Dominos
 EN
+
 We have triangle, square or pentagon shaped dominoes. The dice contain numbers that can be positive, negative or zero and may be repeated on the dice.
 
 The program receives dice written as threes/fours/fives of numbers up to EOF. Subsequently, he has the task of listing the number of different dice.
@@ -14,6 +15,7 @@ Dice are the same if they contain the same numbers in the same order, but they m
 ---
 
 CZ
+
 Máme kostky domina ve tvaru trojúhelníku, čtverce nebo pětiúhelníku. Kostky obsahují čísla, která můžou být kladná, záporná i nulová a na kostce se smí opakovat.
 
 Program dostává kostky zapsané jako trojici/čtveřici/pětici čísel až do EOF. Následně má za úkol vypsat počet různých kostek.
