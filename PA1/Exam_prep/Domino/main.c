@@ -34,21 +34,6 @@ int main()
 
     readInput(set3, set4, set5, &size3, &size4, &size5);
 
-    //test
-    for (size_t i = 0; i < size3; i++)
-    {
-        printf("[%d,%d,%d]\n", set3[i].val[0], set3[i].val[1], set3[i].val[2]);
-    }
-    for (size_t i = 0; i < size4; i++)
-    {
-        printf("[%d,%d,%d,%d]\n", set4[i].val[0], set4[i].val[1], set4[i].val[2], set4[i].val[3]);
-    }
-    for (size_t i = 0; i < size5; i++)
-    {
-        printf("[%d,%d,%d,%d,%d]\n", set5[i].val[0], set5[i].val[1], set5[i].val[2], set5[i].val[3], set5[i].val[4]);
-    }
-    //test
-
     // Check 3's
     for (size_t i = 0; i < size3; i++)
     {
@@ -164,21 +149,10 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, size_t * size3, size_t * s
             i5++;
         }
     }
-    //test
-    // printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
-    // printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
-    // printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
-    //test
 
     (*size3) = i3;
     (*size4) = i4;
     (*size5) = i5;
-
-    //test
-    // printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
-    // printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
-    // printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
-    //test
 
     free(buffer);
 }
