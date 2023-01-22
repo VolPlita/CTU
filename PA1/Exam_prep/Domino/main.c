@@ -4,19 +4,19 @@
 
 typedef struct
 {
-    int unique = 1;
+    int unique;
     int val[3];
 }dom3;
 
 typedef struct
 {
-    int unique = 1;
+    int unique;
     int val[4];
 }dom4;
 
 typedef struct
 {
-    int unique = 1;
+    int unique;
     int val[5];
 }dom5;
 
@@ -56,7 +56,6 @@ int main()
         {
             if (areSame(set3[i].val, set3[j].val, 3) == 1)
             {
-                set3[i].unique = 0;
                 set3[j].unique = 0;
             }
         }
@@ -68,7 +67,6 @@ int main()
         {
             if (areSame(set4[i].val, set4[j].val, 4) == 1)
             {
-                set4[i].unique = 0;
                 set4[j].unique = 0;
             }
         }
@@ -80,7 +78,6 @@ int main()
         {
             if (areSame(set5[i].val, set5[j].val, 5) == 1)
             {
-                set5[i].unique = 0;
                 set5[j].unique = 0;
             }
         }
@@ -93,6 +90,11 @@ int main()
         if(set4[i].unique == 1) unique++;
     for (size_t i = 0; i < size5; i++)
         if(set5[i].unique == 1) unique++;
+
+    for (size_t i = 0; i < size3; i++)
+    {
+        printf("[%d,%d,%d], unique = %d\n", set3[i].val[0], set3[i].val[1], set3[i].val[2], set3[i].unique );
+    }
 
     printf("Unique: %d\n", unique);
 
@@ -131,7 +133,7 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, size_t * size3, size_t * s
             }
 
             sscanf(buffer, "[ %d , %d , %d ]", &set3[i3].val[0], &set3[i3].val[1], &set3[i3].val[2]);
-            printf("[ %d , %d , %d ]\n", set3[i3].val[0], set3[i3].val[1], set3[i3].val[2]);
+            set3[i3].unique = 1;
 
             i3++;
         }
@@ -144,7 +146,7 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, size_t * size3, size_t * s
             }
 
             sscanf(buffer, "[ %d , %d , %d , %d ]", &set4[i4].val[0], &set4[i4].val[1], &set4[i4].val[2], &set4[i4].val[3]);
-            printf("[ %d , %d , %d , %d ]\n", set4[i4].val[0], set4[i4].val[1], set4[i4].val[2], set4[i4].val[3]);
+            set4[i4].unique = 1;
 
             i4++;
         }
@@ -157,15 +159,15 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, size_t * size3, size_t * s
             }
 
             sscanf(buffer, "[ %d , %d , %d , %d , %d ]", &set5[i5].val[0], &set5[i5].val[1], &set5[i5].val[2], &set5[i5].val[3], &set5[i5].val[4]);
-            printf("[ %d , %d , %d , %d , %d ]\n", set5[i5].val[0], set5[i5].val[1], set5[i5].val[2], set5[i5].val[3], set5[i5].val[4]);
+            set5[i5].unique = 1;
 
             i5++;
         }
     }
     //test
-    printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
-    printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
-    printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
+    // printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
+    // printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
+    // printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
     //test
 
     (*size3) = i3;
@@ -173,9 +175,9 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, size_t * size3, size_t * s
     (*size5) = i5;
 
     //test
-    printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
-    printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
-    printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
+    // printf("size3 = %ld | i3 = %ld\n", (*size3), i3);
+    // printf("size4 = %ld | i4 = %ld\n", (*size4), i4);
+    // printf("size5 = %ld | i5 = %ld\n", (*size5), i5);
     //test
 
     free(buffer);
