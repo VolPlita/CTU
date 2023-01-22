@@ -18,6 +18,7 @@ typedef struct
 }dom5;
 
 int readInput(dom3 * set3, dom4 * set4, dom5 * set5);
+int areSame(int * c1, int * c2, int n);
 
 int main()
 {
@@ -85,4 +86,45 @@ void readInput(dom3 * set3, dom4 * set4, dom5 * set5, int * size3, int * size4, 
     (*size3) = i3;
     (*size4) = i4;
     (*size5) = i5;
+}
+
+int areSame(int * c1, int * c2, int n)
+{
+    //Check sum
+    int sum1 = 0;
+    int sum2 = 0;
+    for (int i = 0; i < n; i++)
+    {
+        sum1 += c1[i];
+        sum2 += c2[j];
+    }
+    if (sum1 != sum2) return 0;
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n; j++)
+        {
+            if (c1[i] == c2[j])
+            {
+                int old_i = i;
+                int old_j = j;
+                int found = 1;
+                for (int k = 0, p = n - 1; k < p; k++)
+                {
+                    i = (i + 1) % n;
+                    j = (j + 1) % n;
+                    if (c1[i] != c2[j])
+                    {
+                        found = 0;
+                        break;
+                    }
+                }
+                i = old_i;
+                j = old_j;
+                    
+                if (found == 1) return 1;
+            }
+        }
+    }
+    return 0;
 }
