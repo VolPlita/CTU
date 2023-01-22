@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int areSame(int * c1, int * c2);
+int areSame(int * c1, int * c2, int n);
 
 int main()
 {
@@ -24,6 +24,8 @@ int main()
 
     areSame(d4, d5, 5) == 1 ? printf("4 | 5 - same\n") : printf("4 | 5 - different\n");
 
+    printf("%d\n", areSame({1,2,3},{1,2,3},3));
+
     return 0;
 }
 
@@ -35,7 +37,7 @@ int areSame(int * c1, int * c2, int n)
     for (int i = 0; i < n; i++)
     {
         sum1 += c1[i];
-        sum2 += c2[j];
+        sum2 += c2[i];
     }
     if (sum1 != sum2) return 0;
 
