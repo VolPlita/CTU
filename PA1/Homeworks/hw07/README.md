@@ -16,7 +16,7 @@ S: { 1, 7 }
 
 This input corresponds to the following layout:
 
-![tokens image](CTU\images\tokens.png)
+![tokens image](../../../images/tokens.png)
 
 <p>The program reads the input and starts the simulation of the players. Player A starts first, the program chooses the best choice of the token. Then the program plays for player B and so on, until the last token is removed. The program always uses the best strategy for each turn, i.e., it always chooses the token that is the most beneficial to the players total score. Finally, the program prints out the turns and the total score:</p>
 
