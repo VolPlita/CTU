@@ -26,3 +26,25 @@ Kostky jsou stejné, pokud obsahují stejná čísla ve stejném pořadí, smí 
 [1,2,3] = [2,3,1] → otočeno o 120°
 [2,5,7,2,5] = [7,2,5,2,5] → otočeno dvakrát o 72°
 [1,2,3] != [1,3,2]
+
+---
+
+<b>Sample program runs:</b>
+
+---
+
+[1,2,3]
+[9,8,7,6]
+[1,8,0,9,-17]
+[5,5,4,5]
+[0,9,-17,1,8]
+[0,0,0]
+Unique: 5
+
+---
+
+[1,2,3]
+[2,3,1]
+[3,1,2]
+[1,2,3]
+Unikátní: 1
