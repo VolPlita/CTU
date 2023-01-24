@@ -198,7 +198,7 @@ int main()
         takeTail(move, arms[best].tokens[0], &total_A, &total_B);
 
         arms[best].len--;
-        arms[best].tokens++;
+        arms[best].tokens++; // We are moving pointer one step ahead
         move++;
     }
 
@@ -217,7 +217,7 @@ int pickToken(arm * arms, int move, int *a, int *b)
     int best = 0;
     int atot = INT_MIN;
     int btot = INT_MIN;
-    for (int i = 0; i < 4; i++) 
+    for (int i = 0; i < 4; i++) // Inside this loop we count every arm
     {
         if (arms[i].len == 0) continue;
 
@@ -233,10 +233,13 @@ int pickToken(arm * arms, int move, int *a, int *b)
             arms[i].tokens--;
             arms[i].len++;
         }
+         // We will have four pairs ap/bp for each arm
 
         if ( (atot == INT_MIN && btot == INT_MIN) || 
              ((move % 2 == 0) ? ap > atot : bp > btot ) )
         {
+            /* Player looks not for his sum to be bigger than the opponents
+            but for his result to be biggest possible                    */
             best = i;
             atot = ap;
             btot = bp;
