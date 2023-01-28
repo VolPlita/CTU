@@ -30,5 +30,5 @@ Remember: ID is not a integer. 0100 != 100
 <b>4</b> salary is not an integer
 
 <b>Image from test:</b>
-![salary picture](images/sal1.jpg)
-![salary picture](images/sal2.jpg)
+![salary picture](../../../images/sal1.jpg)
+![salary picture](../../../images/sal2)
