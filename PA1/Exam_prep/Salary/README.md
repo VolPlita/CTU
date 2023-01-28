@@ -25,10 +25,13 @@ Remember: ID is not a integer. 0100 != 100
 - You return invalid input if
 
 <b>1</b> after querying has started, it shouldn't add more region and salary
+
 <b>2</b> input doesn't start with + or ?
+
 <b>3</b> region contains something not digit
+
 <b>4</b> salary is not an integer
 
 <b>Image from test:</b>
-![salary picture](../../../images/sal1.jpg)
-![salary picture](../../../images/sal2)
+![salary picture](../../../images/sal1.jpeg)
+![salary picture](../../../images/sal2.jpeg)
