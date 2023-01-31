@@ -1,0 +1,8 @@
+R: Ladislav Vagner
+R: Jan Travnicek
+R: Jan Novy Jan
+R: Jan Kuba
+P: Jan Novy
+P: Jan Travnicek
+P: VAGNER Ladislav
+P: Vagner Ladislav
