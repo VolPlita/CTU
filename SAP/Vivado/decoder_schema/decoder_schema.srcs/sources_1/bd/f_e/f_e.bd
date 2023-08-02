@@ -1,0 +1,171 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1263F1151263F115",
+      "device": "xc7a35tcpg236-1",
+      "name": "f_e",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "or_0": "",
+      "and_0": "",
+      "and_1": "",
+      "and_2": "",
+      "and_3": ""
+    },
+    "ports": {
+      "A0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "B0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "D0": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "f_e": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "or_0": {
+        "vlnv": "FIT:user:or:1.0",
+        "xci_name": "f_e_or_0_0",
+        "parameters": {
+          "Inputs": {
+            "value": "4"
+          }
+        }
+      },
+      "and_0": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "f_e_and_0_0",
+        "parameters": {
+          "I0_Inverted": {
+            "value": "true"
+          }
+        }
+      },
+      "and_1": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "f_e_and_1_0"
+      },
+      "and_2": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "f_e_and_2_0"
+      },
+      "and_3": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "f_e_and_3_0",
+        "parameters": {
+          "I0_Inverted": {
+            "value": "true"
+          },
+          "I1_inverted": {
+            "value": "true"
+          }
+        }
+      }
+    },
+    "nets": {
+      "and_0_O": {
+        "ports": [
+          "and_0/O",
+          "or_0/I0"
+        ]
+      },
+      "and_1_O": {
+        "ports": [
+          "and_1/O",
+          "or_0/I1"
+        ]
+      },
+      "and_2_O": {
+        "ports": [
+          "and_2/O",
+          "or_0/I2"
+        ]
+      },
+      "and_3_O": {
+        "ports": [
+          "and_3/O",
+          "or_0/I3"
+        ]
+      },
+      "or_0_O": {
+        "ports": [
+          "or_0/O",
+          "f_e"
+        ]
+      },
+      "A0_1": {
+        "ports": [
+          "A0",
+          "and_0/I0",
+          "and_3/I0"
+        ]
+      },
+      "B0_1": {
+        "ports": [
+          "B0",
+          "and_0/I1",
+          "and_2/I0"
+        ]
+      },
+      "C0_1": {
+        "ports": [
+          "C0",
+          "and_1/I0",
+          "and_3/I1"
+        ]
+      },
+      "D0_1": {
+        "ports": [
+          "D0",
+          "and_1/I1",
+          "and_2/I1"
+        ]
+      }
+    }
+  }
+}

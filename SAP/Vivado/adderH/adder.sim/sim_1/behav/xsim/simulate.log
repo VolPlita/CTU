@@ -1,0 +1,1026 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+Error: Chyba pri scitani 0 + 1 + 0. Vyslo 0
+Time: 14500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 2 + 0. Vyslo 0
+Time: 16 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 3 + 0. Vyslo 0
+Time: 17500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 4 + 0. Vyslo 0
+Time: 19 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 5 + 0. Vyslo 0
+Time: 20500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 6 + 0. Vyslo 0
+Time: 22 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 7 + 0. Vyslo 0
+Time: 23500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 8 + 0. Vyslo 0
+Time: 25 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 9 + 0. Vyslo 0
+Time: 26500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 10 + 0. Vyslo 0
+Time: 28 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 11 + 0. Vyslo 0
+Time: 29500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 12 + 0. Vyslo 0
+Time: 31 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 13 + 0. Vyslo 0
+Time: 32500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 14 + 0. Vyslo 0
+Time: 34 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 15 + 0. Vyslo 0
+Time: 35500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 0 + 0. Vyslo 0
+Time: 38500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 1 + 0. Vyslo 0
+Time: 40 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 2 + 0. Vyslo 0
+Time: 41500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 3 + 0. Vyslo 0
+Time: 43 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 4 + 0. Vyslo 0
+Time: 44500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 5 + 0. Vyslo 0
+Time: 46 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 6 + 0. Vyslo 0
+Time: 47500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 7 + 0. Vyslo 0
+Time: 49 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 8 + 0. Vyslo 0
+Time: 50500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 9 + 0. Vyslo 0
+Time: 52 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 10 + 0. Vyslo 0
+Time: 53500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 11 + 0. Vyslo 0
+Time: 55 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 12 + 0. Vyslo 0
+Time: 56500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 13 + 0. Vyslo 0
+Time: 58 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 14 + 0. Vyslo 0
+Time: 59500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 15 + 0. Vyslo 0
+Time: 61 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 0 + 0. Vyslo 0
+Time: 64 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 1 + 0. Vyslo 0
+Time: 65500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 2 + 0. Vyslo 0
+Time: 67 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 3 + 0. Vyslo 0
+Time: 68500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 4 + 0. Vyslo 0
+Time: 70 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 5 + 0. Vyslo 0
+Time: 71500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 6 + 0. Vyslo 0
+Time: 73 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 7 + 0. Vyslo 0
+Time: 74500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 8 + 0. Vyslo 0
+Time: 76 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 9 + 0. Vyslo 0
+Time: 77500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 10 + 0. Vyslo 0
+Time: 79 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 11 + 0. Vyslo 0
+Time: 80500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 12 + 0. Vyslo 0
+Time: 82 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 13 + 0. Vyslo 0
+Time: 83500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 14 + 0. Vyslo 0
+Time: 85 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 15 + 0. Vyslo 0
+Time: 86500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 0 + 0. Vyslo 0
+Time: 89500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 1 + 0. Vyslo 0
+Time: 91 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 2 + 0. Vyslo 0
+Time: 92500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 3 + 0. Vyslo 0
+Time: 94 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 4 + 0. Vyslo 0
+Time: 95500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 5 + 0. Vyslo 0
+Time: 97 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 6 + 0. Vyslo 0
+Time: 98500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 7 + 0. Vyslo 0
+Time: 100 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 8 + 0. Vyslo 0
+Time: 101500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 9 + 0. Vyslo 0
+Time: 103 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 10 + 0. Vyslo 0
+Time: 104500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 11 + 0. Vyslo 0
+Time: 106 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 12 + 0. Vyslo 0
+Time: 107500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 13 + 0. Vyslo 0
+Time: 109 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 14 + 0. Vyslo 0
+Time: 110500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 15 + 0. Vyslo 0
+Time: 112 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 0 + 0. Vyslo 0
+Time: 115 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 1 + 0. Vyslo 0
+Time: 116500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 2 + 0. Vyslo 0
+Time: 118 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 3 + 0. Vyslo 0
+Time: 119500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 4 + 0. Vyslo 0
+Time: 121 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 5 + 0. Vyslo 0
+Time: 122500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 6 + 0. Vyslo 0
+Time: 124 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 7 + 0. Vyslo 0
+Time: 125500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 8 + 0. Vyslo 0
+Time: 127 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 9 + 0. Vyslo 0
+Time: 128500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 10 + 0. Vyslo 0
+Time: 130 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 11 + 0. Vyslo 0
+Time: 131500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 12 + 0. Vyslo 0
+Time: 133 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 13 + 0. Vyslo 0
+Time: 134500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 14 + 0. Vyslo 0
+Time: 136 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 15 + 0. Vyslo 0
+Time: 137500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 0 + 0. Vyslo 0
+Time: 140500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 1 + 0. Vyslo 0
+Time: 142 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 2 + 0. Vyslo 0
+Time: 143500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 3 + 0. Vyslo 0
+Time: 145 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 4 + 0. Vyslo 0
+Time: 146500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 5 + 0. Vyslo 0
+Time: 148 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 6 + 0. Vyslo 0
+Time: 149500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 7 + 0. Vyslo 0
+Time: 151 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 8 + 0. Vyslo 0
+Time: 152500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 9 + 0. Vyslo 0
+Time: 154 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 10 + 0. Vyslo 0
+Time: 155500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 11 + 0. Vyslo 0
+Time: 157 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 12 + 0. Vyslo 0
+Time: 158500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 13 + 0. Vyslo 0
+Time: 160 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 14 + 0. Vyslo 0
+Time: 161500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 15 + 0. Vyslo 0
+Time: 163 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 0 + 0. Vyslo 0
+Time: 166 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 1 + 0. Vyslo 0
+Time: 167500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 2 + 0. Vyslo 0
+Time: 169 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 3 + 0. Vyslo 0
+Time: 170500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 4 + 0. Vyslo 0
+Time: 172 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 5 + 0. Vyslo 0
+Time: 173500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 6 + 0. Vyslo 0
+Time: 175 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 7 + 0. Vyslo 0
+Time: 176500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 8 + 0. Vyslo 0
+Time: 178 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 9 + 0. Vyslo 0
+Time: 179500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 10 + 0. Vyslo 0
+Time: 181 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 11 + 0. Vyslo 0
+Time: 182500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 12 + 0. Vyslo 0
+Time: 184 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 13 + 0. Vyslo 0
+Time: 185500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 14 + 0. Vyslo 0
+Time: 187 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 15 + 0. Vyslo 0
+Time: 188500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 0 + 0. Vyslo 0
+Time: 191500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 1 + 0. Vyslo 0
+Time: 193 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 2 + 0. Vyslo 0
+Time: 194500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 3 + 0. Vyslo 0
+Time: 196 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 4 + 0. Vyslo 0
+Time: 197500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 5 + 0. Vyslo 0
+Time: 199 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 6 + 0. Vyslo 0
+Time: 200500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 7 + 0. Vyslo 0
+Time: 202 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 8 + 0. Vyslo 0
+Time: 203500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 9 + 0. Vyslo 0
+Time: 205 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 10 + 0. Vyslo 0
+Time: 206500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 11 + 0. Vyslo 0
+Time: 208 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 12 + 0. Vyslo 0
+Time: 209500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 13 + 0. Vyslo 0
+Time: 211 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 14 + 0. Vyslo 0
+Time: 212500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 15 + 0. Vyslo 0
+Time: 214 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 0 + 0. Vyslo 0
+Time: 217 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 1 + 0. Vyslo 0
+Time: 218500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 2 + 0. Vyslo 0
+Time: 220 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 3 + 0. Vyslo 0
+Time: 221500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 4 + 0. Vyslo 0
+Time: 223 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 5 + 0. Vyslo 0
+Time: 224500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 6 + 0. Vyslo 0
+Time: 226 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 7 + 0. Vyslo 0
+Time: 227500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 8 + 0. Vyslo 0
+Time: 229 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 9 + 0. Vyslo 0
+Time: 230500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 10 + 0. Vyslo 0
+Time: 232 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 11 + 0. Vyslo 0
+Time: 233500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 12 + 0. Vyslo 0
+Time: 235 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 13 + 0. Vyslo 0
+Time: 236500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 14 + 0. Vyslo 0
+Time: 238 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 15 + 0. Vyslo 0
+Time: 239500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 0 + 0. Vyslo 0
+Time: 242500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 1 + 0. Vyslo 0
+Time: 244 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 2 + 0. Vyslo 0
+Time: 245500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 3 + 0. Vyslo 0
+Time: 247 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 4 + 0. Vyslo 0
+Time: 248500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 5 + 0. Vyslo 0
+Time: 250 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 6 + 0. Vyslo 0
+Time: 251500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 7 + 0. Vyslo 0
+Time: 253 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 8 + 0. Vyslo 0
+Time: 254500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 9 + 0. Vyslo 0
+Time: 256 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 10 + 0. Vyslo 0
+Time: 257500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 11 + 0. Vyslo 0
+Time: 259 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 12 + 0. Vyslo 0
+Time: 260500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 13 + 0. Vyslo 0
+Time: 262 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 14 + 0. Vyslo 0
+Time: 263500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 15 + 0. Vyslo 0
+Time: 265 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 0 + 0. Vyslo 0
+Time: 268 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 1 + 0. Vyslo 0
+Time: 269500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 2 + 0. Vyslo 0
+Time: 271 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 3 + 0. Vyslo 0
+Time: 272500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 4 + 0. Vyslo 0
+Time: 274 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 5 + 0. Vyslo 0
+Time: 275500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 6 + 0. Vyslo 0
+Time: 277 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 7 + 0. Vyslo 0
+Time: 278500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 8 + 0. Vyslo 0
+Time: 280 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 9 + 0. Vyslo 0
+Time: 281500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 10 + 0. Vyslo 0
+Time: 283 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 11 + 0. Vyslo 0
+Time: 284500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 12 + 0. Vyslo 0
+Time: 286 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 13 + 0. Vyslo 0
+Time: 287500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 14 + 0. Vyslo 0
+Time: 289 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 15 + 0. Vyslo 0
+Time: 290500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 0 + 0. Vyslo 0
+Time: 293500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 1 + 0. Vyslo 0
+Time: 295 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 2 + 0. Vyslo 0
+Time: 296500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 3 + 0. Vyslo 0
+Time: 298 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 4 + 0. Vyslo 0
+Time: 299500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 5 + 0. Vyslo 0
+Time: 301 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 6 + 0. Vyslo 0
+Time: 302500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 7 + 0. Vyslo 0
+Time: 304 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 8 + 0. Vyslo 0
+Time: 305500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 9 + 0. Vyslo 0
+Time: 307 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 10 + 0. Vyslo 0
+Time: 308500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 11 + 0. Vyslo 0
+Time: 310 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 12 + 0. Vyslo 0
+Time: 311500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 13 + 0. Vyslo 0
+Time: 313 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 14 + 0. Vyslo 0
+Time: 314500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 15 + 0. Vyslo 0
+Time: 316 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 0 + 0. Vyslo 0
+Time: 319 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 1 + 0. Vyslo 0
+Time: 320500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 2 + 0. Vyslo 0
+Time: 322 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 3 + 0. Vyslo 0
+Time: 323500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 4 + 0. Vyslo 0
+Time: 325 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 5 + 0. Vyslo 0
+Time: 326500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 6 + 0. Vyslo 0
+Time: 328 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 7 + 0. Vyslo 0
+Time: 329500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 8 + 0. Vyslo 0
+Time: 331 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 9 + 0. Vyslo 0
+Time: 332500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 10 + 0. Vyslo 0
+Time: 334 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 11 + 0. Vyslo 0
+Time: 335500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 12 + 0. Vyslo 0
+Time: 337 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 13 + 0. Vyslo 0
+Time: 338500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 14 + 0. Vyslo 0
+Time: 340 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 15 + 0. Vyslo 0
+Time: 341500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 0 + 0. Vyslo 0
+Time: 344500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 1 + 0. Vyslo 0
+Time: 346 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 2 + 0. Vyslo 0
+Time: 347500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 3 + 0. Vyslo 0
+Time: 349 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 4 + 0. Vyslo 0
+Time: 350500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 5 + 0. Vyslo 0
+Time: 352 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 6 + 0. Vyslo 0
+Time: 353500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 7 + 0. Vyslo 0
+Time: 355 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 8 + 0. Vyslo 0
+Time: 356500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 9 + 0. Vyslo 0
+Time: 358 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 10 + 0. Vyslo 0
+Time: 359500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 11 + 0. Vyslo 0
+Time: 361 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 12 + 0. Vyslo 0
+Time: 362500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 13 + 0. Vyslo 0
+Time: 364 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 14 + 0. Vyslo 0
+Time: 365500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 15 + 0. Vyslo 0
+Time: 367 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 0 + 0. Vyslo 0
+Time: 370 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 1 + 0. Vyslo 0
+Time: 371500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 2 + 0. Vyslo 0
+Time: 373 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 3 + 0. Vyslo 0
+Time: 374500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 4 + 0. Vyslo 0
+Time: 376 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 5 + 0. Vyslo 0
+Time: 377500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 6 + 0. Vyslo 0
+Time: 379 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 7 + 0. Vyslo 0
+Time: 380500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 8 + 0. Vyslo 0
+Time: 382 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 9 + 0. Vyslo 0
+Time: 383500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 10 + 0. Vyslo 0
+Time: 385 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 11 + 0. Vyslo 0
+Time: 386500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 12 + 0. Vyslo 0
+Time: 388 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 13 + 0. Vyslo 0
+Time: 389500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 14 + 0. Vyslo 0
+Time: 391 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 15 + 0. Vyslo 0
+Time: 392500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 0 + 0. Vyslo 0
+Time: 395500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 1 + 0. Vyslo 0
+Time: 397 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 2 + 0. Vyslo 0
+Time: 398500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 3 + 0. Vyslo 0
+Time: 400 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 4 + 0. Vyslo 0
+Time: 401500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 5 + 0. Vyslo 0
+Time: 403 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 6 + 0. Vyslo 0
+Time: 404500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 7 + 0. Vyslo 0
+Time: 406 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 8 + 0. Vyslo 0
+Time: 407500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 9 + 0. Vyslo 0
+Time: 409 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 10 + 0. Vyslo 0
+Time: 410500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 11 + 0. Vyslo 0
+Time: 412 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 12 + 0. Vyslo 0
+Time: 413500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 13 + 0. Vyslo 0
+Time: 415 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 14 + 0. Vyslo 0
+Time: 416500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 15 + 0. Vyslo 0
+Time: 418 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 0 + 1. Vyslo 0
+Time: 431 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 1 + 1. Vyslo 0
+Time: 432500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 2 + 1. Vyslo 0
+Time: 434 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 3 + 1. Vyslo 0
+Time: 435500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 4 + 1. Vyslo 0
+Time: 437 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 5 + 1. Vyslo 0
+Time: 438500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 6 + 1. Vyslo 0
+Time: 440 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 7 + 1. Vyslo 0
+Time: 441500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 8 + 1. Vyslo 0
+Time: 443 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 9 + 1. Vyslo 0
+Time: 444500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 10 + 1. Vyslo 0
+Time: 446 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 11 + 1. Vyslo 0
+Time: 447500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 12 + 1. Vyslo 0
+Time: 449 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 13 + 1. Vyslo 0
+Time: 450500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 14 + 1. Vyslo 0
+Time: 452 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 0 + 15 + 1. Vyslo 0
+Time: 453500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 0 + 1. Vyslo 0
+Time: 456500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 1 + 1. Vyslo 0
+Time: 458 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 2 + 1. Vyslo 0
+Time: 459500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 3 + 1. Vyslo 0
+Time: 461 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 4 + 1. Vyslo 0
+Time: 462500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 5 + 1. Vyslo 0
+Time: 464 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 6 + 1. Vyslo 0
+Time: 465500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 7 + 1. Vyslo 0
+Time: 467 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 8 + 1. Vyslo 0
+Time: 468500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 9 + 1. Vyslo 0
+Time: 470 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 10 + 1. Vyslo 0
+Time: 471500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 11 + 1. Vyslo 0
+Time: 473 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 12 + 1. Vyslo 0
+Time: 474500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 13 + 1. Vyslo 0
+Time: 476 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 14 + 1. Vyslo 0
+Time: 477500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 1 + 15 + 1. Vyslo 0
+Time: 479 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 0 + 1. Vyslo 0
+Time: 482 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 1 + 1. Vyslo 0
+Time: 483500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 2 + 1. Vyslo 0
+Time: 485 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 3 + 1. Vyslo 0
+Time: 486500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 4 + 1. Vyslo 0
+Time: 488 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 5 + 1. Vyslo 0
+Time: 489500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 6 + 1. Vyslo 0
+Time: 491 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 7 + 1. Vyslo 0
+Time: 492500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 8 + 1. Vyslo 0
+Time: 494 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 9 + 1. Vyslo 0
+Time: 495500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 10 + 1. Vyslo 0
+Time: 497 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 11 + 1. Vyslo 0
+Time: 498500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 12 + 1. Vyslo 0
+Time: 500 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 13 + 1. Vyslo 0
+Time: 501500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 14 + 1. Vyslo 0
+Time: 503 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 2 + 15 + 1. Vyslo 0
+Time: 504500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 0 + 1. Vyslo 0
+Time: 507500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 1 + 1. Vyslo 0
+Time: 509 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 2 + 1. Vyslo 0
+Time: 510500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 3 + 1. Vyslo 0
+Time: 512 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 4 + 1. Vyslo 0
+Time: 513500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 5 + 1. Vyslo 0
+Time: 515 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 6 + 1. Vyslo 0
+Time: 516500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 7 + 1. Vyslo 0
+Time: 518 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 8 + 1. Vyslo 0
+Time: 519500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 9 + 1. Vyslo 0
+Time: 521 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 10 + 1. Vyslo 0
+Time: 522500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 11 + 1. Vyslo 0
+Time: 524 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 12 + 1. Vyslo 0
+Time: 525500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 13 + 1. Vyslo 0
+Time: 527 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 14 + 1. Vyslo 0
+Time: 528500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 3 + 15 + 1. Vyslo 0
+Time: 530 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 0 + 1. Vyslo 0
+Time: 533 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 1 + 1. Vyslo 0
+Time: 534500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 2 + 1. Vyslo 0
+Time: 536 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 3 + 1. Vyslo 0
+Time: 537500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 4 + 1. Vyslo 0
+Time: 539 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 5 + 1. Vyslo 0
+Time: 540500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 6 + 1. Vyslo 0
+Time: 542 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 7 + 1. Vyslo 0
+Time: 543500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 8 + 1. Vyslo 0
+Time: 545 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 9 + 1. Vyslo 0
+Time: 546500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 10 + 1. Vyslo 0
+Time: 548 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 11 + 1. Vyslo 0
+Time: 549500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 12 + 1. Vyslo 0
+Time: 551 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 13 + 1. Vyslo 0
+Time: 552500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 14 + 1. Vyslo 0
+Time: 554 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 4 + 15 + 1. Vyslo 0
+Time: 555500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 0 + 1. Vyslo 0
+Time: 558500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 1 + 1. Vyslo 0
+Time: 560 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 2 + 1. Vyslo 0
+Time: 561500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 3 + 1. Vyslo 0
+Time: 563 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 4 + 1. Vyslo 0
+Time: 564500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 5 + 1. Vyslo 0
+Time: 566 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 6 + 1. Vyslo 0
+Time: 567500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 7 + 1. Vyslo 0
+Time: 569 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 8 + 1. Vyslo 0
+Time: 570500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 9 + 1. Vyslo 0
+Time: 572 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 10 + 1. Vyslo 0
+Time: 573500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 11 + 1. Vyslo 0
+Time: 575 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 12 + 1. Vyslo 0
+Time: 576500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 13 + 1. Vyslo 0
+Time: 578 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 14 + 1. Vyslo 0
+Time: 579500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 5 + 15 + 1. Vyslo 0
+Time: 581 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 0 + 1. Vyslo 0
+Time: 584 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 1 + 1. Vyslo 0
+Time: 585500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 2 + 1. Vyslo 0
+Time: 587 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 3 + 1. Vyslo 0
+Time: 588500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 4 + 1. Vyslo 0
+Time: 590 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 5 + 1. Vyslo 0
+Time: 591500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 6 + 1. Vyslo 0
+Time: 593 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 7 + 1. Vyslo 0
+Time: 594500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 8 + 1. Vyslo 0
+Time: 596 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 9 + 1. Vyslo 0
+Time: 597500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 10 + 1. Vyslo 0
+Time: 599 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 11 + 1. Vyslo 0
+Time: 600500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 12 + 1. Vyslo 0
+Time: 602 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 13 + 1. Vyslo 0
+Time: 603500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 14 + 1. Vyslo 0
+Time: 605 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 6 + 15 + 1. Vyslo 0
+Time: 606500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 0 + 1. Vyslo 0
+Time: 609500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 1 + 1. Vyslo 0
+Time: 611 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 2 + 1. Vyslo 0
+Time: 612500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 3 + 1. Vyslo 0
+Time: 614 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 4 + 1. Vyslo 0
+Time: 615500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 5 + 1. Vyslo 0
+Time: 617 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 6 + 1. Vyslo 0
+Time: 618500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 7 + 1. Vyslo 0
+Time: 620 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 8 + 1. Vyslo 0
+Time: 621500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 9 + 1. Vyslo 0
+Time: 623 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 10 + 1. Vyslo 0
+Time: 624500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 11 + 1. Vyslo 0
+Time: 626 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 12 + 1. Vyslo 0
+Time: 627500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 13 + 1. Vyslo 0
+Time: 629 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 14 + 1. Vyslo 0
+Time: 630500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 7 + 15 + 1. Vyslo 0
+Time: 632 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 0 + 1. Vyslo 0
+Time: 635 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 1 + 1. Vyslo 0
+Time: 636500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 2 + 1. Vyslo 0
+Time: 638 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 3 + 1. Vyslo 0
+Time: 639500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 4 + 1. Vyslo 0
+Time: 641 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 5 + 1. Vyslo 0
+Time: 642500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 6 + 1. Vyslo 0
+Time: 644 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 7 + 1. Vyslo 0
+Time: 645500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 8 + 1. Vyslo 0
+Time: 647 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 9 + 1. Vyslo 0
+Time: 648500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 10 + 1. Vyslo 0
+Time: 650 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 11 + 1. Vyslo 0
+Time: 651500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 12 + 1. Vyslo 0
+Time: 653 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 13 + 1. Vyslo 0
+Time: 654500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 14 + 1. Vyslo 0
+Time: 656 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 8 + 15 + 1. Vyslo 0
+Time: 657500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 0 + 1. Vyslo 0
+Time: 660500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 1 + 1. Vyslo 0
+Time: 662 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 2 + 1. Vyslo 0
+Time: 663500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 3 + 1. Vyslo 0
+Time: 665 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 4 + 1. Vyslo 0
+Time: 666500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 5 + 1. Vyslo 0
+Time: 668 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 6 + 1. Vyslo 0
+Time: 669500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 7 + 1. Vyslo 0
+Time: 671 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 8 + 1. Vyslo 0
+Time: 672500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 9 + 1. Vyslo 0
+Time: 674 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 10 + 1. Vyslo 0
+Time: 675500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 11 + 1. Vyslo 0
+Time: 677 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 12 + 1. Vyslo 0
+Time: 678500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 13 + 1. Vyslo 0
+Time: 680 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 14 + 1. Vyslo 0
+Time: 681500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 9 + 15 + 1. Vyslo 0
+Time: 683 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 0 + 1. Vyslo 0
+Time: 686 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 1 + 1. Vyslo 0
+Time: 687500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 2 + 1. Vyslo 0
+Time: 689 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 3 + 1. Vyslo 0
+Time: 690500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 4 + 1. Vyslo 0
+Time: 692 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 5 + 1. Vyslo 0
+Time: 693500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 6 + 1. Vyslo 0
+Time: 695 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 7 + 1. Vyslo 0
+Time: 696500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 8 + 1. Vyslo 0
+Time: 698 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 9 + 1. Vyslo 0
+Time: 699500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 10 + 1. Vyslo 0
+Time: 701 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 11 + 1. Vyslo 0
+Time: 702500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 12 + 1. Vyslo 0
+Time: 704 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 13 + 1. Vyslo 0
+Time: 705500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 14 + 1. Vyslo 0
+Time: 707 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 10 + 15 + 1. Vyslo 0
+Time: 708500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 0 + 1. Vyslo 0
+Time: 711500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 1 + 1. Vyslo 0
+Time: 713 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 2 + 1. Vyslo 0
+Time: 714500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 3 + 1. Vyslo 0
+Time: 716 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 4 + 1. Vyslo 0
+Time: 717500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 5 + 1. Vyslo 0
+Time: 719 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 6 + 1. Vyslo 0
+Time: 720500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 7 + 1. Vyslo 0
+Time: 722 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 8 + 1. Vyslo 0
+Time: 723500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 9 + 1. Vyslo 0
+Time: 725 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 10 + 1. Vyslo 0
+Time: 726500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 11 + 1. Vyslo 0
+Time: 728 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 12 + 1. Vyslo 0
+Time: 729500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 13 + 1. Vyslo 0
+Time: 731 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 14 + 1. Vyslo 0
+Time: 732500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 11 + 15 + 1. Vyslo 0
+Time: 734 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 0 + 1. Vyslo 0
+Time: 737 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 1 + 1. Vyslo 0
+Time: 738500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 2 + 1. Vyslo 0
+Time: 740 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 3 + 1. Vyslo 0
+Time: 741500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 4 + 1. Vyslo 0
+Time: 743 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 5 + 1. Vyslo 0
+Time: 744500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 6 + 1. Vyslo 0
+Time: 746 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 7 + 1. Vyslo 0
+Time: 747500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 8 + 1. Vyslo 0
+Time: 749 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 9 + 1. Vyslo 0
+Time: 750500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 10 + 1. Vyslo 0
+Time: 752 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 11 + 1. Vyslo 0
+Time: 753500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 12 + 1. Vyslo 0
+Time: 755 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 13 + 1. Vyslo 0
+Time: 756500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 14 + 1. Vyslo 0
+Time: 758 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 12 + 15 + 1. Vyslo 0
+Time: 759500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 0 + 1. Vyslo 0
+Time: 762500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 1 + 1. Vyslo 0
+Time: 764 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 2 + 1. Vyslo 0
+Time: 765500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 3 + 1. Vyslo 0
+Time: 767 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 4 + 1. Vyslo 0
+Time: 768500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 5 + 1. Vyslo 0
+Time: 770 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 6 + 1. Vyslo 0
+Time: 771500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 7 + 1. Vyslo 0
+Time: 773 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 8 + 1. Vyslo 0
+Time: 774500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 9 + 1. Vyslo 0
+Time: 776 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 10 + 1. Vyslo 0
+Time: 777500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 11 + 1. Vyslo 0
+Time: 779 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 12 + 1. Vyslo 0
+Time: 780500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 13 + 1. Vyslo 0
+Time: 782 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 14 + 1. Vyslo 0
+Time: 783500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 13 + 15 + 1. Vyslo 0
+Time: 785 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 0 + 1. Vyslo 0
+Time: 788 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 1 + 1. Vyslo 0
+Time: 789500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 2 + 1. Vyslo 0
+Time: 791 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 3 + 1. Vyslo 0
+Time: 792500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 4 + 1. Vyslo 0
+Time: 794 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 5 + 1. Vyslo 0
+Time: 795500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 6 + 1. Vyslo 0
+Time: 797 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 7 + 1. Vyslo 0
+Time: 798500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 8 + 1. Vyslo 0
+Time: 800 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 9 + 1. Vyslo 0
+Time: 801500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 10 + 1. Vyslo 0
+Time: 803 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 11 + 1. Vyslo 0
+Time: 804500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 12 + 1. Vyslo 0
+Time: 806 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 13 + 1. Vyslo 0
+Time: 807500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 14 + 1. Vyslo 0
+Time: 809 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 14 + 15 + 1. Vyslo 0
+Time: 810500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 0 + 1. Vyslo 0
+Time: 813500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 1 + 1. Vyslo 0
+Time: 815 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 2 + 1. Vyslo 0
+Time: 816500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 3 + 1. Vyslo 0
+Time: 818 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 4 + 1. Vyslo 0
+Time: 819500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 5 + 1. Vyslo 0
+Time: 821 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 6 + 1. Vyslo 0
+Time: 822500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 7 + 1. Vyslo 0
+Time: 824 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 8 + 1. Vyslo 0
+Time: 825500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 9 + 1. Vyslo 0
+Time: 827 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 10 + 1. Vyslo 0
+Time: 828500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 11 + 1. Vyslo 0
+Time: 830 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 12 + 1. Vyslo 0
+Time: 831500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 13 + 1. Vyslo 0
+Time: 833 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 14 + 1. Vyslo 0
+Time: 834500 ps  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Error: Chyba pri scitani 15 + 15 + 1. Vyslo 0
+Time: 836 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd
+Note: Pokud se neobjevila zadna jina hlaska, je vse OK.
+Time: 836 ns  Iteration: 0  Process: /adder4_full_test/stim_proc  File: D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd

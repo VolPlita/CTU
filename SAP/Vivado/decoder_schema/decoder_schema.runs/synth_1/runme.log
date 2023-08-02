@@ -1,0 +1,248 @@
+
+*** Running vivado
+    with args -log decoder_vhdl.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder_vhdl.tcl
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source decoder_vhdl.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/VivadoProjects/lib_SAP_2022_02_02'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.3/data/ip'.
+Command: synth_design -top decoder_vhdl -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 5724 
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 417.996 ; gain = 103.031
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'decoder_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:23]
+INFO: [Synth 8-3491] module 'f_a_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_a.vhd:7' bound to instance 'inst_f_a_vhdl_0' of component 'f_a_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:122]
+INFO: [Synth 8-638] synthesizing module 'f_a_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_a.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_a_vhdl' (1#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_a.vhd:17]
+INFO: [Synth 8-3491] module 'f_b_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_b.vhd:7' bound to instance 'inst_f_b_vhdl_0' of component 'f_b_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:132]
+INFO: [Synth 8-638] synthesizing module 'f_b_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_b.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_b_vhdl' (2#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_b.vhd:17]
+INFO: [Synth 8-3491] module 'f_c_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_c.vhd:7' bound to instance 'inst_f_c_vhdl_0' of component 'f_c_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:142]
+INFO: [Synth 8-638] synthesizing module 'f_c_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_c.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_c_vhdl' (3#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_c.vhd:17]
+INFO: [Synth 8-3491] module 'f_d_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_d.vhd:7' bound to instance 'inst_f_d_vhdl_0' of component 'f_d_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:152]
+INFO: [Synth 8-638] synthesizing module 'f_d_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_d.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_d_vhdl' (4#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_d.vhd:17]
+INFO: [Synth 8-3491] module 'f_e_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_e.vhd:7' bound to instance 'inst_f_e_vhdl_0' of component 'f_e_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:162]
+INFO: [Synth 8-638] synthesizing module 'f_e_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_e.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_e_vhdl' (5#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_e.vhd:17]
+INFO: [Synth 8-3491] module 'f_f_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_f.vhd:7' bound to instance 'inst_f_f_vhdl_0' of component 'f_f_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:172]
+INFO: [Synth 8-638] synthesizing module 'f_f_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_f.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_f_vhdl' (6#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_f.vhd:17]
+INFO: [Synth 8-3491] module 'f_g_vhdl' declared at 'D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_g.vhd:7' bound to instance 'inst_f_g_vhdl_0' of component 'f_g_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:182]
+INFO: [Synth 8-638] synthesizing module 'f_g_vhdl' [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_g.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'f_g_vhdl' (7#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/f_g.vhd:17]
+INFO: [Synth 8-256] done synthesizing module 'decoder_vhdl' (8#1) [D:/VivadoProjects/decoder_schema/decoder_schema.srcs/sources_1/imports/tmp/decoder.vhd:23]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 473.281 ; gain = 158.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 473.281 ; gain = 158.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 473.281 ; gain = 158.316
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 473.281 ; gain = 158.316
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 590.461 ; gain = 275.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 590.461 ; gain = 275.496
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |LUT4 |     7|
+|2     |IBUF |     4|
+|3     |OBUF |     7|
++------+-----+------+
+
+Report Instance Areas: 
++------+------------------+---------+------+
+|      |Instance          |Module   |Cells |
++------+------------------+---------+------+
+|1     |top               |         |    18|
+|2     |  inst_f_a_vhdl_0 |f_a_vhdl |     1|
+|3     |  inst_f_b_vhdl_0 |f_b_vhdl |     1|
+|4     |  inst_f_c_vhdl_0 |f_c_vhdl |     1|
+|5     |  inst_f_d_vhdl_0 |f_d_vhdl |     1|
+|6     |  inst_f_e_vhdl_0 |f_e_vhdl |     1|
+|7     |  inst_f_f_vhdl_0 |f_f_vhdl |     1|
+|8     |  inst_f_g_vhdl_0 |f_g_vhdl |     1|
++------+------------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+Synthesis Optimization Complete : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 590.496 ; gain = 275.531
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 700.684 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+33 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:06 ; elapsed = 00:00:10 . Memory (MB): peak = 700.684 ; gain = 398.945
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 700.684 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/VivadoProjects/decoder_schema/decoder_schema.runs/synth_1/decoder_vhdl.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file decoder_vhdl_utilization_synth.rpt -pb decoder_vhdl_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sun Mar  5 19:20:41 2023...

@@ -1,0 +1,341 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xEC917057EC917057",
+      "device": "xc7a35tcpg236-1",
+      "name": "decoder",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "f_a_vhdl_0": "",
+      "f_b_vhdl_0": "",
+      "f_c_vhdl_0": "",
+      "f_d_vhdl_0": "",
+      "f_e_vhdl_0": "",
+      "f_f_vhdl_0": "",
+      "f_g_vhdl_0": "",
+      "gnd_0": "",
+      "vcc_0": ""
+    },
+    "ports": {
+      "A0": {
+        "direction": "I"
+      },
+      "B0": {
+        "direction": "I"
+      },
+      "C0": {
+        "direction": "I"
+      },
+      "D0": {
+        "direction": "I"
+      },
+      "f_a": {
+        "direction": "O"
+      },
+      "f_b": {
+        "direction": "O"
+      },
+      "f_c": {
+        "direction": "O"
+      },
+      "f_d": {
+        "direction": "O"
+      },
+      "f_e": {
+        "direction": "O"
+      },
+      "f_f": {
+        "direction": "O"
+      },
+      "f_g": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "f_a_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_a_vhdl:1.0",
+        "xci_name": "decoder_f_a_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_a_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_a": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_b_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_b_vhdl:1.0",
+        "xci_name": "decoder_f_b_vhdl_0_6",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_b_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_b": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_c_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_c_vhdl:1.0",
+        "xci_name": "decoder_f_c_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_c_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_c": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_d_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_d_vhdl:1.0",
+        "xci_name": "decoder_f_d_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_d_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_d": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_e_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_e_vhdl:1.0",
+        "xci_name": "decoder_f_e_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_e_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_e": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_f_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_f_vhdl:1.0",
+        "xci_name": "decoder_f_f_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_f_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_f": {
+            "direction": "O"
+          }
+        }
+      },
+      "f_g_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:f_g_vhdl:1.0",
+        "xci_name": "decoder_f_g_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "f_g_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A0": {
+            "direction": "I"
+          },
+          "B0": {
+            "direction": "I"
+          },
+          "C0": {
+            "direction": "I"
+          },
+          "D0": {
+            "direction": "I"
+          },
+          "f_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "gnd_0": {
+        "vlnv": "FIT:user:gnd:1.0",
+        "xci_name": "decoder_gnd_0_0"
+      },
+      "vcc_0": {
+        "vlnv": "FIT:user:vcc:1.0",
+        "xci_name": "decoder_vcc_0_0"
+      }
+    },
+    "nets": {
+      "A0_0_1": {
+        "ports": [
+          "A0",
+          "f_a_vhdl_0/A0",
+          "f_b_vhdl_0/A0",
+          "f_c_vhdl_0/A0",
+          "f_d_vhdl_0/A0",
+          "f_e_vhdl_0/A0",
+          "f_f_vhdl_0/A0",
+          "f_g_vhdl_0/A0"
+        ]
+      },
+      "B0_0_1": {
+        "ports": [
+          "B0",
+          "f_a_vhdl_0/B0",
+          "f_b_vhdl_0/B0",
+          "f_c_vhdl_0/B0",
+          "f_d_vhdl_0/B0",
+          "f_e_vhdl_0/B0",
+          "f_f_vhdl_0/B0",
+          "f_g_vhdl_0/B0"
+        ]
+      },
+      "C0_0_1": {
+        "ports": [
+          "C0",
+          "f_a_vhdl_0/C0",
+          "f_b_vhdl_0/C0",
+          "f_c_vhdl_0/C0",
+          "f_d_vhdl_0/C0",
+          "f_e_vhdl_0/C0",
+          "f_f_vhdl_0/C0",
+          "f_g_vhdl_0/C0"
+        ]
+      },
+      "D0_0_1": {
+        "ports": [
+          "D0",
+          "f_a_vhdl_0/D0",
+          "f_b_vhdl_0/D0",
+          "f_c_vhdl_0/D0",
+          "f_d_vhdl_0/D0",
+          "f_e_vhdl_0/D0",
+          "f_f_vhdl_0/D0",
+          "f_g_vhdl_0/D0"
+        ]
+      },
+      "f_a_vhdl_0_f_a": {
+        "ports": [
+          "f_a_vhdl_0/f_a",
+          "f_a"
+        ]
+      },
+      "f_b_vhdl_0_f_b": {
+        "ports": [
+          "f_b_vhdl_0/f_b",
+          "f_b"
+        ]
+      },
+      "f_c_vhdl_0_f_c": {
+        "ports": [
+          "f_c_vhdl_0/f_c",
+          "f_c"
+        ]
+      },
+      "f_d_vhdl_0_f_d": {
+        "ports": [
+          "f_d_vhdl_0/f_d",
+          "f_d"
+        ]
+      },
+      "f_e_vhdl_0_f_e": {
+        "ports": [
+          "f_e_vhdl_0/f_e",
+          "f_e"
+        ]
+      },
+      "f_f_vhdl_0_f_f": {
+        "ports": [
+          "f_f_vhdl_0/f_f",
+          "f_f"
+        ]
+      },
+      "f_g_vhdl_0_f_g": {
+        "ports": [
+          "f_g_vhdl_0/f_g",
+          "f_g"
+        ]
+      }
+    }
+  }
+}

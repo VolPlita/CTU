@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../decoder.srcs/sources_1/imports/Downloads/decoder_algebra.vhd" \
+"../../../../decoder.srcs/sim_1/imports/Downloads/l3_decoder_7seg_test.vhd" \
+
+# Do not sort compile order
+nosort

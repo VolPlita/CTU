@@ -1,0 +1,147 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xC565458CC565458C",
+      "device": "xc7a35tcpg236-1",
+      "name": "adder",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "and_0": "",
+      "and_1": "",
+      "or_0": "",
+      "xor_0": "",
+      "xor_1": ""
+    },
+    "ports": {
+      "A1": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "B1": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C_in": {
+        "type": "data",
+        "direction": "I",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "S1": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "C_out": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "and_0": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "adder_and_0_0"
+      },
+      "and_1": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "adder_and_1_0"
+      },
+      "or_0": {
+        "vlnv": "FIT:user:or:1.0",
+        "xci_name": "adder_or_0_0"
+      },
+      "xor_0": {
+        "vlnv": "FIT:user:xor:1.0",
+        "xci_name": "adder_xor_0_0"
+      },
+      "xor_1": {
+        "vlnv": "FIT:user:xor:1.0",
+        "xci_name": "adder_xor_1_0"
+      }
+    },
+    "nets": {
+      "I1_0_1": {
+        "ports": [
+          "B1",
+          "xor_0/I1",
+          "and_1/I1"
+        ]
+      },
+      "I1_1_1": {
+        "ports": [
+          "C_in",
+          "xor_1/I1",
+          "and_0/I1"
+        ]
+      },
+      "xor_1_O": {
+        "ports": [
+          "xor_1/O",
+          "S1"
+        ]
+      },
+      "xor_0_O": {
+        "ports": [
+          "xor_0/O",
+          "xor_1/I0",
+          "and_0/I0"
+        ]
+      },
+      "and_0_O": {
+        "ports": [
+          "and_0/O",
+          "or_0/I0"
+        ]
+      },
+      "and_1_O": {
+        "ports": [
+          "and_1/O",
+          "or_0/I1"
+        ]
+      },
+      "I0_0_1": {
+        "ports": [
+          "A1",
+          "and_1/I0",
+          "xor_0/I0"
+        ]
+      },
+      "or_0_O": {
+        "ports": [
+          "or_0/O",
+          "C_out"
+        ]
+      }
+    }
+  }
+}

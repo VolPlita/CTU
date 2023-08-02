@@ -1,0 +1,8 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_I2_inverted_ENABLEMENT {Inputs } {expr $Inputs > 2}
+proc gen_USERPARAMETER_I2_inverted_VALUE {Inputs } {expr $Inputs > 2}
+proc gen_USERPARAMETER_I3_inverted_ENABLEMENT {Inputs } {expr $Inputs > 3}
+proc gen_USERPARAMETER_I4_inverted_ENABLEMENT {Inputs } {expr $Inputs > 4}
+proc gen_USERPARAMETER_I5_inverted_ENABLEMENT {Inputs } {expr $Inputs > 5}
+proc gen_USERPARAMETER_I6_inverted_ENABLEMENT {Inputs } {expr $Inputs > 6}
+proc gen_USERPARAMETER_I7_inverted_ENABLEMENT {Inputs } {expr $Inputs > 7}

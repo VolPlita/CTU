@@ -1,0 +1,3 @@
+# This file is automatically written.  Do not modify.
+proc gen_USERPARAMETER_I2_BUS_ENABLEMENT {Data_Ports } {expr $Data_Ports > 2}
+proc gen_USERPARAMETER_I3_BUS_ENABLEMENT {Data_Ports } {expr $Data_Ports > 2}

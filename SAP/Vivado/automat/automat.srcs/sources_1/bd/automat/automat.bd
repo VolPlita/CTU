@@ -1,0 +1,253 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x17D8D51F17D8D51F",
+      "device": "xc7a35tcpg236-1",
+      "name": "automat",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "next_state_logic_0": "",
+      "output_logic_0": "",
+      "dff_0": "",
+      "dff_1": "",
+      "dff_2": "",
+      "gnd_0": ""
+    },
+    "ports": {
+      "clk": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "INC": {
+        "direction": "I"
+      },
+      "y0": {
+        "direction": "O"
+      },
+      "y1": {
+        "direction": "O"
+      },
+      "y2": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "next_state_logic_0": {
+        "vlnv": "xilinx.com:module_ref:next_state_logic:1.0",
+        "xci_name": "automat_next_state_logic_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "next_state_logic",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "q0": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "q1": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "q2": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "INC": {
+            "direction": "I"
+          },
+          "DIR": {
+            "direction": "I"
+          },
+          "d0": {
+            "direction": "O"
+          },
+          "d1": {
+            "direction": "O"
+          },
+          "d2": {
+            "direction": "O"
+          }
+        }
+      },
+      "output_logic_0": {
+        "vlnv": "xilinx.com:module_ref:output_logic:1.0",
+        "xci_name": "automat_output_logic_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "output_logic",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "q0": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "q1": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "q2": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "INC": {
+            "direction": "I"
+          },
+          "DIR": {
+            "direction": "I"
+          },
+          "y0": {
+            "direction": "O"
+          },
+          "y1": {
+            "direction": "O"
+          },
+          "y2": {
+            "direction": "O"
+          }
+        }
+      },
+      "dff_0": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "automat_dff_0_0"
+      },
+      "dff_1": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "automat_dff_1_0"
+      },
+      "dff_2": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "automat_dff_2_0"
+      },
+      "gnd_0": {
+        "vlnv": "FIT:user:gnd:1.0",
+        "xci_name": "automat_gnd_0_0"
+      }
+    },
+    "nets": {
+      "next_state_logic_0_d0": {
+        "ports": [
+          "next_state_logic_0/d0",
+          "dff_0/d"
+        ]
+      },
+      "next_state_logic_0_d1": {
+        "ports": [
+          "next_state_logic_0/d1",
+          "dff_1/d"
+        ]
+      },
+      "next_state_logic_0_d2": {
+        "ports": [
+          "next_state_logic_0/d2",
+          "dff_2/d"
+        ]
+      },
+      "clk_1": {
+        "ports": [
+          "clk",
+          "dff_2/clk",
+          "dff_1/clk",
+          "dff_0/clk"
+        ]
+      },
+      "reset_1": {
+        "ports": [
+          "reset",
+          "dff_2/reset",
+          "dff_1/reset",
+          "dff_0/reset"
+        ]
+      },
+      "dff_0_q": {
+        "ports": [
+          "dff_0/q",
+          "output_logic_0/q0",
+          "next_state_logic_0/q0"
+        ]
+      },
+      "dff_1_q": {
+        "ports": [
+          "dff_1/q",
+          "output_logic_0/q1",
+          "next_state_logic_0/q1"
+        ]
+      },
+      "dff_2_q": {
+        "ports": [
+          "dff_2/q",
+          "output_logic_0/q2",
+          "next_state_logic_0/q2"
+        ]
+      },
+      "INC_1": {
+        "ports": [
+          "INC",
+          "next_state_logic_0/INC"
+        ]
+      },
+      "gnd_0_O": {
+        "ports": [
+          "gnd_0/O",
+          "output_logic_0/INC",
+          "output_logic_0/DIR",
+          "next_state_logic_0/DIR"
+        ]
+      },
+      "output_logic_0_y0": {
+        "ports": [
+          "output_logic_0/y0",
+          "y0"
+        ]
+      },
+      "output_logic_0_y1": {
+        "ports": [
+          "output_logic_0/y1",
+          "y1"
+        ]
+      },
+      "output_logic_0_y2": {
+        "ports": [
+          "output_logic_0/y2",
+          "y2"
+        ]
+      }
+    }
+  }
+}

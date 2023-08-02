@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Sat Mar 11 12:13:48 2023
+# Process ID: 7976
+# Current directory: X:/BIE-SAP/decoder_bon1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4996 X:\BIE-SAP\decoder_bon1\decoder_bon1.xpr
+# Log file: X:/BIE-SAP/decoder_bon1/vivado.log
+# Journal file: X:/BIE-SAP/decoder_bon1\vivado.jou
+# Running On: pc1046-95, OS: Windows, CPU Frequency: 3696 MHz, CPU Physical cores: 4, Host memory: 34207 MB
+#-----------------------------------------------------------
+start_gui

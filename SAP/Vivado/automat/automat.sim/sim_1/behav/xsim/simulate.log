@@ -1,0 +1,29 @@
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+### Simulation start ###
+ State = 0x0
+  INC = 0 Next = 0x0 Output = 0x0 Correct = 0x0 - OK
+  INC = 1 Next = 0x1 Output = 0x0 Correct = 0x0 - OK
+ State = 0x1
+  INC = 0 Next = 0x1 Output = 0x1 Correct = 0x1 - OK
+  INC = 1 Next = 0x2 Output = 0x1 Correct = 0x1 - OK
+ State = 0x2
+  INC = 0 Next = 0x2 Output = 0x2 Correct = 0x3 - ERROR
+  INC = 1 Next = 0x3 Output = 0x2 Correct = 0x3 - ERROR
+ State = 0x3
+  INC = 0 Next = 0x3 Output = 0x3 Correct = 0x2 - ERROR
+  INC = 1 Next = 0x4 Output = 0x3 Correct = 0x2 - ERROR
+ State = 0x4
+  INC = 0 Next = 0x4 Output = 0x4 Correct = 0x6 - ERROR
+  INC = 1 Next = 0x5 Output = 0x4 Correct = 0x6 - ERROR
+ State = 0x5
+  INC = 0 Next = 0x5 Output = 0x5 Correct = 0x7 - ERROR
+  INC = 1 Next = 0x0 Output = 0x5 Correct = 0x7 - ERROR
+ State = 0x0
+  INC = 0 Next = 0x0 Output = 0x0 Correct = 0x5 - ERROR
+  INC = 1 Next = 0x1 Output = 0x0 Correct = 0x5 - ERROR
+ State = 0x1
+  INC = 0 Next = 0x1 Output = 0x1 Correct = 0x0 - ERROR
+  INC = 1 Next = 0x2 Output = 0x1 Correct = 0x0 - ERROR
+### Total number of errors = 12
+### Simulation finished ###

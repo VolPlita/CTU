@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 15 12:45:52 2023
+# Process ID: 19636
+# Current directory: D:/VivadoProjects/final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1508 D:\VivadoProjects\final\final.xpr
+# Log file: D:/VivadoProjects/final/vivado.log
+# Journal file: D:/VivadoProjects/final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoProjects/final/final.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/VivadoProjects/lib_SAP_2022_02_02'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 758.469 ; gain = 156.727
+update_compile_order -fileset sources_1
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/button/button.bd}
+Adding cell -- FIT:user:debounce:1.0 - debounce_0
+Adding cell -- FIT:user:dff:1.0 - dff_0
+Adding cell -- FIT:user:and:1.0 - and_0
+Successfully read diagram <button> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/button/button.bd>
+open_bd_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 860.223 ; gain = 98.496
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/automat/automat.bd}
+Adding cell -- xilinx.com:module_ref:next_state_logic:1.0 - next_state_logic_0
+Adding cell -- FIT:user:dff:1.0 - dff_0
+Adding cell -- FIT:user:dff:1.0 - dff_1
+Adding cell -- xilinx.com:module_ref:output_logic:1.0 - output_logic_0
+Successfully read diagram <automat> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/automat/automat.bd>
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock/code_lock.bd}
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_A
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_B
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_C
+Adding cell -- xilinx.com:module_ref:decoder_vhdl:1.0 - decoder_vhdl_0
+Adding cell -- xilinx.com:module_ref:automat_vhdl:1.0 - automat_vhdl_0
+Adding cell -- FIT:user:gnd:1.0 - gnd_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /decoder_vhdl_0/ERR(undef) and /automat_vhdl_0/RESET(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_A/reset(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_B/reset(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_C/reset(rst)
+Successfully read diagram <code_lock> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock/code_lock.bd>
+current_bd_design [get_bd_designs automat]
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/decoder/decoder.bd}
+Adding cell -- FIT:user:or:1.0 - or_y1
+Adding cell -- FIT:user:or:1.0 - or_y2
+Adding cell -- FIT:user:or:1.0 - or_err
+Adding cell -- FIT:user:and:1.0 - and_ab
+Adding cell -- FIT:user:and:1.0 - and_bc
+Adding cell -- FIT:user:and:1.0 - and_ac
+Successfully read diagram <decoder> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/decoder/decoder.bd>
+current_bd_design [get_bd_designs code_lock]
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/automat/automat.bd}
+current_bd_design [get_bd_designs decoder]
+current_bd_design [get_bd_designs code_lock]
+current_bd_design [get_bd_designs automat]
+current_bd_design [get_bd_designs code_lock]
+current_bd_design [get_bd_designs automat]
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 15 17:31:32 2023...

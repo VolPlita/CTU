@@ -1,0 +1,39 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port f_a -pg 1 -y -270 -defaultsOSRD
+preplace port B0 -pg 1 -y -270 -defaultsOSRD
+preplace port f_b -pg 1 -y -110 -defaultsOSRD
+preplace port f_c -pg 1 -y 50 -defaultsOSRD
+preplace port f_d -pg 1 -y 210 -defaultsOSRD
+preplace port f_e -pg 1 -y 370 -defaultsOSRD
+preplace port C0 -pg 1 -y -240 -defaultsOSRD
+preplace port f_f -pg 1 -y 530 -defaultsOSRD
+preplace port f_g -pg 1 -y 690 -defaultsOSRD
+preplace port A0 -pg 1 -y -300 -defaultsOSRD
+preplace port D0 -pg 1 -y -210 -defaultsOSRD
+preplace inst gnd_0 -pg 1 -lvl 1 -y -20 -defaultsOSRD
+preplace inst f_d_vhdl_0 -pg 1 -lvl 2 -y 210 -defaultsOSRD
+preplace inst f_c_vhdl_0 -pg 1 -lvl 2 -y 50 -defaultsOSRD
+preplace inst f_a_vhdl_0 -pg 1 -lvl 2 -y -270 -defaultsOSRD
+preplace inst f_f_vhdl_0 -pg 1 -lvl 2 -y 530 -defaultsOSRD
+preplace inst f_b_vhdl_0 -pg 1 -lvl 2 -y -110 -defaultsOSRD
+preplace inst vcc_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst f_g_vhdl_0 -pg 1 -lvl 2 -y 690 -defaultsOSRD
+preplace inst f_e_vhdl_0 -pg 1 -lvl 2 -y 370 -defaultsOSRD
+preplace netloc A0_0_1 1 0 2 NJ -300 180
+preplace netloc f_b_vhdl_0_f_b 1 2 1 N
+preplace netloc f_a_vhdl_0_f_a 1 2 1 N
+preplace netloc C0_0_1 1 0 2 NJ -240 200
+preplace netloc f_e_vhdl_0_f_e 1 2 1 N
+preplace netloc f_c_vhdl_0_f_c 1 2 1 N
+preplace netloc f_g_vhdl_0_f_g 1 2 1 N
+preplace netloc D0_0_1 1 0 2 NJ -210 210
+preplace netloc f_d_vhdl_0_f_d 1 2 1 N
+preplace netloc B0_0_1 1 0 2 NJ -270 190
+preplace netloc f_f_vhdl_0_f_f 1 2 1 N
+levelinfo -pg 1 0 100 460 560 -top -360 -bot 780
+"
+}
+

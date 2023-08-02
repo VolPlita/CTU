@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="adder4" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1677071176"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1677071176"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1677071176"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1677071176"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\adder4_adder_vhdl_0_0\adder4_adder_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="adder_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\adder4_adder_vhdl_1_0\adder4_adder_vhdl_1_0.xci" Type="IP">
+        <Instance HierarchyPath="adder_vhdl_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\adder4_adder_vhdl_2_0\adder4_adder_vhdl_2_0.xci" Type="IP">
+        <Instance HierarchyPath="adder_vhdl_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\adder4_adder_vhdl_3_0\adder4_adder_vhdl_3_0.xci" Type="IP">
+        <Instance HierarchyPath="adder_vhdl_3"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

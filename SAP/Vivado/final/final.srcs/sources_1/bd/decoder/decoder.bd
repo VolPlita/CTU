@@ -1,0 +1,155 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x1EF6CB851EF6CB85",
+      "device": "xc7a35tcpg236-1",
+      "name": "decoder",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "or_y1": "",
+      "or_y2": "",
+      "or_err": "",
+      "and_ab": "",
+      "and_bc": "",
+      "and_ac": ""
+    },
+    "ports": {
+      "A": {
+        "direction": "I"
+      },
+      "B": {
+        "direction": "I"
+      },
+      "C": {
+        "direction": "I"
+      },
+      "Y1": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "Y2": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      },
+      "ERR": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "or_y1": {
+        "vlnv": "FIT:user:or:1.0",
+        "xci_name": "decoder_or_0_0"
+      },
+      "or_y2": {
+        "vlnv": "FIT:user:or:1.0",
+        "xci_name": "decoder_or_1_0"
+      },
+      "or_err": {
+        "vlnv": "FIT:user:or:1.0",
+        "xci_name": "decoder_or_2_0",
+        "parameters": {
+          "Inputs": {
+            "value": "3"
+          }
+        }
+      },
+      "and_ab": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "decoder_and_0_0"
+      },
+      "and_bc": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "decoder_and_1_0"
+      },
+      "and_ac": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "decoder_and_2_0"
+      }
+    },
+    "nets": {
+      "B_1": {
+        "ports": [
+          "B",
+          "or_y1/I0",
+          "and_ab/I1",
+          "and_bc/I0"
+        ]
+      },
+      "C_1": {
+        "ports": [
+          "C",
+          "or_y1/I1",
+          "or_y2/I1",
+          "and_bc/I1",
+          "and_ac/I1"
+        ]
+      },
+      "A_1": {
+        "ports": [
+          "A",
+          "or_y2/I0",
+          "and_ab/I0",
+          "and_ac/I0"
+        ]
+      },
+      "and_ab_O": {
+        "ports": [
+          "and_ab/O",
+          "or_err/I0"
+        ]
+      },
+      "and_bc_O": {
+        "ports": [
+          "and_bc/O",
+          "or_err/I1"
+        ]
+      },
+      "and_ac_O": {
+        "ports": [
+          "and_ac/O",
+          "or_err/I2"
+        ]
+      },
+      "or_y1_O": {
+        "ports": [
+          "or_y1/O",
+          "Y1"
+        ]
+      },
+      "or_y2_O": {
+        "ports": [
+          "or_y2/O",
+          "Y2"
+        ]
+      },
+      "or_err_O": {
+        "ports": [
+          "or_err/O",
+          "ERR"
+        ]
+      }
+    }
+  }
+}

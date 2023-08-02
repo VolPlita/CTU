@@ -1,0 +1,97 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x7F5FDF7F7F5FDF7F",
+      "device": "xc7a35tcpg236-1",
+      "name": "button",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "debounce_0": "",
+      "dff_0": "",
+      "and_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "BTN": {
+        "direction": "I"
+      },
+      "reset": {
+        "direction": "I"
+      },
+      "O1": {
+        "type": "data",
+        "direction": "O",
+        "parameters": {
+          "LAYERED_METADATA": {
+            "value": "undef",
+            "value_src": "default"
+          }
+        }
+      }
+    },
+    "components": {
+      "debounce_0": {
+        "vlnv": "FIT:user:debounce:1.0",
+        "xci_name": "button_debounce_0_0"
+      },
+      "dff_0": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "button_dff_0_0"
+      },
+      "and_0": {
+        "vlnv": "FIT:user:and:1.0",
+        "xci_name": "button_and_0_0",
+        "parameters": {
+          "I1_inverted": {
+            "value": "true"
+          }
+        }
+      }
+    },
+    "nets": {
+      "dff_0_q": {
+        "ports": [
+          "dff_0/q",
+          "and_0/I1"
+        ]
+      },
+      "debounce_0_tl_out": {
+        "ports": [
+          "debounce_0/tl_out",
+          "dff_0/d",
+          "and_0/I0"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "CLK",
+          "debounce_0/clk",
+          "dff_0/clk"
+        ]
+      },
+      "tl_in_0_1": {
+        "ports": [
+          "BTN",
+          "debounce_0/tl_in"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset",
+          "dff_0/reset"
+        ]
+      },
+      "and_0_O": {
+        "ports": [
+          "and_0/O",
+          "O1"
+        ]
+      }
+    }
+  }
+}

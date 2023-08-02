@@ -1,0 +1,17 @@
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 1b08ef2c594f45ce9e6da1d8474be1cd --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot adder4_full_test_behav xil_defaultlib.adder4_full_test -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-3009] 'adder_4_vdhl' remains a black-box since it has no binding entity [D:/VivadoProjects/adderH/adder.srcs/sim_1/imports/Downloads/adder4_full_test_v2023.vhd:53]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavior of entity xil_defaultlib.adder4_full_test
+Built simulation snapshot adder4_full_test_behav

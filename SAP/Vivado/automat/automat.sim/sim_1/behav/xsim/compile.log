@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/automat/automat.srcs/sources_1/imports/Downloads/l4_next_state_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'next_state_logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/automat/automat.srcs/sources_1/imports/Downloads/l4_output_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/automat/automat.srcs/sim_1/imports/Downloads/l4_automat_test.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'automat_test'

@@ -1,0 +1,209 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 13 22:23:00 2023
+# Process ID: 10192
+# Current directory: D:/VivadoProjects/decoder_bon1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2532 D:\VivadoProjects\decoder_bon1\decoder_bon1.xpr
+# Log file: D:/VivadoProjects/decoder_bon1/vivado.log
+# Journal file: D:/VivadoProjects/decoder_bon1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoProjects/decoder_bon1/decoder_bon1.xpr
+update_compile_order -fileset sources_1
+open_bd_design {D:/VivadoProjects/decoder_bon1/decoder_bon1.srcs/sources_1/bd/decoder_schema/decoder_schema.bd}
+import_files -norecurse C:/Users/HP/Downloads/clk_200hz.vhd
+update_compile_order -fileset sources_1
+create_bd_cell -type module -reference hodiny hodiny_0
+delete_bd_objs [get_bd_cells gnd_2]
+delete_bd_objs [get_bd_nets adder4_vhdl_0_C_out] [get_bd_nets decoder_7seg_1_f_e] [get_bd_nets decoder_7seg_1_f_g] [get_bd_nets gnd_2_O] [get_bd_nets decoder_7seg_1_f_a] [get_bd_nets decoder_7seg_1_f_b] [get_bd_nets decoder_7seg_1_f_c] [get_bd_nets decoder_7seg_1_f_d] [get_bd_nets decoder_7seg_1_f_f] [get_bd_cells decoder_7seg_1]
+delete_bd_objs [get_bd_ports CG0]
+delete_bd_objs [get_bd_ports CF0]
+delete_bd_objs [get_bd_ports CE0]
+delete_bd_objs [get_bd_ports CD0]
+delete_bd_objs [get_bd_ports CC0]
+delete_bd_objs [get_bd_ports CB0]
+delete_bd_objs [get_bd_ports CA0]
+set_property location {3 401 12} [get_bd_cells hodiny_0]
+set_property location {901 -363} [get_bd_ports CF]
+set_property location {902 -337} [get_bd_ports CG]
+startgroup
+create_bd_cell -type ip -vlnv FIT:user:mux:1.0 mux_0
+endgroup
+set_property location {1 237 -87} [get_bd_cells mux_0]
+set_property location {1 199 -95} [get_bd_cells mux_0]
+set_property location {1 192 -98} [get_bd_cells mux_0]
+set_property location {1 206 -126} [get_bd_cells mux_0]
+set_property location {1 194 -97} [get_bd_cells mux_0]
+startgroup
+set_property location {2.5 604 7} [get_bd_cells decoder_7seg_0]
+set_property location {3 604 7} [get_bd_cells gnd_1]
+set_property location {3 604 7} [get_bd_cells vcc_1]
+set_property location {3 604 7} [get_bd_cells gnd_0]
+set_property location {3 604 7} [get_bd_cells vcc_2]
+endgroup
+undo
+set_property location {2.5 552 -459} [get_bd_cells decoder_7seg_0]
+set_property location {3 553 -430} [get_bd_cells decoder_7seg_0]
+set_property location {3 553 -416} [get_bd_cells decoder_7seg_0]
+set_property location {3 555 -409} [get_bd_cells decoder_7seg_0]
+set_property location {3 548 -417} [get_bd_cells decoder_7seg_0]
+set_property location {3 554 -395} [get_bd_cells decoder_7seg_0]
+set_property location {3 554 -426} [get_bd_cells decoder_7seg_0]
+set_property location {3 552 -424} [get_bd_cells decoder_7seg_0]
+set_property location {3 552 -415} [get_bd_cells decoder_7seg_0]
+set_property location {3 552 -405} [get_bd_cells decoder_7seg_0]
+set_property location {872 -337} [get_bd_ports CE]
+set_property location {861 -339} [get_bd_ports CF]
+set_property location {3 544 -216} [get_bd_cells gnd_1]
+set_property location {3 542 -97} [get_bd_cells vcc_1]
+set_property location {3 519 8} [get_bd_cells vcc_2]
+set_property location {3 536 101} [get_bd_cells gnd_0]
+delete_bd_objs [get_bd_nets adder4_vhdl_0_S0]
+delete_bd_objs [get_bd_nets adder4_vhdl_0_S1]
+delete_bd_objs [get_bd_nets adder4_vhdl_0_S2]
+delete_bd_objs [get_bd_nets adder4_vhdl_0_S3]
+set_property location {1.5 347 -428} [get_bd_cells mux_0]
+set_property location {2 350 -402} [get_bd_cells mux_0]
+connect_bd_net [get_bd_pins mux_0/O_0] [get_bd_pins decoder_7seg_0/a]
+connect_bd_net [get_bd_pins mux_0/O_1] [get_bd_pins decoder_7seg_0/b]
+connect_bd_net [get_bd_pins mux_0/O_2] [get_bd_pins decoder_7seg_0/c]
+connect_bd_net [get_bd_pins mux_0/O_3] [get_bd_pins decoder_7seg_0/d]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S0] [get_bd_pins mux_0/I0_0]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S1] [get_bd_pins mux_0/I0_1]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S2] [get_bd_pins mux_0/I0_2]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S3] [get_bd_pins mux_0/I0_3]
+connect_bd_net [get_bd_pins adder4_vhdl_0/C_out] [get_bd_pins mux_0/I1_0]
+copy_bd_objs /  [get_bd_cells {gnd_1}]
+set_property location {1 165 -164} [get_bd_cells gnd_2]
+connect_bd_net [get_bd_pins gnd_2/O] [get_bd_pins mux_0/I1_1]
+connect_bd_net [get_bd_pins mux_0/I1_2] [get_bd_pins gnd_2/O]
+connect_bd_net [get_bd_pins mux_0/I1_3] [get_bd_pins gnd_2/O]
+set_property location {3 529 226} [get_bd_cells hodiny_0]
+delete_bd_objs [get_bd_nets gnd_0_O] [get_bd_cells gnd_0]
+set_property location {832 -203} [get_bd_ports CG]
+set_property location {844 -335} [get_bd_ports CG]
+set_property location {850 -338} [get_bd_ports CG]
+delete_bd_objs [get_bd_nets gnd_1_O] [get_bd_cells gnd_1]
+set_property location {830 -106} [get_bd_ports AN2]
+set_property location {851 -158} [get_bd_ports AN3]
+set_property location {3 579 -232} [get_bd_cells vcc_2]
+set_property location {851 -223} [get_bd_ports AN3]
+set_property location {855 -231} [get_bd_ports AN3]
+set_property location {854 -1} [get_bd_ports AN1]
+set_property location {3 586 6} [get_bd_cells hodiny_0]
+set_property location {1 92 -19} [get_bd_cells hodiny_0]
+connect_bd_net [get_bd_pins hodiny_0/mux_sel] [get_bd_pins mux_0/Sel0]
+startgroup
+make_bd_pins_external  [get_bd_cells hodiny_0]
+make_bd_intf_pins_external  [get_bd_cells hodiny_0]
+endgroup
+delete_bd_objs [get_bd_nets reset_0_1]
+delete_bd_objs [get_bd_ports reset_0]
+set_property location {-120 -24} [get_bd_ports clk_100MHz_0]
+set_property location {-104 -24} [get_bd_ports clk_100MHz_0]
+set_property location {-96 -28} [get_bd_ports clk_100MHz_0]
+connect_bd_net [get_bd_ports AN1] [get_bd_pins hodiny_0/mux_sel]
+connect_bd_net [get_bd_ports AN0] [get_bd_pins hodiny_0/mux_sel]
+set_property location {868 -21} [get_bd_ports AN1]
+set_property location {886 16} [get_bd_ports AN0]
+set_property name W5 [get_bd_ports clk_100MHz_0]
+startgroup
+create_bd_cell -type ip -vlnv FIT:user:inv:1.0 inv_0
+endgroup
+set_property location {4 856 37} [get_bd_cells inv_0]
+disconnect_bd_net /hodiny_0_mux_sel [get_bd_ports AN0]
+connect_bd_net [get_bd_ports AN0] [get_bd_pins inv_0/O]
+connect_bd_net [get_bd_pins inv_0/I] [get_bd_pins hodiny_0/mux_sel]
+set_property location {1045 34} [get_bd_ports AN0]
+set_property location {1054 37} [get_bd_ports AN0]
+connect_bd_net [get_bd_pins hodiny_0/reset] [get_bd_pins gnd_2/O]
+validate_bd_design
+set_property location {3 849 -453} [get_bd_cells decoder_7seg_0]
+set_property location {3 848 -461} [get_bd_cells decoder_7seg_0]
+set_property location {3 847 -459} [get_bd_cells decoder_7seg_0]
+set_property location {3 838 -387} [get_bd_cells decoder_7seg_0]
+set_property location {3 841 -445} [get_bd_cells decoder_7seg_0]
+set_property location {3 835 -419} [get_bd_cells decoder_7seg_0]
+set_property location {1108 -352} [get_bd_ports CG]
+set_property location {1079 -356} [get_bd_ports CG]
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+update_compile_order -fileset sources_1
+delete_bd_objs [get_bd_nets adder4_vhdl_0_S0] [get_bd_nets adder4_vhdl_0_S2] [get_bd_nets adder4_vhdl_0_S3] [get_bd_nets adder4_vhdl_0_C_out] [get_bd_nets mux_0_O_2] [get_bd_nets mux_0_O_3] [get_bd_nets mux_0_O_0] [get_bd_nets mux_0_O_1] [get_bd_nets adder4_vhdl_0_S1] [get_bd_cells mux_0]
+delete_bd_objs [get_bd_nets decoder_7seg_0_f_a] [get_bd_nets decoder_7seg_0_f_b] [get_bd_nets decoder_7seg_0_f_c] [get_bd_nets decoder_7seg_0_f_d] [get_bd_nets decoder_7seg_0_f_e] [get_bd_nets decoder_7seg_0_f_f] [get_bd_nets decoder_7seg_0_f_g] [get_bd_cells decoder_7seg_0]
+create_bd_cell -type module -reference decoder_7seg decoder_7seg_0
+create_bd_cell -type module -reference decoder_7seg decoder_7seg_1
+startgroup
+create_bd_cell -type ip -vlnv FIT:user:mux:1.0 mux_0
+endgroup
+connect_bd_net [get_bd_pins adder4_vhdl_0/S0] [get_bd_pins decoder_7seg_1/a]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S1] [get_bd_pins decoder_7seg_1/b]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S2] [get_bd_pins decoder_7seg_1/c]
+connect_bd_net [get_bd_pins adder4_vhdl_0/S3] [get_bd_pins decoder_7seg_1/d]
+connect_bd_net [get_bd_pins decoder_7seg_0/b] [get_bd_pins gnd_2/O]
+connect_bd_net [get_bd_pins decoder_7seg_0/c] [get_bd_pins gnd_2/O]
+connect_bd_net [get_bd_pins decoder_7seg_0/d] [get_bd_pins gnd_2/O]
+connect_bd_net [get_bd_pins adder4_vhdl_0/C_out] [get_bd_pins decoder_7seg_0/a]
+set_property -dict [list CONFIG.WIDTH {7}] [get_bd_cells mux_0]
+set_property location {3 836 -418} [get_bd_cells mux_0]
+set_property location {3 842 -428} [get_bd_cells mux_0]
+set_property location {1071 -77} [get_bd_ports AN2]
+set_property location {1079 -67} [get_bd_ports AN2]
+set_property location {1068 96} [get_bd_ports AN1]
+set_property location {1077 0} [get_bd_ports AN1]
+set_property location {3 823 59} [get_bd_cells inv_0]
+set_property location {1086 -31} [get_bd_ports AN1]
+set_property location {1070 -20} [get_bd_ports AN1]
+set_property location {3 842 -93} [get_bd_cells vcc_1]
+set_property location {1073 -195} [get_bd_ports AN3]
+set_property location {3 856 40} [get_bd_cells inv_0]
+connect_bd_net [get_bd_ports CA] [get_bd_pins mux_0/O_0]
+connect_bd_net [get_bd_ports CB] [get_bd_pins mux_0/O_1]
+connect_bd_net [get_bd_ports CC] [get_bd_pins mux_0/O_2]
+connect_bd_net [get_bd_ports CD] [get_bd_pins mux_0/O_3]
+connect_bd_net [get_bd_ports CE] [get_bd_pins mux_0/O_4]
+connect_bd_net [get_bd_ports CF] [get_bd_pins mux_0/O_5]
+connect_bd_net [get_bd_ports CG] [get_bd_pins mux_0/O_6]
+set_property location {1074 -372} [get_bd_ports CG]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_a] [get_bd_pins mux_0/I0_0]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_b] [get_bd_pins mux_0/I0_1]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_c] [get_bd_pins mux_0/I0_2]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_d] [get_bd_pins mux_0/I0_3]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_e] [get_bd_pins mux_0/I0_4]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_f] [get_bd_pins mux_0/I0_5]
+connect_bd_net [get_bd_pins decoder_7seg_0/f_g] [get_bd_pins mux_0/I0_6]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_a] [get_bd_pins mux_0/I1_0]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_b] [get_bd_pins mux_0/I1_1]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_c] [get_bd_pins mux_0/I1_2]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_d] [get_bd_pins mux_0/I1_3]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_e] [get_bd_pins mux_0/I1_4]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_f] [get_bd_pins mux_0/I1_5]
+connect_bd_net [get_bd_pins decoder_7seg_1/f_g] [get_bd_pins mux_0/I1_6]
+connect_bd_net [get_bd_pins mux_0/Sel0] [get_bd_pins hodiny_0/mux_sel]
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+validate_bd_design -force
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+open_run synth_1 -name synth_1
+open_bd_design {D:/VivadoProjects/decoder_bon1/decoder_bon1.srcs/sources_1/bd/decoder_schema/decoder_schema.bd}
+close_bd_design [get_bd_designs decoder_schema]
+place_ports W5 W5
+place_ports W5 W5
+place_ports W5 W5
+place_ports W5 W5
+set_property IOSTANDARD LVCMOS33 [get_ports [list W5]]
+set_property is_loc_fixed true [get_ports [list  W5]]
+set_property is_loc_fixed false [get_ports [list  W5]]
+set_property is_loc_fixed true [get_ports [list  W5]]
+set_property package_pin "" [get_ports [list  SW7]]
+place_ports SW7 W13
+set_property package_pin "" [get_ports [list  W5]]
+place_ports W5 W5
+set_property is_loc_fixed true [get_ports [list  W5]]
+set_property is_loc_fixed false [get_ports [list  W5]]
+set_property is_loc_fixed true [get_ports [list  W5]]
+set_property is_loc_fixed false [get_ports [list  W5]]
+save_constraints

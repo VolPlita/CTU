@@ -1,0 +1,306 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x30458F96970B3351",
+      "device": "xc7a35tcpg236-1",
+      "name": "automatd",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "decoder_7seg_0": "",
+      "automat_vhdl_0": "",
+      "gnd_0": "",
+      "vcc_0": "",
+      "debounce_0": ""
+    },
+    "ports": {
+      "clk_0": {
+        "type": "clk",
+        "direction": "I",
+        "parameters": {
+          "ASSOCIATED_RESET": {
+            "value": "reset_0",
+            "value_src": "default"
+          },
+          "CLK_DOMAIN": {
+            "value": "automatd_clk_0",
+            "value_src": "default"
+          },
+          "FREQ_HZ": {
+            "value": "100000000",
+            "value_src": "default"
+          },
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "PHASE": {
+            "value": "0.000",
+            "value_src": "default"
+          }
+        }
+      },
+      "reset_0": {
+        "type": "rst",
+        "direction": "I",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_LOW",
+            "value_src": "default"
+          }
+        }
+      },
+      "f_a_0": {
+        "direction": "O"
+      },
+      "f_b_0": {
+        "direction": "O"
+      },
+      "f_c_0": {
+        "direction": "O"
+      },
+      "f_d_0": {
+        "direction": "O"
+      },
+      "f_e_0": {
+        "direction": "O"
+      },
+      "f_f_0": {
+        "direction": "O"
+      },
+      "f_g_0": {
+        "direction": "O"
+      },
+      "AN0": {
+        "direction": "O"
+      },
+      "AN1": {
+        "direction": "O"
+      },
+      "AN2": {
+        "direction": "O"
+      },
+      "AN3": {
+        "direction": "O"
+      },
+      "clk_1": {
+        "direction": "I"
+      },
+      "tl_in_0": {
+        "direction": "I"
+      }
+    },
+    "components": {
+      "decoder_7seg_0": {
+        "vlnv": "xilinx.com:module_ref:decoder_7seg:1.0",
+        "xci_name": "automatd_decoder_7seg_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "decoder_7seg",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a": {
+            "direction": "I"
+          },
+          "b": {
+            "direction": "I"
+          },
+          "c": {
+            "direction": "I"
+          },
+          "d": {
+            "direction": "I"
+          },
+          "f_a": {
+            "direction": "O"
+          },
+          "f_b": {
+            "direction": "O"
+          },
+          "f_c": {
+            "direction": "O"
+          },
+          "f_d": {
+            "direction": "O"
+          },
+          "f_e": {
+            "direction": "O"
+          },
+          "f_f": {
+            "direction": "O"
+          },
+          "f_g": {
+            "direction": "O"
+          }
+        }
+      },
+      "automat_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:automat_vhdl:1.0",
+        "xci_name": "automatd_automat_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "automat_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "clk": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "automatd_clk_0",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "INC": {
+            "direction": "I"
+          },
+          "y0": {
+            "direction": "O"
+          },
+          "y1": {
+            "direction": "O"
+          },
+          "y2": {
+            "direction": "O"
+          }
+        }
+      },
+      "gnd_0": {
+        "vlnv": "FIT:user:gnd:1.0",
+        "xci_name": "automatd_gnd_0_0"
+      },
+      "vcc_0": {
+        "vlnv": "FIT:user:vcc:1.0",
+        "xci_name": "automatd_vcc_0_0"
+      },
+      "debounce_0": {
+        "vlnv": "FIT:user:debounce:1.0",
+        "xci_name": "automatd_debounce_0_0"
+      }
+    },
+    "nets": {
+      "automat_vhdl_0_y0": {
+        "ports": [
+          "automat_vhdl_0/y0",
+          "decoder_7seg_0/a"
+        ]
+      },
+      "automat_vhdl_0_y1": {
+        "ports": [
+          "automat_vhdl_0/y1",
+          "decoder_7seg_0/b"
+        ]
+      },
+      "automat_vhdl_0_y2": {
+        "ports": [
+          "automat_vhdl_0/y2",
+          "decoder_7seg_0/c"
+        ]
+      },
+      "gnd_0_O": {
+        "ports": [
+          "gnd_0/O",
+          "decoder_7seg_0/d",
+          "AN0"
+        ]
+      },
+      "clk_0_1": {
+        "ports": [
+          "clk_0",
+          "automat_vhdl_0/clk"
+        ]
+      },
+      "reset_0_1": {
+        "ports": [
+          "reset_0",
+          "automat_vhdl_0/reset"
+        ]
+      },
+      "decoder_7seg_0_f_a": {
+        "ports": [
+          "decoder_7seg_0/f_a",
+          "f_a_0"
+        ]
+      },
+      "decoder_7seg_0_f_b": {
+        "ports": [
+          "decoder_7seg_0/f_b",
+          "f_b_0"
+        ]
+      },
+      "decoder_7seg_0_f_c": {
+        "ports": [
+          "decoder_7seg_0/f_c",
+          "f_c_0"
+        ]
+      },
+      "decoder_7seg_0_f_d": {
+        "ports": [
+          "decoder_7seg_0/f_d",
+          "f_d_0"
+        ]
+      },
+      "decoder_7seg_0_f_e": {
+        "ports": [
+          "decoder_7seg_0/f_e",
+          "f_e_0"
+        ]
+      },
+      "decoder_7seg_0_f_f": {
+        "ports": [
+          "decoder_7seg_0/f_f",
+          "f_f_0"
+        ]
+      },
+      "decoder_7seg_0_f_g": {
+        "ports": [
+          "decoder_7seg_0/f_g",
+          "f_g_0"
+        ]
+      },
+      "vcc_0_O": {
+        "ports": [
+          "vcc_0/O",
+          "AN1",
+          "AN3",
+          "AN2"
+        ]
+      },
+      "debounce_0_tl_out": {
+        "ports": [
+          "debounce_0/tl_out",
+          "automat_vhdl_0/INC"
+        ]
+      },
+      "clk_1_1": {
+        "ports": [
+          "clk_1",
+          "debounce_0/clk"
+        ]
+      },
+      "tl_in_0_1": {
+        "ports": [
+          "tl_in_0",
+          "debounce_0/tl_in"
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0xF7E80F09F7E80F09",
+      "device": "xc7a35tcpg236-1",
+      "name": "automat",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "next_state_logic_0": "",
+      "dff_0": "",
+      "dff_1": "",
+      "output_logic_0": ""
+    },
+    "ports": {
+      "b1": {
+        "direction": "I"
+      },
+      "b2": {
+        "direction": "I"
+      },
+      "CLK": {
+        "direction": "I"
+      },
+      "RESET": {
+        "direction": "I"
+      },
+      "y0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "next_state_logic_0": {
+        "vlnv": "xilinx.com:module_ref:next_state_logic:1.0",
+        "xci_name": "automat_next_state_logic_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "next_state_logic",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a1": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "a2": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "b1": {
+            "direction": "I"
+          },
+          "b2": {
+            "direction": "I"
+          },
+          "n1": {
+            "direction": "O"
+          },
+          "n2": {
+            "direction": "O"
+          }
+        }
+      },
+      "dff_0": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "automat_dff_0_0"
+      },
+      "dff_1": {
+        "vlnv": "FIT:user:dff:1.0",
+        "xci_name": "automat_dff_1_0"
+      },
+      "output_logic_0": {
+        "vlnv": "xilinx.com:module_ref:output_logic:1.0",
+        "xci_name": "automat_output_logic_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "output_logic",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "a1": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "a2": {
+            "direction": "I",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "default_prop"
+              }
+            }
+          },
+          "b1": {
+            "direction": "I"
+          },
+          "b2": {
+            "direction": "I"
+          },
+          "y": {
+            "direction": "O"
+          }
+        }
+      }
+    },
+    "nets": {
+      "next_state_logic_0_n1": {
+        "ports": [
+          "next_state_logic_0/n1",
+          "dff_0/d"
+        ]
+      },
+      "next_state_logic_0_n2": {
+        "ports": [
+          "next_state_logic_0/n2",
+          "dff_1/d"
+        ]
+      },
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "dff_1/clk",
+          "dff_0/clk"
+        ]
+      },
+      "RESET_1": {
+        "ports": [
+          "RESET",
+          "dff_1/reset",
+          "dff_0/reset"
+        ]
+      },
+      "dff_0_q": {
+        "ports": [
+          "dff_0/q",
+          "output_logic_0/a1",
+          "next_state_logic_0/a1"
+        ]
+      },
+      "dff_1_q": {
+        "ports": [
+          "dff_1/q",
+          "output_logic_0/a2",
+          "next_state_logic_0/a2"
+        ]
+      },
+      "b1_1": {
+        "ports": [
+          "b1",
+          "output_logic_0/b1",
+          "next_state_logic_0/b1"
+        ]
+      },
+      "b2_1": {
+        "ports": [
+          "b2",
+          "output_logic_0/b2",
+          "next_state_logic_0/b2"
+        ]
+      },
+      "output_logic_0_y": {
+        "ports": [
+          "output_logic_0/y",
+          "y0"
+        ]
+      }
+    }
+  }
+}

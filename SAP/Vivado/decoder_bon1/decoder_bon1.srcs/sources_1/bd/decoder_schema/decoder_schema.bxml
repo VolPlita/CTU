@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="decoder_schema" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1678538226"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1678177224"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1678177224"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1678177224"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\decoder_schema_vcc_1_0\decoder_schema_vcc_1_0.xci" Type="IP">
+        <Instance HierarchyPath="vcc_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1678178133" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_vcc_2_0\decoder_schema_vcc_2_0.xci" Type="IP">
+        <Instance HierarchyPath="vcc_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1678178134" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_adder4_vhdl_0_0\decoder_schema_adder4_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="adder4_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="1678179970" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_hodiny_0_0\decoder_schema_hodiny_0_0.xci" Type="IP">
+        <Instance HierarchyPath="hodiny_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_gnd_1_1\decoder_schema_gnd_1_1.xci" Type="IP">
+        <Instance HierarchyPath="gnd_2"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_inv_0_0\decoder_schema_inv_0_0.xci" Type="IP">
+        <Instance HierarchyPath="inv_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_decoder_7seg_0_2\decoder_schema_decoder_7seg_0_2.xci" Type="IP">
+        <Instance HierarchyPath="decoder_7seg_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_decoder_7seg_1_0\decoder_schema_decoder_7seg_1_0.xci" Type="IP">
+        <Instance HierarchyPath="decoder_7seg_1"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_schema_mux_0_1\decoder_schema_mux_0_1.xci" Type="IP">
+        <Instance HierarchyPath="mux_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

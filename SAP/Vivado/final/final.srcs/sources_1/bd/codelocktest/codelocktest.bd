@@ -1,0 +1,226 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x8AFF0CC536BDD5F",
+      "device": "xc7a35tcpg236-1",
+      "name": "codelocktest",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "automat_vhdl_0": "",
+      "decoder_vhdl_0": "",
+      "code_lock_test_0": ""
+    },
+    "ports": {
+      "Reset_0": {
+        "type": "rst",
+        "direction": "O",
+        "parameters": {
+          "INSERT_VIP": {
+            "value": "0",
+            "value_src": "default"
+          },
+          "POLARITY": {
+            "value": "ACTIVE_HIGH",
+            "value_src": "const_prop"
+          }
+        }
+      }
+    },
+    "components": {
+      "automat_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:automat_vhdl:1.0",
+        "xci_name": "codelocktest_automat_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "automat_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RESET",
+                "value_src": "constant"
+              },
+              "CLK_DOMAIN": {
+                "value": "codelocktest_code_lock_test_0_0_Clock",
+                "value_src": "default_prop"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "const_prop"
+              },
+              "PHASE": {
+                "value": "0.000",
+                "value_src": "const_prop"
+              }
+            }
+          },
+          "RESET": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "b1": {
+            "direction": "I"
+          },
+          "b2": {
+            "direction": "I"
+          },
+          "y0": {
+            "direction": "O"
+          }
+        }
+      },
+      "decoder_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:decoder_vhdl:1.0",
+        "xci_name": "codelocktest_decoder_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "decoder_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "C": {
+            "direction": "I"
+          },
+          "ERR": {
+            "direction": "O"
+          },
+          "Y1": {
+            "direction": "O"
+          },
+          "Y2": {
+            "direction": "O"
+          }
+        }
+      },
+      "code_lock_test_0": {
+        "vlnv": "xilinx.com:module_ref:code_lock_test:1.0",
+        "xci_name": "codelocktest_code_lock_test_0_0",
+        "parameters": {
+          "C_FSM_TYPE": {
+            "value": "MEALY"
+          }
+        },
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "code_lock_test",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "Clock": {
+            "type": "clk",
+            "direction": "O",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "Reset",
+                "value_src": "constant"
+              },
+              "FREQ_HZ": {
+                "value": "100000000",
+                "value_src": "constant"
+              },
+              "PHASE": {
+                "value": "0.000",
+                "value_src": "constant"
+              }
+            }
+          },
+          "Reset": {
+            "type": "rst",
+            "direction": "O",
+            "parameters": {
+              "LAYERED_METADATA": {
+                "value": "undef",
+                "value_src": "constant"
+              },
+              "POLARITY": {
+                "value": "ACTIVE_HIGH",
+                "value_src": "constant"
+              }
+            }
+          },
+          "A": {
+            "direction": "O"
+          },
+          "B": {
+            "direction": "O"
+          },
+          "C": {
+            "direction": "O"
+          },
+          "Lock": {
+            "direction": "I"
+          }
+        }
+      }
+    },
+    "nets": {
+      "decoder_vhdl_0_ERR": {
+        "ports": [
+          "decoder_vhdl_0/ERR",
+          "automat_vhdl_0/RESET"
+        ]
+      },
+      "decoder_vhdl_0_Y1": {
+        "ports": [
+          "decoder_vhdl_0/Y1",
+          "automat_vhdl_0/b1"
+        ]
+      },
+      "decoder_vhdl_0_Y2": {
+        "ports": [
+          "decoder_vhdl_0/Y2",
+          "automat_vhdl_0/b2"
+        ]
+      },
+      "code_lock_test_0_A": {
+        "ports": [
+          "code_lock_test_0/A",
+          "decoder_vhdl_0/A"
+        ]
+      },
+      "code_lock_test_0_B": {
+        "ports": [
+          "code_lock_test_0/B",
+          "decoder_vhdl_0/B"
+        ]
+      },
+      "code_lock_test_0_C": {
+        "ports": [
+          "code_lock_test_0/C",
+          "decoder_vhdl_0/C"
+        ]
+      },
+      "automat_vhdl_0_y0": {
+        "ports": [
+          "automat_vhdl_0/y0",
+          "code_lock_test_0/Lock"
+        ]
+      },
+      "code_lock_test_0_Clock": {
+        "ports": [
+          "code_lock_test_0/Clock",
+          "automat_vhdl_0/CLK"
+        ]
+      },
+      "code_lock_test_0_Reset": {
+        "ports": [
+          "code_lock_test_0/Reset",
+          "Reset_0"
+        ]
+      }
+    }
+  }
+}

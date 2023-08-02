@@ -1,0 +1,3359 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Apr 15 00:13:52 2023
+# Process ID: 11020
+# Current directory: D:/VivadoProjects/final
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18540 D:\VivadoProjects\final\final.xpr
+# Log file: D:/VivadoProjects/final/vivado.log
+# Journal file: D:/VivadoProjects/final\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoProjects/final/final.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/VivadoProjects/lib_SAP_2022_02_02'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Programs/Vivado/Vivado/2018.3/data/ip'.
+update_compile_order -fileset sources_1
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock_test/code_lock_test.bd}
+Adding cell -- xilinx.com:module_ref:automat_vhdl:1.0 - automat_vhdl_0
+Adding cell -- xilinx.com:module_ref:decoder_vhdl:1.0 - decoder_vhdl_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /decoder_vhdl_0/ERR(undef) and /automat_vhdl_0/RESET(rst)
+Successfully read diagram <code_lock_test> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock_test/code_lock_test.bd>
+import_files -norecurse C:/Users/HP/Downloads/l6_code_lock_test.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd] -no_script -reset -force -quiet
+remove_files  D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd
+file delete -force D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd
+import_files -norecurse C:/Users/HP/Downloads/l6_code_lock_test.vhd
+update_compile_order -fileset sources_1
+set_property used_in_simulation false [get_files  D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd]
+set_property used_in_simulation true [get_files  D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd]
+file mkdir D:/VivadoProjects/final/final.srcs/sources_1/new
+close [ open D:/VivadoProjects/final/final.srcs/sources_1/new/mytest.vhd w ]
+add_files D:/VivadoProjects/final/final.srcs/sources_1/new/mytest.vhd
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/VivadoProjects/final/final.srcs/sources_1/new/mytest.vhd] -no_script -reset -force -quiet
+remove_files  D:/VivadoProjects/final/final.srcs/sources_1/new/mytest.vhd
+file delete -force D:/VivadoProjects/final/final.srcs/sources_1/new/mytest.vhd
+export_ip_user_files -of_objects  [get_files D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd] -no_script -reset -force -quiet
+remove_files  D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd
+file delete -force D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l6_code_lock_test.vhd
+close_bd_design [get_bd_designs code_lock_test]
+export_ip_user_files -of_objects  [get_files D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock_test/code_lock_test.bd] -no_script -reset -force -quiet
+remove_files  D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock_test/code_lock_test.bd
+file delete -force D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock_test
+import_files -norecurse C:/Users/HP/Downloads/l6_code_lock_test.vhd
+update_compile_order -fileset sources_1
+open_bd_design {D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock/code_lock.bd}
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_A
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_B
+Adding cell -- xilinx.com:module_ref:button_vhdl:1.0 - button_C
+Adding cell -- xilinx.com:module_ref:decoder_vhdl:1.0 - decoder_vhdl_0
+Adding cell -- xilinx.com:module_ref:automat_vhdl:1.0 - automat_vhdl_0
+Adding cell -- FIT:user:gnd:1.0 - gnd_0
+WARNING: [BD 41-1731] Type mismatch between connected pins: /decoder_vhdl_0/ERR(undef) and /automat_vhdl_0/RESET(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_A/reset(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_B/reset(rst)
+WARNING: [BD 41-1731] Type mismatch between connected pins: /gnd_0/O(undef) and /button_C/reset(rst)
+Successfully read diagram <code_lock> from BD file <D:/VivadoProjects/final/final.srcs/sources_1/bd/code_lock/code_lock.bd>
+create_bd_design "codelocktest"
+Wrote  : <D:\VivadoProjects\final\final.srcs\sources_1\bd\codelocktest\codelocktest.bd> 
+current_bd_design [get_bd_designs code_lock]
+update_compile_order -fileset sources_1
+current_bd_design [get_bd_designs codelocktest]
+current_bd_design code_lock
+set tmpCopyObjs [concat  [get_bd_cells {decoder_vhdl_0 automat_vhdl_0}]]
+current_bd_design codelocktest
+copy_bd_objs -from_design code_lock / $tmpCopyObjs
+startgroup
+set_property location {0.5 -52 68} [get_bd_cells decoder_vhdl_0]
+set_property location {1 -52 68} [get_bd_cells automat_vhdl_0]
+endgroup
+set_property location {1.5 219 222} [get_bd_cells automat_vhdl_0]
+connect_bd_net [get_bd_pins decoder_vhdl_0/ERR] [get_bd_pins automat_vhdl_0/RESET]
+WARNING: [BD 41-1731] Type mismatch between connected pins: /decoder_vhdl_0/ERR(undef) and /automat_vhdl_0/RESET(rst)
+connect_bd_net [get_bd_pins decoder_vhdl_0/Y1] [get_bd_pins automat_vhdl_0/b1]
+connect_bd_net [get_bd_pins decoder_vhdl_0/Y2] [get_bd_pins automat_vhdl_0/b2]
+create_bd_cell -type module -reference code_lock_test code_lock_test_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Clock' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Clock' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Reset' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Reset' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'ASSOCIATED_RESET' with value 'Reset'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'FREQ_HZ' with value '100000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'PHASE' with value '0.000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Reset': Added interface parameter 'POLARITY' with value 'ACTIVE_HIGH'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'Clock': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/VivadoProjects/lib_SAP_2022_02_02'.
+set_property location {0.5 -86 221} [get_bd_cells code_lock_test_0]
+connect_bd_net [get_bd_pins code_lock_test_0/A] [get_bd_pins decoder_vhdl_0/A]
+connect_bd_net [get_bd_pins code_lock_test_0/B] [get_bd_pins decoder_vhdl_0/B]
+connect_bd_net [get_bd_pins code_lock_test_0/C] [get_bd_pins decoder_vhdl_0/C]
+set_property location {1 -90 204} [get_bd_cells code_lock_test_0]
+connect_bd_net [get_bd_pins automat_vhdl_0/y0] [get_bd_pins code_lock_test_0/Lock]
+connect_bd_net [get_bd_pins code_lock_test_0/Clock] [get_bd_pins automat_vhdl_0/CLK]
+startgroup
+set_property -dict [list CONFIG.C_FSM_TYPE {MEALY}] [get_bd_cells code_lock_test_0]
+endgroup
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+save_bd_design
+Wrote  : <D:\VivadoProjects\final\final.srcs\sources_1\bd\codelocktest\codelocktest.bd> 
+Wrote  : <D:/VivadoProjects/final/final.srcs/sources_1/bd/codelocktest/ui/bd_7468c10a.ui> 
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+# proc sortPorts { ports &bus &bit } {
+# 
+#   upvar ${&bus} busPorts
+#   upvar ${&bit} bitPorts
+#   array set busPorts [list]
+#   set bitPorts [list]
+# 
+#   foreach port $ports {
+#     set name [get_property -quiet NAME [get_bd_ports $port]]
+# 	set busStart [get_property -quiet LEFT [get_bd_ports $port]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_ports $port]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busPorts [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitPorts $name
+#     }
+#   }
+#   return 0
+# }
+# proc sortPins { pins &bus &bit } {
+# 
+#   upvar ${&bus} busPins
+#   upvar ${&bit} bitPins
+#   array set busPins [list]
+#   array set bitPins [list]
+# 
+#   foreach pin $pins {
+#     set name [get_property -quiet NAME [get_bd_pins $pin]]
+# 	set dir [get_property -quiet DIR [get_bd_pins $pin]]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins $pin]]
+# 	if {$net != ""} {
+# 		set net_name [get_property -quiet NAME $net]
+# 	} else {
+# 		if {$dir == "I"} {
+# 			if {$busStart != {}} {
+# 				set net_name "(others => '0')"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			} else {
+# 				set net_name "'0'"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			}
+# 		} else {
+# 			set net_name "open"
+# 			catch {common::send_msg_id "bd2vhdl    pin-3" "CRITICAL WARNING" "${pin}: pin odstranen, vystup neni pripojen!"}
+# 		}
+# 	}
+# 	if {$busStart != {}} {
+# 		array set busPins [list $name [list $busStop $busStart $net_name]]
+# 	} else {
+# 		array set bitPins [list $name $net_name]
+# 	}
+#   }
+#   return 0
+# }
+# proc sortNets { nets &bus &bit } {
+# 
+#   upvar ${&bus} busNets
+#   upvar ${&bit} bitNets
+#   array set busNets [list ]
+#   set bitNets [list]
+# 
+#   foreach net $nets {
+#     set name [get_property -quiet NAME [get_bd_nets $net]]
+# 	set pin [lindex [get_bd_pins -of_objects [get_bd_nets $net]] 0]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busNets [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitNets $name
+#     }
+#   }
+#   return 0
+# }
+# proc array2sortedList { &ar } {
+# 
+#   upvar ${&ar} ar
+#   set sortedList [list]
+#   foreach key [lsort -dictionary [array names ar]] {
+#     lappend sortedList $key
+#     lappend sortedList $ar($key)
+#   }
+#   return $sortedList
+# }
+# proc getInPinNet { cell pin default_value} {
+# 	set pin [get_bd_pins -quiet $pin]
+# 	set net [get_bd_nets -quiet -of_objects $pin]
+# 	if {$net == ""} {
+# 		catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin} nepripojen, bude pripojeno k $default_value"}
+# 		set net_name $default_value
+# 	} else {
+# 		set net_name [get_property NAME $net]
+# 	}
+# 	return $net_name
+# }
+# proc getGate { cell  function} {
+# 	set inputs_count [get_property CONFIG.Inputs [get_bd_cells -quiet $cell]]
+# 	set content {}
+# 	set prom {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 	for {set i 0} { $i < $inputs_count } { incr i } {
+# 		set cfg [format "CONFIG.I%u_Inverted" $i]
+# 		set pin [format "%s/I%u" $cell $i]
+# 		set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		set net_name [getInPinNet $cell $pin "\'0\'"]
+# 		#set net_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append prom [format "not(%s)" $net_name]
+# 		} else {
+# 			append prom [format "%s" $net_name]
+# 		}
+# 		if {$i < ($inputs_count-1)} {
+# 			append prom [format " %s " $function]
+# 		}
+# 	}
+# 	set cfg [format "CONFIG.O_Inverted" $i]
+# 	set pin [format "%s/O" $cell]
+# 	set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $prom];	
+# 		} else {
+# 			append content [format "\t%s <= %s;\n" $out_name $prom];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getBuf { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/I" $cell]
+# 	#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 	#set net_name [get_property NAME $net]
+# 	set net_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $net_name];	
+# 		} else {
+# 			append content  [format "\t%s <= %s;\n" $out_name $net_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSource { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= '1';\n" $out_name];	
+# 		} else {
+# 			append content [format "\t%s <= '0';\n" $out_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSplitter { cell } {
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set pin [format "%s/I" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set in_name [get_property NAME $net]
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= %s(%u);\n" $net_name $in_name $i]
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	} else {
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= \'0\';\n" $net_name $i]
+# 				catch {common::send_msg_id "bd2vhdl  jadro-2" "CRITICAL WARNING" "${cell} nepripojen vstup, ${net_name} bude pripojeno k \'0\'"}
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	}
+# 	return $content
+# }
+# proc getDff { cell } {
+# 	set ce [get_property CONFIG.CE [get_bd_cells -quiet $cell]]
+# 	set reset [get_property CONFIG.Reset [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/q" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net == ""} {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]
+# 		}
+# 		#set clk_name [get_property NAME $net]
+# 		set clk_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		set pin [format "%s/d" $cell]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		#set in_name [get_property NAME $net]
+# 		set in_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		if {$ce == "true"} {
+# 			set pin [format "%s/ce" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set ce_name [get_property NAME $net]
+# 			set ce_name [getInPinNet $cell $pin "\'1\'"]
+# 		}
+# 
+# 		if {$reset == "true"} {
+# 			set pin [format "%s/reset" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set reset_name [get_property NAME $net]
+# 			set reset_name [getInPinNet $cell $pin "\'0\'"]
+# 		}
+# 
+# 		append content [format "\tprocess (%s)\n\tbegin\n" $clk_name]
+# 		append content [format "\t\tif rising_edge(%s) then\n" $clk_name]
+# 		if {$reset == "true"} {
+# 			append content [format "\t\t\tif %s = '1' then\n\t\t\t\t%s <= '0';\n\t\t\tels" $reset_name $out_name]
+# 		} else {
+# 			append content "\t\t\t"
+# 		}
+# 
+# 		if {$ce == "true"} {
+# 			append content [format "if %s = '1' then\n" $ce_name]
+# 			append content [format "\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 			append content "\t\t\tend if;\n"
+# 		} else {
+# 			if {$reset == "true"} {
+# 				append content [format "e\n\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 				append content "\t\t\tend if;\n"
+# 			} else {
+# 				append content [format "%s <= %s;\n" $out_name $in_name]
+# 			}
+# 		}
+# 
+# 		append content "\t\tend if;\n\tend process;\n";
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	return $content
+# }
+# proc getMux { cell } {
+# 	set ports_count [get_property CONFIG.Data_Ports [get_bd_cells -quiet $cell]]
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set i0_bus [get_property CONFIG.I0_BUS [get_bd_cells -quiet $cell]]
+# 	set i1_bus [get_property CONFIG.I1_BUS [get_bd_cells -quiet $cell]]
+# 	set i2_bus [get_property CONFIG.I2_BUS [get_bd_cells -quiet $cell]]
+# 	set i3_bus [get_property CONFIG.I3_BUS [get_bd_cells -quiet $cell]]
+# 	set o_bus [get_property CONFIG.O_BUS [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	for {set i 0} { $i < $width } { incr i } {
+# 		if {$o_bus == "true"} {
+# 			set pin [format "%s/O" $cell]
+# 			set vecO [format "(%u)" $i]
+# 		} else {
+# 			set pin [format "%s/O_%u" $cell $i]
+# 			set vecO ""
+# 		}
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set out_name [get_property NAME $net]
+# 
+# 			if {$i0_bus == "true"} {
+# 				set pin [format "%s/I0" $cell]
+# 				set vec0 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I0_%u" $cell $i]
+# 				set vec0 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i0_name [get_property NAME $net]
+# 			set i0_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i0_name == "'0'"} {
+# 				set vec0 ""
+# 			}
+# 
+# 			if {$i1_bus == "true"} {
+# 				set pin [format "%s/I1" $cell]
+# 				set vec1 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I1_%u" $cell $i]
+# 				set vec1 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i1_name [get_property NAME $net]
+# 			set i1_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i1_name == "'0'"} {
+# 				set vec1 ""
+# 			}
+# 
+# 			set pin [format "%s/Sel0" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set sel0_name [get_property NAME $net]
+# 			set sel0_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			if {$ports_count > 2} {
+# 				if {$i2_bus == "true"} {
+# 					set pin [format "%s/I2" $cell]
+# 					set vec2 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I2_%u" $cell $i]
+# 					set vec2 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i2_name [get_property NAME $net]
+# 				set i2_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i2_name == "'0'"} {
+# 					set vec2 ""
+# 				}
+# 
+# 				if {$i3_bus == "true"} {
+# 					set pin [format "%s/I3" $cell]
+# 					set vec3 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I3_%u" $cell $i]
+# 					set vec3 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i3_name [get_property NAME $net]
+# 				set i3_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i3_name == "'0'"} {
+# 					set vec3 ""
+# 				}
+# 
+# 				set pin [format "%s/Sel1" $cell]
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set sel1_name [get_property NAME $net]
+# 				set sel1_name [getInPinNet $cell $pin "\'0\'"]
+# 				
+# 				if {$sel0_name != "'0'" && $sel1_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when %s = '0' and %s = '0' else\n" $out_name $vecO $i0_name $vec0 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '0' and %s = '1' else\n" $i1_name $vec1 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '0' else\n" $i2_name $vec2 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '1' else '0';\n\n" $i3_name $vec3 $sel1_name $sel0_name]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			} else {
+# 				if {$sel0_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when (%s = '1') else %s%s;\n" $out_name $vecO $i1_name $vec1 $sel0_name $i0_name $vec0]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			}
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" " ${cell}: pin ${pin} odstranen, vystup neni pripojen!"}
+# 			return [append content "\t-- ${pin} odstranen, vystup neni pripojen\n"]
+# 		}
+# 		
+# 	}
+# 	return $content
+# }
+# proc getDebounce { cell } {
+# 	set width [get_property CONFIG.width [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/tl_out" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set tl_out [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set clk [get_property NAME $net]
+# 
+# 			set pin [format "%s/tl_in" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set tl_in [get_property NAME $net]
+# 			set tl_in [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			append content [ format "\t%s : debounce\n\t\tgeneric map (\n\t\t\twidth => %s\n\t\t)\n\t\tport map (\n\t\t\tclk	=> %s,\n\t\t\ttl_in	=> %s,\n\t\t\ttl_out	=> %s\n\t\t);\n" $name $width $clk $tl_in $tl_out]
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]	
+# 		}
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	
+# 	return $content
+# }
+# set debounce_component "\tcomponent debounce
+# \t\tgeneric (
+# \t\t\twidth: integer := 22
+# \t\t);
+# \t\tport (
+# \t\t\tclk    : in  std_logic;
+# \t\t\ttl_in  : in  std_logic;
+# \t\t\ttl_out : out std_logic
+# \t\t);
+# \tend component;\n"
+# proc getModule_ref { cell components component_name} {
+# 	upvar $components comps
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	# nepridavat pokud uz tam ta komponenta je
+# 	if {[string first $component_name $comps] < 0} {
+# 		append comps "\tcomponent ${component_name}\n\t\tport ("
+# 		append comps $ports
+# 		append comps "\n\t\t);\n\tend component;\n\n"
+# 	}
+# 	append content "\tinst_${name} : ${component_name}\n"
+# 	append content "\t\tport map ("
+# 	append content $port_map
+# 	append content "\n\t\t);\n"
+# }
+# proc getHier { cell debounce components modules} {
+# 	global debounce_component
+# 	upvar $components comps
+# 	upvar $modules mods
+# 	upvar $debounce debs
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $cell]
+# 	set nets [lsort [get_bd_nets -quiet -of_objects [get_bd_cells $cell] -regexp -filter $filtr]]
+# 	array set busNets [list ]
+# 	set bitNets [list]
+# 	sortNets $nets busNets bitNets
+# 
+# 	set lines [list]
+# 	# Process single bit nets
+# 	foreach net [lsort -dictionary $bitNets] {
+# 		lappend lines [list "$net" "  std_logic;"]
+# 	}
+# 	# Process bus nets
+# 	foreach {net busInfo} [array2sortedList busNets] {
+# 		lassign $busInfo stop start
+# 		if {$start>$stop} {
+# 		lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+# 		} else {
+# 		lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+# 		}
+# 	}
+# 
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 
+# 	# Build the content of the stub:
+# 	set signals {}
+# 	foreach line $lines {
+# 		append signals [format "\n\tsignal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 	}
+#   set ports2Signals {}
+#     foreach net [lsort -dictionary $nets] {
+#         set net_name [get_property NAME [get_bd_nets -quiet $net]]
+#         set ports_b [get_bd_ports -quiet -of_objects [get_bd_nets -quiet $net]]
+#         if {$ports == {}} {
+#             break
+#         }
+#         foreach port [lsort -dictionary $ports_b] {
+#             set port_name [get_property NAME [get_bd_pins -quiet $port]]
+#             set dir [get_property DIR [get_bd_pins -quiet $port]]
+#             if {$dir == "I"} {
+#                 append ports2Signals "\t$net_name <= $port_name;\n"    
+#             } else {
+#                 append ports2Signals "\t$port_name <= $net_name;\n"
+#             }
+#         }
+#     }
+#   
+# 	set debounce_inner false
+#   	set components_inner {}
+#   	set modules_inner {}
+#   	set body [getIPs $cell debounce_inner components_inner modules_inner]
+# 	if {$debounce_inner} {
+# 		puts "######################################################################x"
+# 		append components_inner $debounce_component
+# 		set debs true
+#     }
+# 	
+# 	set comp_name [string replace $cell 0 0 {}]
+#     set comp_name [string map {/ _} $comp_name]
+#     append comps "\tcomponent ${comp_name}\n\t\tport ("
+#     append mods "\n\nlibrary IEEE;\nuse IEEE.std_logic_1164.all;\n\n"
+#     append mods "entity ${comp_name} is\n\tport("
+#     append mods $ports
+#     append comps $ports
+#     append mods "\n\t\t);\nend entity ${comp_name};\n\narchitecture Behavioral of ${comp_name} is\n"
+#     append mods $components_inner
+#     append mods $signals
+#     append mods "\nbegin\n"
+#     append mods $ports2Signals
+#     append mods $body
+#     append mods "\nend Behavioral;"
+#     append comps "\n\t\t);\n\tend component;\n\n"
+#     append content "\tinst_${comp_name} : ${comp_name}\n"
+#     append content "\t\tport map ("
+#     append content $port_map
+#     append content "\n\t\t);\n"
+#     append mods $modules_inner
+# 
+# 	return $content
+# }
+# proc getIPs { parent debounce components modules} {
+#   upvar $debounce deb
+#   upvar $components comps
+#   upvar $modules mods
+#   if {$parent == ""} {
+# 	set cells [get_bd_cells]	  
+#   } else {
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $parent]
+# 	set cells [get_bd_cells -of_objects [get_bd_cells $parent] -regexp -filter $filtr]
+#   }
+#   
+#   set content {}
+#   foreach cell [lsort -dictionary $cells] {
+# 	set type [get_property TYPE [get_bd_cells -quiet $cell]]
+# 	set name [get_property NAME [get_bd_cells -quiet $cell]]
+# 	set vlnv [get_property VLNV [get_bd_cells -quiet $cell]]
+# 	if {$type == "ip"} {
+# 		set vlnvs [split $vlnv ":"]
+# 		if {[lindex $vlnvs 0] == "FIT"} {
+# 		 	switch [lindex $vlnvs 2] {
+# 				"or" {
+# 					append content [getGate $cell "or"]
+# 				}
+# 				"and" {
+# 					append content [getGate $cell "and"]
+# 				}
+# 				"xor" {
+# 					append content [getGate $cell "xor"]
+# 				}
+# 				"buf" {
+# 					append content [getBuf $cell false]
+# 				}
+# 				"inv" {
+# 					append content [getBuf $cell true]
+# 				}
+# 				"gnd" {
+# 					append content [getSource $cell false]
+# 				}
+# 				"vcc" {
+# 					append content [getSource $cell true]
+# 				}
+# 				"splitter" {
+# 					append content [getSplitter $cell]
+# 				}
+# 				"mux" {
+# 					append content [getMux $cell]
+# 				}
+# 				"dff" {
+# 					append content [getDff $cell]
+# 				}
+# 				"debounce" {
+# 					append content [getDebounce $cell]
+# 					set deb true
+# 				}
+# 			}
+# 		} elseif {[lindex $vlnvs 0] == "xilinx.com" && [lindex $vlnvs 1] == "module_ref"} {
+# 			append content [getModule_ref $cell comps [lindex $vlnvs 2]]
+# 		}
+# 			
+# 	} elseif {$type == "hier"} {
+# 		append content [getHier $cell deb comps mods]
+# 	}
+#   }
+#   return $content
+# }
+# set debounce_code "\n\n\nlibrary IEEE;
+# use IEEE.STD_LOGIC_1164.ALL;
+# use ieee.std_logic_unsigned.all;
+# 
+# entity debounce is
+#     generic (
+# 		width: integer := 22 -- 100 MHz clock -> 4 - simulation (90 ns); 22 - synthesis (ca. 20 ms)
+# 	);
+#     port (
+# 		clk : in STD_LOGIC;
+#         tl_in : in STD_LOGIC;
+#         tl_out : out STD_LOGIC
+# 	);
+# end entity debounce;
+# 
+# architecture Behavioral of debounce is
+# 
+# signal cnt       : std_logic_vector(width-1 downto 0) := (others => '0');
+# signal reset, ce : std_logic := '0';
+# signal tl_prev   : std_logic := '0';
+# 
+# 
+# begin
+# 
+#     counter: process(clk) begin
+#         if rising_edge(clk) then 
+#             if (reset = '1') then
+#                 cnt <= (others => '0');
+#             elsif (ce = '1') then
+#                 cnt <= cnt + 1;
+#             end if;
+#         end if;
+#     end process;
+# 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (tl_prev /= tl_in) then
+#                 reset <= '1';
+#             else 
+#                 reset <= '0';
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (reset = '1') then
+#                 tl_prev <= tl_in;
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if ((cnt(width-1) = '1') and (cnt(0) = '0')) then
+#                 tl_out <= tl_prev;
+#             end if;
+#         end if;
+#     end process;
+#                 
+# 
+#     ce <= '0' when ((cnt(width-1) = '1') and (cnt(0) = '1'))
+#                 else '1';
+# 
+# end Behavioral;\n"
+# proc vhdlTemplate { module } {
+#   global debounce_code
+#   global debounce_component
+# 
+#   set inPorts [lsort [get_bd_ports -quiet -filter DIR==I]]
+#   array set inputBusPorts [list ]
+#   set inputBitPorts [list]
+#   sortPorts $inPorts inputBusPorts inputBitPorts
+# 
+#   set outPorts [lsort [get_bd_ports -quiet -filter DIR==O]]
+#   array set outputBusPorts [list ]
+#   set outputBitPorts [list]
+#   sortPorts $outPorts outputBusPorts outputBitPorts
+# 
+#   set inoutPorts [lsort [get_bd_ports -quiet -filter DIR==IO]]
+#   array set inoutBusPorts [list ]
+#   set inoutBitPorts [list]
+#   sortPorts $inoutPorts inoutBusPorts inoutBitPorts
+# 
+#   set lines [list]
+#   # Process input single bit ports
+# #   lappend lines "-- Input Ports - Single Bit"
+#   foreach port [lsort -dictionary $inputBitPorts] {
+#     lappend lines [list "$port" "in  std_logic;"]
+#   }
+#   # Process input bus ports
+# #   lappend lines "-- Input Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "in  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "in  std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process output single bit ports
+# #   lappend lines "-- Output Ports - Single Bit"
+#   foreach port [lsort -dictionary $outputBitPorts] {
+#     lappend lines [list "$port" "out std_logic;"]
+#   }
+#   # Process output bus ports
+# #   lappend lines "-- Output Ports - Busses"
+#   foreach {port busInfo} [array2sortedList outputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port"  "out std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "out std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process inout single bit ports
+# #   lappend lines "-- InOut Ports - Single Bit"
+#   foreach port [lsort -dictionary $inoutBitPorts] {
+#     lappend lines [list "$port" "inout  std_logic;"]
+#   }
+#   # Process inout bus ports
+# #   lappend lines "-- InOut Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inoutBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "inout  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "inout  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set content {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append content "\n      $line"
+#       continue
+#     }
+#     append content [format "\n      %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+# 
+#   # Remove the last semi-colon
+#   set index [string last {;} $content]
+#   set content [string replace $content $index $index {}]
+# 
+# 
+#   set nets [lsort [get_bd_nets -quiet]]
+#   array set busNets [list ]
+#   set bitNets [list]
+#   sortNets $nets busNets bitNets
+# 
+#   set lines [list]
+#   # Process single bit nets
+#   foreach net [lsort -dictionary $bitNets] {
+#     lappend lines [list "$net" "  std_logic;"]
+#   }
+#   # Process bus nets
+#   foreach {net busInfo} [array2sortedList busNets] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set signals {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append signals "\n      $line"
+#       continue
+#     }
+#     append signals [format "\n      signal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+#   set ports2Signals {}
+#   foreach port [lsort -dictionary $inPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$net_name <= $port_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-2" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   foreach port [lsort -dictionary $outPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$port_name <= $net_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-3" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   set debounce false
+#   set components {}
+#   set modules {}
+#   set body [getIPs "" debounce components modules]
+#   
+#   if {$debounce} {
+# 	  append components $debounce_component
+#   }
+#   # Now that the last semi-colon is replaced, add the header and footer
+#   set content [format "library IEEE;
+# use IEEE.std_logic_1164.all;
+# 
+# library xil_defaultlib;
+# use xil_defaultlib.all;
+# 
+# entity ${module}_vhdl is
+#    port (%s
+#    );
+# end entity ${module}_vhdl;
+# 
+# architecture Behavioral of ${module}_vhdl is
+# %s
+# %s
+# begin
+# %s
+# %s
+# end Behavioral;" $content $components $signals $ports2Signals $body]
+# 
+#   append content $modules
+# 
+#   if {$debounce} {
+# 	  append content $debounce_code
+#   }
+# 
+#   return $content
+# }
+# set name [current_bd_design -quiet]
+# if {$name == ""} {
+#     common::send_msg_id -continue "bd2vhdl design-2" "ERROR" "Je potreba otevrit block design!"
+# 	return
+# }
+# save_bd_design $name
+# validate_bd_design -force
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+# if { [llength [get_bd_ports]] > 0 } {
+# 	puts "\n##### ${name} #####"
+# 	set content [vhdlTemplate $name]
+# 	set PROJ_DIR [get_property DIRECTORY [current_project]]
+# 	set PROJ_DIR [file normalize $PROJ_DIR]
+# 	set tmp_dir [file join $PROJ_DIR "tmp"]
+# 	file mkdir $tmp_dir
+# 	set filename "${name}.vhd"
+# 	set filename_path [file join $tmp_dir $filename]
+# 	# Save the template
+# 	set mode {w}
+# 	puts "\nCreating VHDL for Design $name in [file normalize $filename]\n"
+# 	set tfh [open $filename_path $mode]
+# 	puts $tfh $content
+# 	close $tfh
+# 
+# 	import_files -force -norecurse $filename_path
+# 	common::send_msg_id "bd2vhdl design-1" "INFO" "${name}_vhdl.vhd vygenerovan"
+# } else {
+# 	common::send_msg_id -continue "bd2vhdl design-3" "ERROR" "${name} neobsahuje zadne porty!"
+# }
+WARNING: [BD 5-236] No ports matched 'get_bd_ports'
+ERROR: [bd2vhdl design-3] codelocktest neobsahuje zadne porty!
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programs/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'code_lock_vhdl' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj code_lock_vhdl_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/tmp/automat.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'automat_vhdl'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/tmp/button.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'button_vhdl'
+INFO: [VRFC 10-3107] analyzing entity 'debounce'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/tmp/decoder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'decoder_vhdl'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l5_next_state_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'next_state_logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/Downloads/l5_output_logic.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'output_logic'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/VivadoProjects/final/final.srcs/sources_1/imports/tmp/code_lock.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'code_lock_vhdl'
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 30db883f6c944c798bd4b4bd2cb4d701 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot code_lock_vhdl_behav xil_defaultlib.code_lock_vhdl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture behavioral of entity xil_defaultlib.next_state_logic [next_state_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.output_logic [output_logic_default]
+Compiling architecture behavioral of entity xil_defaultlib.automat_vhdl [automat_vhdl_default]
+Compiling architecture behavioral of entity xil_defaultlib.debounce [debounce_default]
+Compiling architecture behavioral of entity xil_defaultlib.button_vhdl [button_vhdl_default]
+Compiling architecture behavioral of entity xil_defaultlib.decoder_vhdl [decoder_vhdl_default]
+Compiling architecture behavioral of entity xil_defaultlib.code_lock_vhdl
+Built simulation snapshot code_lock_vhdl_behav
+
+****** Webtalk v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source D:/VivadoProjects/final/final.sim/sim_1/behav/xsim/xsim.dir/code_lock_vhdl_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sat Apr 15 00:30:42 2023...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "code_lock_vhdl_behav -key {Behavioral:sim_1:Functional:code_lock_vhdl} -tclbatch {code_lock_vhdl.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source code_lock_vhdl.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'code_lock_vhdl_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 941.227 ; gain = 44.164
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+startgroup
+make_bd_pins_external  [get_bd_cells code_lock_test_0]
+make_bd_intf_pins_external  [get_bd_cells code_lock_test_0]
+INFO: [BD 5-409] No interface pins to be made external for /code_lock_test_0
+endgroup
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+# proc sortPorts { ports &bus &bit } {
+# 
+#   upvar ${&bus} busPorts
+#   upvar ${&bit} bitPorts
+#   array set busPorts [list]
+#   set bitPorts [list]
+# 
+#   foreach port $ports {
+#     set name [get_property -quiet NAME [get_bd_ports $port]]
+# 	set busStart [get_property -quiet LEFT [get_bd_ports $port]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_ports $port]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busPorts [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitPorts $name
+#     }
+#   }
+#   return 0
+# }
+# proc sortPins { pins &bus &bit } {
+# 
+#   upvar ${&bus} busPins
+#   upvar ${&bit} bitPins
+#   array set busPins [list]
+#   array set bitPins [list]
+# 
+#   foreach pin $pins {
+#     set name [get_property -quiet NAME [get_bd_pins $pin]]
+# 	set dir [get_property -quiet DIR [get_bd_pins $pin]]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins $pin]]
+# 	if {$net != ""} {
+# 		set net_name [get_property -quiet NAME $net]
+# 	} else {
+# 		if {$dir == "I"} {
+# 			if {$busStart != {}} {
+# 				set net_name "(others => '0')"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			} else {
+# 				set net_name "'0'"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			}
+# 		} else {
+# 			set net_name "open"
+# 			catch {common::send_msg_id "bd2vhdl    pin-3" "CRITICAL WARNING" "${pin}: pin odstranen, vystup neni pripojen!"}
+# 		}
+# 	}
+# 	if {$busStart != {}} {
+# 		array set busPins [list $name [list $busStop $busStart $net_name]]
+# 	} else {
+# 		array set bitPins [list $name $net_name]
+# 	}
+#   }
+#   return 0
+# }
+# proc sortNets { nets &bus &bit } {
+# 
+#   upvar ${&bus} busNets
+#   upvar ${&bit} bitNets
+#   array set busNets [list ]
+#   set bitNets [list]
+# 
+#   foreach net $nets {
+#     set name [get_property -quiet NAME [get_bd_nets $net]]
+# 	set pin [lindex [get_bd_pins -of_objects [get_bd_nets $net]] 0]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busNets [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitNets $name
+#     }
+#   }
+#   return 0
+# }
+# proc array2sortedList { &ar } {
+# 
+#   upvar ${&ar} ar
+#   set sortedList [list]
+#   foreach key [lsort -dictionary [array names ar]] {
+#     lappend sortedList $key
+#     lappend sortedList $ar($key)
+#   }
+#   return $sortedList
+# }
+# proc getInPinNet { cell pin default_value} {
+# 	set pin [get_bd_pins -quiet $pin]
+# 	set net [get_bd_nets -quiet -of_objects $pin]
+# 	if {$net == ""} {
+# 		catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin} nepripojen, bude pripojeno k $default_value"}
+# 		set net_name $default_value
+# 	} else {
+# 		set net_name [get_property NAME $net]
+# 	}
+# 	return $net_name
+# }
+# proc getGate { cell  function} {
+# 	set inputs_count [get_property CONFIG.Inputs [get_bd_cells -quiet $cell]]
+# 	set content {}
+# 	set prom {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 	for {set i 0} { $i < $inputs_count } { incr i } {
+# 		set cfg [format "CONFIG.I%u_Inverted" $i]
+# 		set pin [format "%s/I%u" $cell $i]
+# 		set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		set net_name [getInPinNet $cell $pin "\'0\'"]
+# 		#set net_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append prom [format "not(%s)" $net_name]
+# 		} else {
+# 			append prom [format "%s" $net_name]
+# 		}
+# 		if {$i < ($inputs_count-1)} {
+# 			append prom [format " %s " $function]
+# 		}
+# 	}
+# 	set cfg [format "CONFIG.O_Inverted" $i]
+# 	set pin [format "%s/O" $cell]
+# 	set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $prom];	
+# 		} else {
+# 			append content [format "\t%s <= %s;\n" $out_name $prom];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getBuf { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/I" $cell]
+# 	#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 	#set net_name [get_property NAME $net]
+# 	set net_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $net_name];	
+# 		} else {
+# 			append content  [format "\t%s <= %s;\n" $out_name $net_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSource { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= '1';\n" $out_name];	
+# 		} else {
+# 			append content [format "\t%s <= '0';\n" $out_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSplitter { cell } {
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set pin [format "%s/I" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set in_name [get_property NAME $net]
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= %s(%u);\n" $net_name $in_name $i]
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	} else {
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= \'0\';\n" $net_name $i]
+# 				catch {common::send_msg_id "bd2vhdl  jadro-2" "CRITICAL WARNING" "${cell} nepripojen vstup, ${net_name} bude pripojeno k \'0\'"}
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	}
+# 	return $content
+# }
+# proc getDff { cell } {
+# 	set ce [get_property CONFIG.CE [get_bd_cells -quiet $cell]]
+# 	set reset [get_property CONFIG.Reset [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/q" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net == ""} {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]
+# 		}
+# 		#set clk_name [get_property NAME $net]
+# 		set clk_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		set pin [format "%s/d" $cell]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		#set in_name [get_property NAME $net]
+# 		set in_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		if {$ce == "true"} {
+# 			set pin [format "%s/ce" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set ce_name [get_property NAME $net]
+# 			set ce_name [getInPinNet $cell $pin "\'1\'"]
+# 		}
+# 
+# 		if {$reset == "true"} {
+# 			set pin [format "%s/reset" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set reset_name [get_property NAME $net]
+# 			set reset_name [getInPinNet $cell $pin "\'0\'"]
+# 		}
+# 
+# 		append content [format "\tprocess (%s)\n\tbegin\n" $clk_name]
+# 		append content [format "\t\tif rising_edge(%s) then\n" $clk_name]
+# 		if {$reset == "true"} {
+# 			append content [format "\t\t\tif %s = '1' then\n\t\t\t\t%s <= '0';\n\t\t\tels" $reset_name $out_name]
+# 		} else {
+# 			append content "\t\t\t"
+# 		}
+# 
+# 		if {$ce == "true"} {
+# 			append content [format "if %s = '1' then\n" $ce_name]
+# 			append content [format "\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 			append content "\t\t\tend if;\n"
+# 		} else {
+# 			if {$reset == "true"} {
+# 				append content [format "e\n\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 				append content "\t\t\tend if;\n"
+# 			} else {
+# 				append content [format "%s <= %s;\n" $out_name $in_name]
+# 			}
+# 		}
+# 
+# 		append content "\t\tend if;\n\tend process;\n";
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	return $content
+# }
+# proc getMux { cell } {
+# 	set ports_count [get_property CONFIG.Data_Ports [get_bd_cells -quiet $cell]]
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set i0_bus [get_property CONFIG.I0_BUS [get_bd_cells -quiet $cell]]
+# 	set i1_bus [get_property CONFIG.I1_BUS [get_bd_cells -quiet $cell]]
+# 	set i2_bus [get_property CONFIG.I2_BUS [get_bd_cells -quiet $cell]]
+# 	set i3_bus [get_property CONFIG.I3_BUS [get_bd_cells -quiet $cell]]
+# 	set o_bus [get_property CONFIG.O_BUS [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	for {set i 0} { $i < $width } { incr i } {
+# 		if {$o_bus == "true"} {
+# 			set pin [format "%s/O" $cell]
+# 			set vecO [format "(%u)" $i]
+# 		} else {
+# 			set pin [format "%s/O_%u" $cell $i]
+# 			set vecO ""
+# 		}
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set out_name [get_property NAME $net]
+# 
+# 			if {$i0_bus == "true"} {
+# 				set pin [format "%s/I0" $cell]
+# 				set vec0 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I0_%u" $cell $i]
+# 				set vec0 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i0_name [get_property NAME $net]
+# 			set i0_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i0_name == "'0'"} {
+# 				set vec0 ""
+# 			}
+# 
+# 			if {$i1_bus == "true"} {
+# 				set pin [format "%s/I1" $cell]
+# 				set vec1 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I1_%u" $cell $i]
+# 				set vec1 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i1_name [get_property NAME $net]
+# 			set i1_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i1_name == "'0'"} {
+# 				set vec1 ""
+# 			}
+# 
+# 			set pin [format "%s/Sel0" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set sel0_name [get_property NAME $net]
+# 			set sel0_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			if {$ports_count > 2} {
+# 				if {$i2_bus == "true"} {
+# 					set pin [format "%s/I2" $cell]
+# 					set vec2 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I2_%u" $cell $i]
+# 					set vec2 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i2_name [get_property NAME $net]
+# 				set i2_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i2_name == "'0'"} {
+# 					set vec2 ""
+# 				}
+# 
+# 				if {$i3_bus == "true"} {
+# 					set pin [format "%s/I3" $cell]
+# 					set vec3 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I3_%u" $cell $i]
+# 					set vec3 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i3_name [get_property NAME $net]
+# 				set i3_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i3_name == "'0'"} {
+# 					set vec3 ""
+# 				}
+# 
+# 				set pin [format "%s/Sel1" $cell]
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set sel1_name [get_property NAME $net]
+# 				set sel1_name [getInPinNet $cell $pin "\'0\'"]
+# 				
+# 				if {$sel0_name != "'0'" && $sel1_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when %s = '0' and %s = '0' else\n" $out_name $vecO $i0_name $vec0 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '0' and %s = '1' else\n" $i1_name $vec1 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '0' else\n" $i2_name $vec2 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '1' else '0';\n\n" $i3_name $vec3 $sel1_name $sel0_name]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			} else {
+# 				if {$sel0_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when (%s = '1') else %s%s;\n" $out_name $vecO $i1_name $vec1 $sel0_name $i0_name $vec0]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			}
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" " ${cell}: pin ${pin} odstranen, vystup neni pripojen!"}
+# 			return [append content "\t-- ${pin} odstranen, vystup neni pripojen\n"]
+# 		}
+# 		
+# 	}
+# 	return $content
+# }
+# proc getDebounce { cell } {
+# 	set width [get_property CONFIG.width [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/tl_out" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set tl_out [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set clk [get_property NAME $net]
+# 
+# 			set pin [format "%s/tl_in" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set tl_in [get_property NAME $net]
+# 			set tl_in [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			append content [ format "\t%s : debounce\n\t\tgeneric map (\n\t\t\twidth => %s\n\t\t)\n\t\tport map (\n\t\t\tclk	=> %s,\n\t\t\ttl_in	=> %s,\n\t\t\ttl_out	=> %s\n\t\t);\n" $name $width $clk $tl_in $tl_out]
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]	
+# 		}
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	
+# 	return $content
+# }
+# set debounce_component "\tcomponent debounce
+# \t\tgeneric (
+# \t\t\twidth: integer := 22
+# \t\t);
+# \t\tport (
+# \t\t\tclk    : in  std_logic;
+# \t\t\ttl_in  : in  std_logic;
+# \t\t\ttl_out : out std_logic
+# \t\t);
+# \tend component;\n"
+# proc getModule_ref { cell components component_name} {
+# 	upvar $components comps
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	# nepridavat pokud uz tam ta komponenta je
+# 	if {[string first $component_name $comps] < 0} {
+# 		append comps "\tcomponent ${component_name}\n\t\tport ("
+# 		append comps $ports
+# 		append comps "\n\t\t);\n\tend component;\n\n"
+# 	}
+# 	append content "\tinst_${name} : ${component_name}\n"
+# 	append content "\t\tport map ("
+# 	append content $port_map
+# 	append content "\n\t\t);\n"
+# }
+# proc getHier { cell debounce components modules} {
+# 	global debounce_component
+# 	upvar $components comps
+# 	upvar $modules mods
+# 	upvar $debounce debs
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $cell]
+# 	set nets [lsort [get_bd_nets -quiet -of_objects [get_bd_cells $cell] -regexp -filter $filtr]]
+# 	array set busNets [list ]
+# 	set bitNets [list]
+# 	sortNets $nets busNets bitNets
+# 
+# 	set lines [list]
+# 	# Process single bit nets
+# 	foreach net [lsort -dictionary $bitNets] {
+# 		lappend lines [list "$net" "  std_logic;"]
+# 	}
+# 	# Process bus nets
+# 	foreach {net busInfo} [array2sortedList busNets] {
+# 		lassign $busInfo stop start
+# 		if {$start>$stop} {
+# 		lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+# 		} else {
+# 		lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+# 		}
+# 	}
+# 
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 
+# 	# Build the content of the stub:
+# 	set signals {}
+# 	foreach line $lines {
+# 		append signals [format "\n\tsignal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 	}
+#   set ports2Signals {}
+#     foreach net [lsort -dictionary $nets] {
+#         set net_name [get_property NAME [get_bd_nets -quiet $net]]
+#         set ports_b [get_bd_ports -quiet -of_objects [get_bd_nets -quiet $net]]
+#         if {$ports == {}} {
+#             break
+#         }
+#         foreach port [lsort -dictionary $ports_b] {
+#             set port_name [get_property NAME [get_bd_pins -quiet $port]]
+#             set dir [get_property DIR [get_bd_pins -quiet $port]]
+#             if {$dir == "I"} {
+#                 append ports2Signals "\t$net_name <= $port_name;\n"    
+#             } else {
+#                 append ports2Signals "\t$port_name <= $net_name;\n"
+#             }
+#         }
+#     }
+#   
+# 	set debounce_inner false
+#   	set components_inner {}
+#   	set modules_inner {}
+#   	set body [getIPs $cell debounce_inner components_inner modules_inner]
+# 	if {$debounce_inner} {
+# 		puts "######################################################################x"
+# 		append components_inner $debounce_component
+# 		set debs true
+#     }
+# 	
+# 	set comp_name [string replace $cell 0 0 {}]
+#     set comp_name [string map {/ _} $comp_name]
+#     append comps "\tcomponent ${comp_name}\n\t\tport ("
+#     append mods "\n\nlibrary IEEE;\nuse IEEE.std_logic_1164.all;\n\n"
+#     append mods "entity ${comp_name} is\n\tport("
+#     append mods $ports
+#     append comps $ports
+#     append mods "\n\t\t);\nend entity ${comp_name};\n\narchitecture Behavioral of ${comp_name} is\n"
+#     append mods $components_inner
+#     append mods $signals
+#     append mods "\nbegin\n"
+#     append mods $ports2Signals
+#     append mods $body
+#     append mods "\nend Behavioral;"
+#     append comps "\n\t\t);\n\tend component;\n\n"
+#     append content "\tinst_${comp_name} : ${comp_name}\n"
+#     append content "\t\tport map ("
+#     append content $port_map
+#     append content "\n\t\t);\n"
+#     append mods $modules_inner
+# 
+# 	return $content
+# }
+# proc getIPs { parent debounce components modules} {
+#   upvar $debounce deb
+#   upvar $components comps
+#   upvar $modules mods
+#   if {$parent == ""} {
+# 	set cells [get_bd_cells]	  
+#   } else {
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $parent]
+# 	set cells [get_bd_cells -of_objects [get_bd_cells $parent] -regexp -filter $filtr]
+#   }
+#   
+#   set content {}
+#   foreach cell [lsort -dictionary $cells] {
+# 	set type [get_property TYPE [get_bd_cells -quiet $cell]]
+# 	set name [get_property NAME [get_bd_cells -quiet $cell]]
+# 	set vlnv [get_property VLNV [get_bd_cells -quiet $cell]]
+# 	if {$type == "ip"} {
+# 		set vlnvs [split $vlnv ":"]
+# 		if {[lindex $vlnvs 0] == "FIT"} {
+# 		 	switch [lindex $vlnvs 2] {
+# 				"or" {
+# 					append content [getGate $cell "or"]
+# 				}
+# 				"and" {
+# 					append content [getGate $cell "and"]
+# 				}
+# 				"xor" {
+# 					append content [getGate $cell "xor"]
+# 				}
+# 				"buf" {
+# 					append content [getBuf $cell false]
+# 				}
+# 				"inv" {
+# 					append content [getBuf $cell true]
+# 				}
+# 				"gnd" {
+# 					append content [getSource $cell false]
+# 				}
+# 				"vcc" {
+# 					append content [getSource $cell true]
+# 				}
+# 				"splitter" {
+# 					append content [getSplitter $cell]
+# 				}
+# 				"mux" {
+# 					append content [getMux $cell]
+# 				}
+# 				"dff" {
+# 					append content [getDff $cell]
+# 				}
+# 				"debounce" {
+# 					append content [getDebounce $cell]
+# 					set deb true
+# 				}
+# 			}
+# 		} elseif {[lindex $vlnvs 0] == "xilinx.com" && [lindex $vlnvs 1] == "module_ref"} {
+# 			append content [getModule_ref $cell comps [lindex $vlnvs 2]]
+# 		}
+# 			
+# 	} elseif {$type == "hier"} {
+# 		append content [getHier $cell deb comps mods]
+# 	}
+#   }
+#   return $content
+# }
+# set debounce_code "\n\n\nlibrary IEEE;
+# use IEEE.STD_LOGIC_1164.ALL;
+# use ieee.std_logic_unsigned.all;
+# 
+# entity debounce is
+#     generic (
+# 		width: integer := 22 -- 100 MHz clock -> 4 - simulation (90 ns); 22 - synthesis (ca. 20 ms)
+# 	);
+#     port (
+# 		clk : in STD_LOGIC;
+#         tl_in : in STD_LOGIC;
+#         tl_out : out STD_LOGIC
+# 	);
+# end entity debounce;
+# 
+# architecture Behavioral of debounce is
+# 
+# signal cnt       : std_logic_vector(width-1 downto 0) := (others => '0');
+# signal reset, ce : std_logic := '0';
+# signal tl_prev   : std_logic := '0';
+# 
+# 
+# begin
+# 
+#     counter: process(clk) begin
+#         if rising_edge(clk) then 
+#             if (reset = '1') then
+#                 cnt <= (others => '0');
+#             elsif (ce = '1') then
+#                 cnt <= cnt + 1;
+#             end if;
+#         end if;
+#     end process;
+# 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (tl_prev /= tl_in) then
+#                 reset <= '1';
+#             else 
+#                 reset <= '0';
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (reset = '1') then
+#                 tl_prev <= tl_in;
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if ((cnt(width-1) = '1') and (cnt(0) = '0')) then
+#                 tl_out <= tl_prev;
+#             end if;
+#         end if;
+#     end process;
+#                 
+# 
+#     ce <= '0' when ((cnt(width-1) = '1') and (cnt(0) = '1'))
+#                 else '1';
+# 
+# end Behavioral;\n"
+# proc vhdlTemplate { module } {
+#   global debounce_code
+#   global debounce_component
+# 
+#   set inPorts [lsort [get_bd_ports -quiet -filter DIR==I]]
+#   array set inputBusPorts [list ]
+#   set inputBitPorts [list]
+#   sortPorts $inPorts inputBusPorts inputBitPorts
+# 
+#   set outPorts [lsort [get_bd_ports -quiet -filter DIR==O]]
+#   array set outputBusPorts [list ]
+#   set outputBitPorts [list]
+#   sortPorts $outPorts outputBusPorts outputBitPorts
+# 
+#   set inoutPorts [lsort [get_bd_ports -quiet -filter DIR==IO]]
+#   array set inoutBusPorts [list ]
+#   set inoutBitPorts [list]
+#   sortPorts $inoutPorts inoutBusPorts inoutBitPorts
+# 
+#   set lines [list]
+#   # Process input single bit ports
+# #   lappend lines "-- Input Ports - Single Bit"
+#   foreach port [lsort -dictionary $inputBitPorts] {
+#     lappend lines [list "$port" "in  std_logic;"]
+#   }
+#   # Process input bus ports
+# #   lappend lines "-- Input Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "in  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "in  std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process output single bit ports
+# #   lappend lines "-- Output Ports - Single Bit"
+#   foreach port [lsort -dictionary $outputBitPorts] {
+#     lappend lines [list "$port" "out std_logic;"]
+#   }
+#   # Process output bus ports
+# #   lappend lines "-- Output Ports - Busses"
+#   foreach {port busInfo} [array2sortedList outputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port"  "out std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "out std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process inout single bit ports
+# #   lappend lines "-- InOut Ports - Single Bit"
+#   foreach port [lsort -dictionary $inoutBitPorts] {
+#     lappend lines [list "$port" "inout  std_logic;"]
+#   }
+#   # Process inout bus ports
+# #   lappend lines "-- InOut Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inoutBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "inout  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "inout  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set content {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append content "\n      $line"
+#       continue
+#     }
+#     append content [format "\n      %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+# 
+#   # Remove the last semi-colon
+#   set index [string last {;} $content]
+#   set content [string replace $content $index $index {}]
+# 
+# 
+#   set nets [lsort [get_bd_nets -quiet]]
+#   array set busNets [list ]
+#   set bitNets [list]
+#   sortNets $nets busNets bitNets
+# 
+#   set lines [list]
+#   # Process single bit nets
+#   foreach net [lsort -dictionary $bitNets] {
+#     lappend lines [list "$net" "  std_logic;"]
+#   }
+#   # Process bus nets
+#   foreach {net busInfo} [array2sortedList busNets] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set signals {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append signals "\n      $line"
+#       continue
+#     }
+#     append signals [format "\n      signal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+#   set ports2Signals {}
+#   foreach port [lsort -dictionary $inPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$net_name <= $port_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-2" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   foreach port [lsort -dictionary $outPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$port_name <= $net_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-3" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   set debounce false
+#   set components {}
+#   set modules {}
+#   set body [getIPs "" debounce components modules]
+#   
+#   if {$debounce} {
+# 	  append components $debounce_component
+#   }
+#   # Now that the last semi-colon is replaced, add the header and footer
+#   set content [format "library IEEE;
+# use IEEE.std_logic_1164.all;
+# 
+# library xil_defaultlib;
+# use xil_defaultlib.all;
+# 
+# entity ${module}_vhdl is
+#    port (%s
+#    );
+# end entity ${module}_vhdl;
+# 
+# architecture Behavioral of ${module}_vhdl is
+# %s
+# %s
+# begin
+# %s
+# %s
+# end Behavioral;" $content $components $signals $ports2Signals $body]
+# 
+#   append content $modules
+# 
+#   if {$debounce} {
+# 	  append content $debounce_code
+#   }
+# 
+#   return $content
+# }
+# set name [current_bd_design -quiet]
+# if {$name == ""} {
+#     common::send_msg_id -continue "bd2vhdl design-2" "ERROR" "Je potreba otevrit block design!"
+# 	return
+# }
+# save_bd_design $name
+Wrote  : <D:\VivadoProjects\final\final.srcs\sources_1\bd\codelocktest\codelocktest.bd> 
+Wrote  : <D:/VivadoProjects/final/final.srcs/sources_1/bd/codelocktest/ui/bd_7468c10a.ui> 
+# validate_bd_design -force
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+# if { [llength [get_bd_ports]] > 0 } {
+# 	puts "\n##### ${name} #####"
+# 	set content [vhdlTemplate $name]
+# 	set PROJ_DIR [get_property DIRECTORY [current_project]]
+# 	set PROJ_DIR [file normalize $PROJ_DIR]
+# 	set tmp_dir [file join $PROJ_DIR "tmp"]
+# 	file mkdir $tmp_dir
+# 	set filename "${name}.vhd"
+# 	set filename_path [file join $tmp_dir $filename]
+# 	# Save the template
+# 	set mode {w}
+# 	puts "\nCreating VHDL for Design $name in [file normalize $filename]\n"
+# 	set tfh [open $filename_path $mode]
+# 	puts $tfh $content
+# 	close $tfh
+# 
+# 	import_files -force -norecurse $filename_path
+# 	common::send_msg_id "bd2vhdl design-1" "INFO" "${name}_vhdl.vhd vygenerovan"
+# } else {
+# 	common::send_msg_id -continue "bd2vhdl design-3" "ERROR" "${name} neobsahuje zadne porty!"
+# }
+
+##### codelocktest #####
+
+Creating VHDL for Design codelocktest in D:/VivadoProjects/final/codelocktest.vhd
+
+INFO: [bd2vhdl design-1] codelocktest_vhdl.vhd vygenerovan
+update_compile_order -fileset sources_1
+startgroup
+endgroup
+set_property top codelocktest_vhdl [current_fileset]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'D:/Programs/Vivado/Vivado/2018.3/data/xsim/xsim.ini' copied to run dir:'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'code_lock_vhdl' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj code_lock_vhdl_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.3
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Programs/Vivado/Vivado/2018.3/bin/unwrapped/win64.o/xelab.exe -wto 30db883f6c944c798bd4b4bd2cb4d701 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip -L xpm --snapshot code_lock_vhdl_behav xil_defaultlib.code_lock_vhdl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/VivadoProjects/final/final.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "code_lock_vhdl_behav -key {Behavioral:sim_1:Functional:code_lock_vhdl} -tclbatch {code_lock_vhdl.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.3
+Time resolution is 1 ps
+source code_lock_vhdl.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'code_lock_vhdl_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+update_module_reference codelocktest_code_lock_test_0_0
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Clock' of definition 'xilinx.com:signal:clock:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Clock' of definition 'xilinx.com:signal:clock:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Reset' of definition 'xilinx.com:signal:reset:1.0' (from X_INTERFACE_INFO parameter from HDL file).
+INFO: [IP_Flow 19-5107] Inferred bus interface 'Reset' of definition 'xilinx.com:signal:reset:1.0' (from 'X_INTERFACE_INFO' attribute).
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'ASSOCIATED_RESET' with value 'Reset'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'FREQ_HZ' with value '100000000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Clock': Added interface parameter 'PHASE' with value '0.000'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Reset': Added interface parameter 'POLARITY' with value 'ACTIVE_HIGH'.
+INFO: [IP_Flow 19-4728] Bus Interface 'Reset': Added interface parameter 'LAYERED_METADATA' with value 'undef'.
+WARNING: [IP_Flow 19-3153] Bus Interface 'Clock': ASSOCIATED_BUSIF bus parameter is missing.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'd:/VivadoProjects/lib_SAP_2022_02_02'.
+Upgrading 'D:/VivadoProjects/final/final.srcs/sources_1/bd/codelocktest/codelocktest.bd'
+INFO: [IP_Flow 19-1972] Upgraded codelocktest_code_lock_test_0_0 from code_lock_test_v1_0 1.0 to code_lock_test_v1_0 1.0
+Wrote  : <D:\VivadoProjects\final\final.srcs\sources_1\bd\codelocktest\codelocktest.bd> 
+update_module_reference: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 1231.730 ; gain = 0.000
+validate_bd_design
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+source D:/VivadoProjects/lib_SAP_2022_02_02/gen_bd_vhdl.tcl
+# proc sortPorts { ports &bus &bit } {
+# 
+#   upvar ${&bus} busPorts
+#   upvar ${&bit} bitPorts
+#   array set busPorts [list]
+#   set bitPorts [list]
+# 
+#   foreach port $ports {
+#     set name [get_property -quiet NAME [get_bd_ports $port]]
+# 	set busStart [get_property -quiet LEFT [get_bd_ports $port]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_ports $port]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busPorts [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitPorts $name
+#     }
+#   }
+#   return 0
+# }
+# proc sortPins { pins &bus &bit } {
+# 
+#   upvar ${&bus} busPins
+#   upvar ${&bit} bitPins
+#   array set busPins [list]
+#   array set bitPins [list]
+# 
+#   foreach pin $pins {
+#     set name [get_property -quiet NAME [get_bd_pins $pin]]
+# 	set dir [get_property -quiet DIR [get_bd_pins $pin]]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins $pin]]
+# 	if {$net != ""} {
+# 		set net_name [get_property -quiet NAME $net]
+# 	} else {
+# 		if {$dir == "I"} {
+# 			if {$busStart != {}} {
+# 				set net_name "(others => '0')"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			} else {
+# 				set net_name "'0'"
+# 				catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin}: nepripojen, bude pripojen k '0'"}
+# 			}
+# 		} else {
+# 			set net_name "open"
+# 			catch {common::send_msg_id "bd2vhdl    pin-3" "CRITICAL WARNING" "${pin}: pin odstranen, vystup neni pripojen!"}
+# 		}
+# 	}
+# 	if {$busStart != {}} {
+# 		array set busPins [list $name [list $busStop $busStart $net_name]]
+# 	} else {
+# 		array set bitPins [list $name $net_name]
+# 	}
+#   }
+#   return 0
+# }
+# proc sortNets { nets &bus &bit } {
+# 
+#   upvar ${&bus} busNets
+#   upvar ${&bit} bitNets
+#   array set busNets [list ]
+#   set bitNets [list]
+# 
+#   foreach net $nets {
+#     set name [get_property -quiet NAME [get_bd_nets $net]]
+# 	set pin [lindex [get_bd_pins -of_objects [get_bd_nets $net]] 0]
+# 	set busStart [get_property -quiet LEFT [get_bd_pins $pin]]
+#     set busStop  [get_property -quiet RIGHT  [get_bd_pins $pin]]
+#     if {$busStart != {}} {
+#     #   set busWidth [get_property -quiet BUS_WIDTH [get_ports $port]]
+#       array set busNets [list $name [list $busStop $busStart]]
+#     } else {
+#       lappend bitNets $name
+#     }
+#   }
+#   return 0
+# }
+# proc array2sortedList { &ar } {
+# 
+#   upvar ${&ar} ar
+#   set sortedList [list]
+#   foreach key [lsort -dictionary [array names ar]] {
+#     lappend sortedList $key
+#     lappend sortedList $ar($key)
+#   }
+#   return $sortedList
+# }
+# proc getInPinNet { cell pin default_value} {
+# 	set pin [get_bd_pins -quiet $pin]
+# 	set net [get_bd_nets -quiet -of_objects $pin]
+# 	if {$net == ""} {
+# 		catch {common::send_msg_id "bd2vhdl    pin-2" "CRITICAL WARNING" "${pin} nepripojen, bude pripojeno k $default_value"}
+# 		set net_name $default_value
+# 	} else {
+# 		set net_name [get_property NAME $net]
+# 	}
+# 	return $net_name
+# }
+# proc getGate { cell  function} {
+# 	set inputs_count [get_property CONFIG.Inputs [get_bd_cells -quiet $cell]]
+# 	set content {}
+# 	set prom {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 	for {set i 0} { $i < $inputs_count } { incr i } {
+# 		set cfg [format "CONFIG.I%u_Inverted" $i]
+# 		set pin [format "%s/I%u" $cell $i]
+# 		set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		set net_name [getInPinNet $cell $pin "\'0\'"]
+# 		#set net_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append prom [format "not(%s)" $net_name]
+# 		} else {
+# 			append prom [format "%s" $net_name]
+# 		}
+# 		if {$i < ($inputs_count-1)} {
+# 			append prom [format " %s " $function]
+# 		}
+# 	}
+# 	set cfg [format "CONFIG.O_Inverted" $i]
+# 	set pin [format "%s/O" $cell]
+# 	set inverted [get_property $cfg  [get_bd_cells -quiet $cell]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$inverted == "true"} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $prom];	
+# 		} else {
+# 			append content [format "\t%s <= %s;\n" $out_name $prom];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getBuf { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/I" $cell]
+# 	#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 	#set net_name [get_property NAME $net]
+# 	set net_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= not(%s);\n" $out_name $net_name];	
+# 		} else {
+# 			append content  [format "\t%s <= %s;\n" $out_name $net_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSource { cell  function } {
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/O" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 		if {$function == true} {
+# 			append content [format "\t%s <= '1';\n" $out_name];	
+# 		} else {
+# 			append content [format "\t%s <= '0';\n" $out_name];
+# 		}
+# 		return $content
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# }
+# proc getSplitter { cell } {
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set pin [format "%s/I" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set in_name [get_property NAME $net]
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= %s(%u);\n" $net_name $in_name $i]
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	} else {
+# 		set content {}
+# 		set name [get_property NAME $cell]
+# 		append content [format "\n\t-- %s\n" $name]
+# 		for {set i 0} { $i < $width } { incr i } {
+# 			set pin [format "%s/O%u" $cell $i]
+# 			set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 			if {$net != ""} {
+# 				set net_name [get_property NAME $net]
+# 				append content [format "\t%s <= \'0\';\n" $net_name $i]
+# 				catch {common::send_msg_id "bd2vhdl  jadro-2" "CRITICAL WARNING" "${cell} nepripojen vstup, ${net_name} bude pripojeno k \'0\'"}
+# 			} else {
+# 				catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: ${pin} odstranen, vystup neni pripojen!"}
+# 			}
+# 		}
+# 	}
+# 	return $content
+# }
+# proc getDff { cell } {
+# 	set ce [get_property CONFIG.CE [get_bd_cells -quiet $cell]]
+# 	set reset [get_property CONFIG.Reset [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/q" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set out_name [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net == ""} {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]
+# 		}
+# 		#set clk_name [get_property NAME $net]
+# 		set clk_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		set pin [format "%s/d" $cell]
+# 		#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 		#set in_name [get_property NAME $net]
+# 		set in_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 		if {$ce == "true"} {
+# 			set pin [format "%s/ce" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set ce_name [get_property NAME $net]
+# 			set ce_name [getInPinNet $cell $pin "\'1\'"]
+# 		}
+# 
+# 		if {$reset == "true"} {
+# 			set pin [format "%s/reset" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set reset_name [get_property NAME $net]
+# 			set reset_name [getInPinNet $cell $pin "\'0\'"]
+# 		}
+# 
+# 		append content [format "\tprocess (%s)\n\tbegin\n" $clk_name]
+# 		append content [format "\t\tif rising_edge(%s) then\n" $clk_name]
+# 		if {$reset == "true"} {
+# 			append content [format "\t\t\tif %s = '1' then\n\t\t\t\t%s <= '0';\n\t\t\tels" $reset_name $out_name]
+# 		} else {
+# 			append content "\t\t\t"
+# 		}
+# 
+# 		if {$ce == "true"} {
+# 			append content [format "if %s = '1' then\n" $ce_name]
+# 			append content [format "\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 			append content "\t\t\tend if;\n"
+# 		} else {
+# 			if {$reset == "true"} {
+# 				append content [format "e\n\t\t\t\t%s <= %s;\n" $out_name $in_name]
+# 				append content "\t\t\tend if;\n"
+# 			} else {
+# 				append content [format "%s <= %s;\n" $out_name $in_name]
+# 			}
+# 		}
+# 
+# 		append content "\t\tend if;\n\tend process;\n";
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	return $content
+# }
+# proc getMux { cell } {
+# 	set ports_count [get_property CONFIG.Data_Ports [get_bd_cells -quiet $cell]]
+# 	set width [get_property CONFIG.WIDTH [get_bd_cells -quiet $cell]]
+# 	set i0_bus [get_property CONFIG.I0_BUS [get_bd_cells -quiet $cell]]
+# 	set i1_bus [get_property CONFIG.I1_BUS [get_bd_cells -quiet $cell]]
+# 	set i2_bus [get_property CONFIG.I2_BUS [get_bd_cells -quiet $cell]]
+# 	set i3_bus [get_property CONFIG.I3_BUS [get_bd_cells -quiet $cell]]
+# 	set o_bus [get_property CONFIG.O_BUS [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	for {set i 0} { $i < $width } { incr i } {
+# 		if {$o_bus == "true"} {
+# 			set pin [format "%s/O" $cell]
+# 			set vecO [format "(%u)" $i]
+# 		} else {
+# 			set pin [format "%s/O_%u" $cell $i]
+# 			set vecO ""
+# 		}
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set out_name [get_property NAME $net]
+# 
+# 			if {$i0_bus == "true"} {
+# 				set pin [format "%s/I0" $cell]
+# 				set vec0 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I0_%u" $cell $i]
+# 				set vec0 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i0_name [get_property NAME $net]
+# 			set i0_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i0_name == "'0'"} {
+# 				set vec0 ""
+# 			}
+# 
+# 			if {$i1_bus == "true"} {
+# 				set pin [format "%s/I1" $cell]
+# 				set vec1 [format "(%u)" $i]
+# 			} else {
+# 				set pin [format "%s/I1_%u" $cell $i]
+# 				set vec1 ""
+# 			}
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set i1_name [get_property NAME $net]
+# 			set i1_name [getInPinNet $cell $pin "\'0\'"]
+# 			if {$i1_name == "'0'"} {
+# 				set vec1 ""
+# 			}
+# 
+# 			set pin [format "%s/Sel0" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set sel0_name [get_property NAME $net]
+# 			set sel0_name [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			if {$ports_count > 2} {
+# 				if {$i2_bus == "true"} {
+# 					set pin [format "%s/I2" $cell]
+# 					set vec2 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I2_%u" $cell $i]
+# 					set vec2 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i2_name [get_property NAME $net]
+# 				set i2_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i2_name == "'0'"} {
+# 					set vec2 ""
+# 				}
+# 
+# 				if {$i3_bus == "true"} {
+# 					set pin [format "%s/I3" $cell]
+# 					set vec3 [format "(%u)" $i]
+# 				} else {
+# 					set pin [format "%s/I3_%u" $cell $i]
+# 					set vec3 ""
+# 				}
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set i3_name [get_property NAME $net]
+# 				set i3_name [getInPinNet $cell $pin "\'0\'"]
+# 				if {$i3_name == "'0'"} {
+# 					set vec3 ""
+# 				}
+# 
+# 				set pin [format "%s/Sel1" $cell]
+# 				#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 				#set sel1_name [get_property NAME $net]
+# 				set sel1_name [getInPinNet $cell $pin "\'0\'"]
+# 				
+# 				if {$sel0_name != "'0'" && $sel1_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when %s = '0' and %s = '0' else\n" $out_name $vecO $i0_name $vec0 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '0' and %s = '1' else\n" $i1_name $vec1 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '0' else\n" $i2_name $vec2 $sel1_name $sel0_name]
+# 					append content [format "\t\t%s%s when %s = '1' and %s = '1' else '0';\n\n" $i3_name $vec3 $sel1_name $sel0_name]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			} else {
+# 				if {$sel0_name != "'0'"} {
+# 					append content [format "\t%s%s <= %s%s when (%s = '1') else %s%s;\n" $out_name $vecO $i1_name $vec1 $sel0_name $i0_name $vec0]
+# 				} else {
+# 					append content [format "\t%s%s <= %s%s;\n" $out_name $vecO $i0_name $vec0]
+# 				}
+# 			}
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" " ${cell}: pin ${pin} odstranen, vystup neni pripojen!"}
+# 			return [append content "\t-- ${pin} odstranen, vystup neni pripojen\n"]
+# 		}
+# 		
+# 	}
+# 	return $content
+# }
+# proc getDebounce { cell } {
+# 	set width [get_property CONFIG.width [get_bd_cells -quiet $cell]]
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set pin [format "%s/tl_out" $cell]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 	if {$net != ""} {
+# 		set tl_out [get_property NAME $net]
+# 
+# 		set pin [format "%s/clk" $cell]
+# 		set net [get_bd_nets -quiet -of_objects [get_bd_pins -quiet $pin]]
+# 		if {$net != ""} {
+# 			set clk [get_property NAME $net]
+# 
+# 			set pin [format "%s/tl_in" $cell]
+# 			#set net [get_bd_nets -of_objects [get_bd_pins -quiet $pin]]
+# 			#set tl_in [get_property NAME $net]
+# 			set tl_in [getInPinNet $cell $pin "\'0\'"]
+# 
+# 			append content [ format "\t%s : debounce\n\t\tgeneric map (\n\t\t\twidth => %s\n\t\t)\n\t\tport map (\n\t\t\tclk	=> %s,\n\t\t\ttl_in	=> %s,\n\t\t\ttl_out	=> %s\n\t\t);\n" $name $width $clk $tl_in $tl_out]
+# 		} else {
+# 			catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, nejsou pripojene hodiny!"}
+# 			return [append content "\t-- odstraneno, , nejsou pripojene hodiny!\n"]	
+# 		}
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl  jadro-3" "CRITICAL WARNING" "${cell}: odstraneno, vystup neni pripojen!"}
+# 		return [append content "\t-- odstraneno, vystup neni pripojen\n"]
+# 	}
+# 	
+# 	return $content
+# }
+# set debounce_component "\tcomponent debounce
+# \t\tgeneric (
+# \t\t\twidth: integer := 22
+# \t\t);
+# \t\tport (
+# \t\t\tclk    : in  std_logic;
+# \t\t\ttl_in  : in  std_logic;
+# \t\t\ttl_out : out std_logic
+# \t\t);
+# \tend component;\n"
+# proc getModule_ref { cell components component_name} {
+# 	upvar $components comps
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	# nepridavat pokud uz tam ta komponenta je
+# 	if {[string first $component_name $comps] < 0} {
+# 		append comps "\tcomponent ${component_name}\n\t\tport ("
+# 		append comps $ports
+# 		append comps "\n\t\t);\n\tend component;\n\n"
+# 	}
+# 	append content "\tinst_${name} : ${component_name}\n"
+# 	append content "\t\tport map ("
+# 	append content $port_map
+# 	append content "\n\t\t);\n"
+# }
+# proc getHier { cell debounce components modules} {
+# 	global debounce_component
+# 	upvar $components comps
+# 	upvar $modules mods
+# 	upvar $debounce debs
+# 
+# 	set inPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==I]]
+# 	array set inputBusPins [list]
+# 	array set inputBitPins [list]
+# 	sortPins $inPins inputBusPins inputBitPins
+# 
+# 	set outPins [lsort [get_bd_pins -quiet -of_objects [get_bd_cells $cell] -filter DIR==O]]
+# 	array set outputBusPins [list]
+# 	array set outputBitPins [list]
+# 	sortPins $outPins outputBusPins outputBitPins
+# 
+# 	set content {}
+# 	set name [get_property NAME $cell]
+# 	append content [format "\n\t-- %s\n" $name]
+# 
+# 	set lines [list]
+# 	foreach {pin net} [array2sortedList inputBitPins] {
+#     	lappend lines [list "$pin" "in  std_logic;" "$net"]
+#   	}
+# 	foreach {pin busInfo} [array2sortedList inputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "in  std_logic_vector($start to $stop);" "$net"]
+# 		}
+#   	}
+# 	foreach {pin net} [array2sortedList outputBitPins] {
+#     	lappend lines [list "$pin" "out std_logic;" "$net"]
+# 	}
+# 	foreach {pin busInfo} [array2sortedList outputBusPins] {
+# 		lassign $busInfo stop start net
+# 		if {$start>$stop} {
+# 			lappend lines [list "$pin"  "out std_logic_vector($start downto $stop);" "$net"]
+# 		} else {
+# 			lappend lines [list "$pin" "out std_logic_vector($start to $stop);" "$net"]
+# 		}
+# 	}
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 	set ports {}
+# 	set port_map {}
+# 	foreach line $lines {
+# 		append ports [format "\n\t\t\t%-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 		append port_map [format "\n\t\t\t%-${maxWidth}s =>  %-${maxWidth}s," [lindex $line 0] [lindex $line 2]]
+# 	}
+# 	# Remove the last semi-colon
+#   	set index [string last {;} $ports]
+#   	set ports [string replace $ports $index $index {}]
+# 	# Remove the last ,
+#   	set index [string last {,} $port_map]
+#   	set port_map [string replace $port_map $index $index {}]
+# 
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $cell]
+# 	set nets [lsort [get_bd_nets -quiet -of_objects [get_bd_cells $cell] -regexp -filter $filtr]]
+# 	array set busNets [list ]
+# 	set bitNets [list]
+# 	sortNets $nets busNets bitNets
+# 
+# 	set lines [list]
+# 	# Process single bit nets
+# 	foreach net [lsort -dictionary $bitNets] {
+# 		lappend lines [list "$net" "  std_logic;"]
+# 	}
+# 	# Process bus nets
+# 	foreach {net busInfo} [array2sortedList busNets] {
+# 		lassign $busInfo stop start
+# 		if {$start>$stop} {
+# 		lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+# 		} else {
+# 		lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+# 		}
+# 	}
+# 
+# 	# Detect maximum column width to align columns
+# 	foreach line $lines {
+# 		set width [string length [lindex $line 0]]
+# 		if {![info exist maxWidth] || $maxWidth < $width} {
+# 			set maxWidth $width
+# 		}
+# 	}
+# 
+# 	# Build the content of the stub:
+# 	set signals {}
+# 	foreach line $lines {
+# 		append signals [format "\n\tsignal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+# 	}
+#   set ports2Signals {}
+#     foreach net [lsort -dictionary $nets] {
+#         set net_name [get_property NAME [get_bd_nets -quiet $net]]
+#         set ports_b [get_bd_ports -quiet -of_objects [get_bd_nets -quiet $net]]
+#         if {$ports == {}} {
+#             break
+#         }
+#         foreach port [lsort -dictionary $ports_b] {
+#             set port_name [get_property NAME [get_bd_pins -quiet $port]]
+#             set dir [get_property DIR [get_bd_pins -quiet $port]]
+#             if {$dir == "I"} {
+#                 append ports2Signals "\t$net_name <= $port_name;\n"    
+#             } else {
+#                 append ports2Signals "\t$port_name <= $net_name;\n"
+#             }
+#         }
+#     }
+#   
+# 	set debounce_inner false
+#   	set components_inner {}
+#   	set modules_inner {}
+#   	set body [getIPs $cell debounce_inner components_inner modules_inner]
+# 	if {$debounce_inner} {
+# 		puts "######################################################################x"
+# 		append components_inner $debounce_component
+# 		set debs true
+#     }
+# 	
+# 	set comp_name [string replace $cell 0 0 {}]
+#     set comp_name [string map {/ _} $comp_name]
+#     append comps "\tcomponent ${comp_name}\n\t\tport ("
+#     append mods "\n\nlibrary IEEE;\nuse IEEE.std_logic_1164.all;\n\n"
+#     append mods "entity ${comp_name} is\n\tport("
+#     append mods $ports
+#     append comps $ports
+#     append mods "\n\t\t);\nend entity ${comp_name};\n\narchitecture Behavioral of ${comp_name} is\n"
+#     append mods $components_inner
+#     append mods $signals
+#     append mods "\nbegin\n"
+#     append mods $ports2Signals
+#     append mods $body
+#     append mods "\nend Behavioral;"
+#     append comps "\n\t\t);\n\tend component;\n\n"
+#     append content "\tinst_${comp_name} : ${comp_name}\n"
+#     append content "\t\tport map ("
+#     append content $port_map
+#     append content "\n\t\t);\n"
+#     append mods $modules_inner
+# 
+# 	return $content
+# }
+# proc getIPs { parent debounce components modules} {
+#   upvar $debounce deb
+#   upvar $components comps
+#   upvar $modules mods
+#   if {$parent == ""} {
+# 	set cells [get_bd_cells]	  
+#   } else {
+# 	set filtr [format {PATH !~ "%s/.*/.*"} $parent]
+# 	set cells [get_bd_cells -of_objects [get_bd_cells $parent] -regexp -filter $filtr]
+#   }
+#   
+#   set content {}
+#   foreach cell [lsort -dictionary $cells] {
+# 	set type [get_property TYPE [get_bd_cells -quiet $cell]]
+# 	set name [get_property NAME [get_bd_cells -quiet $cell]]
+# 	set vlnv [get_property VLNV [get_bd_cells -quiet $cell]]
+# 	if {$type == "ip"} {
+# 		set vlnvs [split $vlnv ":"]
+# 		if {[lindex $vlnvs 0] == "FIT"} {
+# 		 	switch [lindex $vlnvs 2] {
+# 				"or" {
+# 					append content [getGate $cell "or"]
+# 				}
+# 				"and" {
+# 					append content [getGate $cell "and"]
+# 				}
+# 				"xor" {
+# 					append content [getGate $cell "xor"]
+# 				}
+# 				"buf" {
+# 					append content [getBuf $cell false]
+# 				}
+# 				"inv" {
+# 					append content [getBuf $cell true]
+# 				}
+# 				"gnd" {
+# 					append content [getSource $cell false]
+# 				}
+# 				"vcc" {
+# 					append content [getSource $cell true]
+# 				}
+# 				"splitter" {
+# 					append content [getSplitter $cell]
+# 				}
+# 				"mux" {
+# 					append content [getMux $cell]
+# 				}
+# 				"dff" {
+# 					append content [getDff $cell]
+# 				}
+# 				"debounce" {
+# 					append content [getDebounce $cell]
+# 					set deb true
+# 				}
+# 			}
+# 		} elseif {[lindex $vlnvs 0] == "xilinx.com" && [lindex $vlnvs 1] == "module_ref"} {
+# 			append content [getModule_ref $cell comps [lindex $vlnvs 2]]
+# 		}
+# 			
+# 	} elseif {$type == "hier"} {
+# 		append content [getHier $cell deb comps mods]
+# 	}
+#   }
+#   return $content
+# }
+# set debounce_code "\n\n\nlibrary IEEE;
+# use IEEE.STD_LOGIC_1164.ALL;
+# use ieee.std_logic_unsigned.all;
+# 
+# entity debounce is
+#     generic (
+# 		width: integer := 22 -- 100 MHz clock -> 4 - simulation (90 ns); 22 - synthesis (ca. 20 ms)
+# 	);
+#     port (
+# 		clk : in STD_LOGIC;
+#         tl_in : in STD_LOGIC;
+#         tl_out : out STD_LOGIC
+# 	);
+# end entity debounce;
+# 
+# architecture Behavioral of debounce is
+# 
+# signal cnt       : std_logic_vector(width-1 downto 0) := (others => '0');
+# signal reset, ce : std_logic := '0';
+# signal tl_prev   : std_logic := '0';
+# 
+# 
+# begin
+# 
+#     counter: process(clk) begin
+#         if rising_edge(clk) then 
+#             if (reset = '1') then
+#                 cnt <= (others => '0');
+#             elsif (ce = '1') then
+#                 cnt <= cnt + 1;
+#             end if;
+#         end if;
+#     end process;
+# 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (tl_prev /= tl_in) then
+#                 reset <= '1';
+#             else 
+#                 reset <= '0';
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if (reset = '1') then
+#                 tl_prev <= tl_in;
+#             end if;
+#         end if;
+#     end process;
+#                 
+#     process(clk) begin
+#         if rising_edge(clk) then
+#             if ((cnt(width-1) = '1') and (cnt(0) = '0')) then
+#                 tl_out <= tl_prev;
+#             end if;
+#         end if;
+#     end process;
+#                 
+# 
+#     ce <= '0' when ((cnt(width-1) = '1') and (cnt(0) = '1'))
+#                 else '1';
+# 
+# end Behavioral;\n"
+# proc vhdlTemplate { module } {
+#   global debounce_code
+#   global debounce_component
+# 
+#   set inPorts [lsort [get_bd_ports -quiet -filter DIR==I]]
+#   array set inputBusPorts [list ]
+#   set inputBitPorts [list]
+#   sortPorts $inPorts inputBusPorts inputBitPorts
+# 
+#   set outPorts [lsort [get_bd_ports -quiet -filter DIR==O]]
+#   array set outputBusPorts [list ]
+#   set outputBitPorts [list]
+#   sortPorts $outPorts outputBusPorts outputBitPorts
+# 
+#   set inoutPorts [lsort [get_bd_ports -quiet -filter DIR==IO]]
+#   array set inoutBusPorts [list ]
+#   set inoutBitPorts [list]
+#   sortPorts $inoutPorts inoutBusPorts inoutBitPorts
+# 
+#   set lines [list]
+#   # Process input single bit ports
+# #   lappend lines "-- Input Ports - Single Bit"
+#   foreach port [lsort -dictionary $inputBitPorts] {
+#     lappend lines [list "$port" "in  std_logic;"]
+#   }
+#   # Process input bus ports
+# #   lappend lines "-- Input Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "in  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "in  std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process output single bit ports
+# #   lappend lines "-- Output Ports - Single Bit"
+#   foreach port [lsort -dictionary $outputBitPorts] {
+#     lappend lines [list "$port" "out std_logic;"]
+#   }
+#   # Process output bus ports
+# #   lappend lines "-- Output Ports - Busses"
+#   foreach {port busInfo} [array2sortedList outputBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port"  "out std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "out std_logic_vector($start to $stop);"]
+#     }
+#   }
+#   # Process inout single bit ports
+# #   lappend lines "-- InOut Ports - Single Bit"
+#   foreach port [lsort -dictionary $inoutBitPorts] {
+#     lappend lines [list "$port" "inout  std_logic;"]
+#   }
+#   # Process inout bus ports
+# #   lappend lines "-- InOut Ports - Busses"
+#   foreach {port busInfo} [array2sortedList inoutBusPorts] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$port" "inout  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$port" "inout  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set content {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append content "\n      $line"
+#       continue
+#     }
+#     append content [format "\n      %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+# 
+#   # Remove the last semi-colon
+#   set index [string last {;} $content]
+#   set content [string replace $content $index $index {}]
+# 
+# 
+#   set nets [lsort [get_bd_nets -quiet]]
+#   array set busNets [list ]
+#   set bitNets [list]
+#   sortNets $nets busNets bitNets
+# 
+#   set lines [list]
+#   # Process single bit nets
+#   foreach net [lsort -dictionary $bitNets] {
+#     lappend lines [list "$net" "  std_logic;"]
+#   }
+#   # Process bus nets
+#   foreach {net busInfo} [array2sortedList busNets] {
+#     lassign $busInfo stop start
+#     if {$start>$stop} {
+#       lappend lines [list "$net" "  std_logic_vector($start downto $stop);"]
+#     } else {
+#       lappend lines [list "$net" "  std_logic_vector($start to $stop);"]
+#     }
+#   }
+# 
+#   # Detect maximum column width to align columns
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Skip lines that are just comments
+#       continue
+#     }
+#     set width [string length [lindex $line 0]]
+#     if {![info exist maxWidth] || $maxWidth < $width} {
+#       set maxWidth $width
+#     }
+#   }
+# 
+#   # Build the content of the stub:
+#   set signals {}
+#   foreach line $lines {
+#     if {[regexp {^\s*\-\-} $line]} {
+#       # Lines that are just comments
+#       append signals "\n      $line"
+#       continue
+#     }
+#     append signals [format "\n      signal %-${maxWidth}s :  %-${maxWidth}s" [lindex $line 0] [lindex $line 1]]
+#   }
+#   set ports2Signals {}
+#   foreach port [lsort -dictionary $inPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$net_name <= $port_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-2" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   foreach port [lsort -dictionary $outPorts] {
+# 	set port_name [get_property NAME [get_bd_ports -quiet $port]]
+# 	set net [get_bd_nets -quiet -of_objects [get_bd_ports -quiet $port]]
+# 	if {$net != ""} {
+# 		set net_name [get_property NAME $net]
+# 		append ports2Signals "\t$port_name <= $net_name;\n"
+# 	} else {
+# 		catch {common::send_msg_id "bd2vhdl   port-3" "CRITICAL WARNING" "${port_name}: port nepripojen!"}
+# 	}
+#   }
+#   set debounce false
+#   set components {}
+#   set modules {}
+#   set body [getIPs "" debounce components modules]
+#   
+#   if {$debounce} {
+# 	  append components $debounce_component
+#   }
+#   # Now that the last semi-colon is replaced, add the header and footer
+#   set content [format "library IEEE;
+# use IEEE.std_logic_1164.all;
+# 
+# library xil_defaultlib;
+# use xil_defaultlib.all;
+# 
+# entity ${module}_vhdl is
+#    port (%s
+#    );
+# end entity ${module}_vhdl;
+# 
+# architecture Behavioral of ${module}_vhdl is
+# %s
+# %s
+# begin
+# %s
+# %s
+# end Behavioral;" $content $components $signals $ports2Signals $body]
+# 
+#   append content $modules
+# 
+#   if {$debounce} {
+# 	  append content $debounce_code
+#   }
+# 
+#   return $content
+# }
+# set name [current_bd_design -quiet]
+# if {$name == ""} {
+#     common::send_msg_id -continue "bd2vhdl design-2" "ERROR" "Je potreba otevrit block design!"
+# 	return
+# }
+# save_bd_design $name
+Wrote  : <D:\VivadoProjects\final\final.srcs\sources_1\bd\codelocktest\codelocktest.bd> 
+# validate_bd_design -force
+WARNING: [BD 41-927] Following properties on pin /automat_vhdl_0/CLK have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+WARNING: [BD 41-927] Following properties on pin /code_lock_test_0/Clock have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=codelocktest_code_lock_test_0_0_Clock 
+# if { [llength [get_bd_ports]] > 0 } {
+# 	puts "\n##### ${name} #####"
+# 	set content [vhdlTemplate $name]
+# 	set PROJ_DIR [get_property DIRECTORY [current_project]]
+# 	set PROJ_DIR [file normalize $PROJ_DIR]
+# 	set tmp_dir [file join $PROJ_DIR "tmp"]
+# 	file mkdir $tmp_dir
+# 	set filename "${name}.vhd"
+# 	set filename_path [file join $tmp_dir $filename]
+# 	# Save the template
+# 	set mode {w}
+# 	puts "\nCreating VHDL for Design $name in [file normalize $filename]\n"
+# 	set tfh [open $filename_path $mode]
+# 	puts $tfh $content
+# 	close $tfh
+# 
+# 	import_files -force -norecurse $filename_path
+# 	common::send_msg_id "bd2vhdl design-1" "INFO" "${name}_vhdl.vhd vygenerovan"
+# } else {
+# 	common::send_msg_id -continue "bd2vhdl design-3" "ERROR" "${name} neobsahuje zadne porty!"
+# }
+
+##### codelocktest #####
+
+Creating VHDL for Design codelocktest in D:/VivadoProjects/final/codelocktest.vhd
+
+INFO: [bd2vhdl design-1] codelocktest_vhdl.vhd vygenerovan
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 15 00:43:09 2023...

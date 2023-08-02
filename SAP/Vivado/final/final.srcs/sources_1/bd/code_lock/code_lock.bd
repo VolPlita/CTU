@@ -1,0 +1,278 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x418D93187998DD12",
+      "device": "xc7a35tcpg236-1",
+      "name": "code_lock",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "button_A": "",
+      "button_B": "",
+      "button_C": "",
+      "decoder_vhdl_0": "",
+      "automat_vhdl_0": "",
+      "gnd_0": ""
+    },
+    "ports": {
+      "CLK": {
+        "direction": "I"
+      },
+      "BTN_B": {
+        "direction": "I"
+      },
+      "BTN_C": {
+        "direction": "I"
+      },
+      "BTN_A": {
+        "direction": "I"
+      },
+      "y0": {
+        "direction": "O"
+      }
+    },
+    "components": {
+      "button_A": {
+        "vlnv": "xilinx.com:module_ref:button_vhdl:1.0",
+        "xci_name": "code_lock_button_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "button_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "BTN": {
+            "direction": "I"
+          },
+          "O1": {
+            "direction": "O"
+          }
+        }
+      },
+      "button_B": {
+        "vlnv": "xilinx.com:module_ref:button_vhdl:1.0",
+        "xci_name": "code_lock_button_vhdl_1_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "button_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "BTN": {
+            "direction": "I"
+          },
+          "O1": {
+            "direction": "O"
+          }
+        }
+      },
+      "button_C": {
+        "vlnv": "xilinx.com:module_ref:button_vhdl:1.0",
+        "xci_name": "code_lock_button_vhdl_2_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "button_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "reset",
+                "value_src": "constant"
+              }
+            }
+          },
+          "reset": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "BTN": {
+            "direction": "I"
+          },
+          "O1": {
+            "direction": "O"
+          }
+        }
+      },
+      "decoder_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:decoder_vhdl:1.0",
+        "xci_name": "code_lock_decoder_vhdl_0_2",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "decoder_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "A": {
+            "direction": "I"
+          },
+          "B": {
+            "direction": "I"
+          },
+          "C": {
+            "direction": "I"
+          },
+          "ERR": {
+            "direction": "O"
+          },
+          "Y1": {
+            "direction": "O"
+          },
+          "Y2": {
+            "direction": "O"
+          }
+        }
+      },
+      "automat_vhdl_0": {
+        "vlnv": "xilinx.com:module_ref:automat_vhdl:1.0",
+        "xci_name": "code_lock_automat_vhdl_0_0",
+        "reference_info": {
+          "ref_type": "hdl",
+          "ref_name": "automat_vhdl",
+          "boundary_crc": "0x0"
+        },
+        "ports": {
+          "CLK": {
+            "type": "clk",
+            "direction": "I",
+            "parameters": {
+              "ASSOCIATED_RESET": {
+                "value": "RESET",
+                "value_src": "constant"
+              }
+            }
+          },
+          "RESET": {
+            "type": "rst",
+            "direction": "I"
+          },
+          "b1": {
+            "direction": "I"
+          },
+          "b2": {
+            "direction": "I"
+          },
+          "y0": {
+            "direction": "O"
+          }
+        }
+      },
+      "gnd_0": {
+        "vlnv": "FIT:user:gnd:1.0",
+        "xci_name": "code_lock_gnd_0_0"
+      }
+    },
+    "nets": {
+      "button_A_O1": {
+        "ports": [
+          "button_A/O1",
+          "decoder_vhdl_0/A"
+        ]
+      },
+      "button_B_O1": {
+        "ports": [
+          "button_B/O1",
+          "decoder_vhdl_0/B"
+        ]
+      },
+      "button_C_O1": {
+        "ports": [
+          "button_C/O1",
+          "decoder_vhdl_0/C"
+        ]
+      },
+      "decoder_vhdl_0_ERR": {
+        "ports": [
+          "decoder_vhdl_0/ERR",
+          "automat_vhdl_0/RESET"
+        ]
+      },
+      "decoder_vhdl_0_Y1": {
+        "ports": [
+          "decoder_vhdl_0/Y1",
+          "automat_vhdl_0/b1"
+        ]
+      },
+      "decoder_vhdl_0_Y2": {
+        "ports": [
+          "decoder_vhdl_0/Y2",
+          "automat_vhdl_0/b2"
+        ]
+      },
+      "CLK_1": {
+        "ports": [
+          "CLK",
+          "button_A/CLK",
+          "button_B/CLK",
+          "button_C/CLK",
+          "automat_vhdl_0/CLK"
+        ]
+      },
+      "BTN_0_1": {
+        "ports": [
+          "BTN_B",
+          "button_B/BTN"
+        ]
+      },
+      "BTN_1_1": {
+        "ports": [
+          "BTN_C",
+          "button_C/BTN"
+        ]
+      },
+      "BTN_2_1": {
+        "ports": [
+          "BTN_A",
+          "button_A/BTN"
+        ]
+      },
+      "automat_vhdl_0_y0": {
+        "ports": [
+          "automat_vhdl_0/y0",
+          "y0"
+        ]
+      },
+      "gnd_0_O": {
+        "ports": [
+          "gnd_0/O",
+          "button_A/reset",
+          "button_B/reset",
+          "button_C/reset"
+        ]
+      }
+    }
+  }
+}

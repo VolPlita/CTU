@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root MajorVersion="0" MinorVersion="36">
+  <CompositeFile CompositeFileTopName="decoder" CanBeSetAsTop="false" CanDisplayChildGraph="true">
+    <Description>Composite Fileset</Description>
+    <Generation Name="SYNTHESIS" State="STALE" Timestamp="1678034127"/>
+    <Generation Name="IMPLEMENTATION" State="STALE" Timestamp="1678034127"/>
+    <Generation Name="SIMULATION" State="STALE" Timestamp="1678034127"/>
+    <Generation Name="HW_HANDOFF" State="STALE" Timestamp="1678034127"/>
+    <FileCollection Name="SOURCES" Type="SOURCES">
+      <File Name="ip\decoder_f_a_vhdl_0_0\decoder_f_a_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_a_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_b_vhdl_0_6\decoder_f_b_vhdl_0_6.xci" Type="IP">
+        <Instance HierarchyPath="f_b_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_c_vhdl_0_0\decoder_f_c_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_c_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_d_vhdl_0_0\decoder_f_d_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_d_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_e_vhdl_0_0\decoder_f_e_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_e_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_f_vhdl_0_0\decoder_f_f_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_f_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_f_g_vhdl_0_0\decoder_f_g_vhdl_0_0.xci" Type="IP">
+        <Instance HierarchyPath="f_g_vhdl_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_gnd_0_0\decoder_gnd_0_0.xci" Type="IP">
+        <Instance HierarchyPath="gnd_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+      <File Name="ip\decoder_vcc_0_0\decoder_vcc_0_0.xci" Type="IP">
+        <Instance HierarchyPath="vcc_0"/>
+        <Properties IsEditable="false" IsVisible="true" Timestamp="0" IsTrackable="true" IsStatusTracked="true"/>
+        <Library Name="xil_defaultlib"/>
+        <UsedIn Val="SYNTHESIS"/>
+        <UsedIn Val="IMPLEMENTATION"/>
+        <UsedIn Val="SIMULATION"/>
+      </File>
+    </FileCollection>
+  </CompositeFile>
+</Root>

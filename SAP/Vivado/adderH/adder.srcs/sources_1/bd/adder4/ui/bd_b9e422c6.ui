@@ -1,0 +1,43 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port S3 -pg 1 -y 450 -defaultsOSRD
+preplace port B0 -pg 1 -y -80 -defaultsOSRD
+preplace port B1 -pg 1 -y 120 -defaultsOSRD
+preplace port B2 -pg 1 -y 270 -defaultsOSRD
+preplace port B3 -pg 1 -y 430 -defaultsOSRD
+preplace port A0 -pg 1 -y -110 -defaultsOSRD
+preplace port A1 -pg 1 -y 90 -defaultsOSRD
+preplace port S0 -pg 1 -y -60 -defaultsOSRD
+preplace port C_out -pg 1 -y 420 -defaultsOSRD
+preplace port A2 -pg 1 -y 240 -defaultsOSRD
+preplace port S1 -pg 1 -y 130 -defaultsOSRD
+preplace port A3 -pg 1 -y 400 -defaultsOSRD
+preplace port S2 -pg 1 -y 280 -defaultsOSRD
+preplace port C_in -pg 1 -y -50 -defaultsOSRD
+preplace inst adder_vhdl_0 -pg 1 -lvl 1 -y -70 -defaultsOSRD
+preplace inst adder_vhdl_1 -pg 1 -lvl 1 -y 120 -defaultsOSRD
+preplace inst adder_vhdl_2 -pg 1 -lvl 1 -y 270 -defaultsOSRD
+preplace inst adder_vhdl_3 -pg 1 -lvl 1 -y 430 -defaultsOSRD
+preplace netloc adder_vhdl_1_C_out 1 0 2 -10 40 190
+preplace netloc adder_vhdl_1_S1 1 1 1 NJ
+preplace netloc A1_3_1 1 0 1 -30J
+preplace netloc adder_vhdl_0_S1 1 1 1 NJ
+preplace netloc B1_3_1 1 0 1 NJ
+preplace netloc adder_vhdl_3_C_out 1 1 1 NJ
+preplace netloc A1_0_1 1 0 1 -10J
+preplace netloc C_in_0_1 1 0 1 NJ
+preplace netloc B1_0_1 1 0 1 -10J
+preplace netloc adder_vhdl_0_C_out 1 0 2 -20 10 190
+preplace netloc adder_vhdl_3_S1 1 1 1 190J
+preplace netloc B1_1_1 1 0 1 NJ
+preplace netloc A1_2_1 1 0 1 -20J
+preplace netloc adder_vhdl_2_C_out 1 0 2 -10 350 190
+preplace netloc adder_vhdl_2_S1 1 1 1 NJ
+preplace netloc B1_2_1 1 0 1 NJ
+preplace netloc A1_1_1 1 0 1 -30J
+levelinfo -pg 1 -50 100 390 -top -150 -bot 570
+"
+}
+

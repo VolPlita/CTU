@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Mar 13 23:06:18 2023
+# Process ID: 4924
+# Current directory: D:/VivadoProjects/decoder_bon1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5764 D:\VivadoProjects\decoder_bon1\decoder_bon1.xpr
+# Log file: D:/VivadoProjects/decoder_bon1/vivado.log
+# Journal file: D:/VivadoProjects/decoder_bon1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/VivadoProjects/decoder_bon1/decoder_bon1.xpr
+update_compile_order -fileset sources_1
+open_run synth_1 -name synth_1
+save_project_as decoder_bon2 D:/VivadoProjects/decoder_bon2 -force
