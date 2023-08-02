@@ -1,0 +1,58 @@
+\doxysection{Resources.\+hpp}
+\hypertarget{Resources_8hpp_source}{}\label{Resources_8hpp_source}\index{src/Resources.hpp@{src/Resources.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <map>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}define.hpp"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}Text.hpp"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCResources}{CResources}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \ \ \ \ std::map<std::string,\ int>\ m\_resources;}
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ }
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{classCResources_aa3eddf2f3e237909220d7b9648820e71}{CResources}}();}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classCResources_aa3eddf2f3e237909220d7b9648820e71}{CResources}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \textcolor{keywordtype}{int}\ b,\ \textcolor{keywordtype}{int}\ f,\ \textcolor{keywordtype}{int}\ p);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00040\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResources_ab6885f64ba66e7b50c43046ae7df112e}{add\_resource}}(\textcolor{keyword}{const}\ std::string\ \&\ res,\ \textcolor{keywordtype}{int}\ amount);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00047\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResources_a54000e2b244a55d47ac1fa03cbe1b4e8}{set\_resource}}(\textcolor{keyword}{const}\ std::string\ \&\ res,\ \textcolor{keywordtype}{int}\ amount);}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00054\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResources_a6ba42e8799ac4176ed67fc51265f988a}{remove\_resource}}(\textcolor{keyword}{const}\ std::string\ \&\ res,\ \textcolor{keywordtype}{int}\ amount);}
+\DoxyCodeLine{00055\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCResources_a15674cf3ecffd433451c79f9788d13d8}{get\_resource}}(\textcolor{keyword}{const}\ std::string\ \&\ res);}
+\DoxyCodeLine{00062\ \};}
+\DoxyCodeLine{00063\ }
+\DoxyCodeLine{00070\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCResourceText}{CResourceText}}}
+\DoxyCodeLine{00071\ \{}
+\DoxyCodeLine{00072\ \ \ \ \ \mbox{\hyperlink{classCResources}{CResources}}\ *\ m\_base;}
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_gold;}
+\DoxyCodeLine{00074\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_gold\_amount;}
+\DoxyCodeLine{00075\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_stone;}
+\DoxyCodeLine{00076\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_stone\_amount;}
+\DoxyCodeLine{00077\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_wood;}
+\DoxyCodeLine{00078\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_wood\_amount;}
+\DoxyCodeLine{00079\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_bread;}
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_bread\_amount;}
+\DoxyCodeLine{00081\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_fish;}
+\DoxyCodeLine{00082\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_fish\_amount;}
+\DoxyCodeLine{00083\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_population;}
+\DoxyCodeLine{00084\ \ \ \ \ \mbox{\hyperlink{classCText}{CText}}\ m\_population\_amount;}
+\DoxyCodeLine{00085\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00086\ }
+\DoxyCodeLine{00092\ \ \ \ \ \mbox{\hyperlink{classCResourceText}{CResourceText}}(\mbox{\hyperlink{classCResources}{CResources}}\ *\ base,\ SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00093\ }
+\DoxyCodeLine{00098\ \ \ \ \ \mbox{\hyperlink{classCResourceText}{CResourceText}}(SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00099\ }
+\DoxyCodeLine{00103\ \ \ \ \ \mbox{\hyperlink{classCResourceText_a7ba2c4dd9c71d5e1b1766317be68220f}{\string~CResourceText}}();}
+\DoxyCodeLine{00104\ }
+\DoxyCodeLine{00109\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResourceText_ab786b2ccaec1eefa0b0b52b03b02e398}{change\_base}}(\mbox{\hyperlink{classCResources}{CResources}}\ *\ base);}
+\DoxyCodeLine{00110\ }
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResourceText_abdc0a3fb0bbfa69cc5fb0722dab9f4fa}{render\_text}}(SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00121\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCResourceText_a8b56a1013fab4108fa52ae169eb0c932}{render\_numbers}}(SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00122\ \};}
+
+\end{DoxyCode}

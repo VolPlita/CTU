@@ -1,0 +1,98 @@
+\doxysection{ABuilding Class Reference}
+\hypertarget{classABuilding}{}\label{classABuilding}\index{ABuilding@{ABuilding}}
+
+
+{\ttfamily \#include $<$Buildings.\+hpp$>$}
+
+Inheritance diagram for ABuilding\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classABuilding}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classABuilding_af2d2af095716b611527d8032f111664d}{ABuilding}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_adbf0a823aea428bc54b33c3f628b05ae}\label{classABuilding_adbf0a823aea428bc54b33c3f628b05ae} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+ABuilding} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+virtual void \mbox{\hyperlink{classABuilding_ae6248c593e178a851da77d2cec8f6af1}{update\+\_\+resources}} ()
+\begin{DoxyCompactList}\small\item\em Update the resources of the building. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_a6427e7dd555ad0ec29632522fe6d9395}\label{classABuilding_a6427e7dd555ad0ec29632522fe6d9395} 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the building timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classABuilding_a98bf462b460dd4d1e64298404bdedd9c}\label{classABuilding_a98bf462b460dd4d1e64298404bdedd9c} 
+int {\bfseries m\+\_\+price\+\_\+gold}
+\begin{DoxyCompactList}\small\item\em Gold price of the building. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_ae9b1ccc77bfb8c54b759ad96aa8b78fa}\label{classABuilding_ae9b1ccc77bfb8c54b759ad96aa8b78fa} 
+int {\bfseries m\+\_\+price\+\_\+stone}
+\begin{DoxyCompactList}\small\item\em Stone price of the building. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_aad9488461848227304084f55276dd4bd}\label{classABuilding_aad9488461848227304084f55276dd4bd} 
+int {\bfseries m\+\_\+price\+\_\+wood}
+\begin{DoxyCompactList}\small\item\em Wood price of the building. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_a545d9ed9f8380bbf1d10d39acadf0ab9}\label{classABuilding_a545d9ed9f8380bbf1d10d39acadf0ab9} 
+\mbox{\hyperlink{classCResources}{CResources}} \& {\bfseries m\+\_\+resource\+\_\+base}
+\begin{DoxyCompactList}\small\item\em Reference to the resource base. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_a0310fa31528ee7922c0badbc54696b56}\label{classABuilding_a0310fa31528ee7922c0badbc54696b56} 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+\Hypertarget{classABuilding_a1db445776b1eb90687e8751b023a675c}\label{classABuilding_a1db445776b1eb90687e8751b023a675c} 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Base class for buildings. Building can be of five types. Residental house (Halupa), Lumber, Mine, Ambar or Fisher. Class saves information about buildings price, keeps reference of resource base that it will update and stores timer with time interval for it\textquotesingle{}s timer 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classABuilding_af2d2af095716b611527d8032f111664d}\label{classABuilding_af2d2af095716b611527d8032f111664d} 
+\index{ABuilding@{ABuilding}!ABuilding@{ABuilding}}
+\index{ABuilding@{ABuilding}!ABuilding@{ABuilding}}
+\doxysubsubsection{\texorpdfstring{ABuilding()}{ABuilding()}}
+{\footnotesize\ttfamily ABuilding\+::\+ABuilding (\begin{DoxyParamCaption}\item[{int}]{g,  }\item[{int}]{s,  }\item[{int}]{w,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res\+\_\+base,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classABuilding}{ABuilding} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Gold price of the building. \\
+\hline
+{\em s} & Stone price of the building. \\
+\hline
+{\em w} & Wood price of the building. \\
+\hline
+{\em res\+\_\+base} & Reference to the resource base. \\
+\hline
+{\em interval} & Time interval for the building. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classABuilding_ae6248c593e178a851da77d2cec8f6af1}\label{classABuilding_ae6248c593e178a851da77d2cec8f6af1} 
+\index{ABuilding@{ABuilding}!update\_resources@{update\_resources}}
+\index{update\_resources@{update\_resources}!ABuilding@{ABuilding}}
+\doxysubsubsection{\texorpdfstring{update\_resources()}{update\_resources()}}
+{\footnotesize\ttfamily void ABuilding\+::update\+\_\+resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+Update the resources of the building. 
+
+
+
+Reimplemented in \mbox{\hyperlink{classCHalupa_ad86bb10dd7c06faa3e0a4b8964e8e59d}{CHalupa}}, \mbox{\hyperlink{classCLumber_a06ae06bf16ab47b0537101aec5e54986}{CLumber}}, \mbox{\hyperlink{classCMine_aed912362870362fc4ca158b72237d9b5}{CMine}}, \mbox{\hyperlink{classCFisher_aa3c197a376b318aa24fa2c8154fff837}{CFisher}}, and \mbox{\hyperlink{classCFarm_a22a309eabf7bd1a63916f25339deb7bf}{CFarm}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buildings.\+hpp\item 
+src/Buildings.\+cpp\end{DoxyCompactItemize}

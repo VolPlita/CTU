@@ -1,0 +1,114 @@
+\doxysection{Buildings.\+hpp}
+\hypertarget{Buildings_8hpp_source}{}\label{Buildings_8hpp_source}\index{src/Buildings.hpp@{src/Buildings.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}Resources.hpp"{}}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00014\ Uint32\ callback(Uint32\ interval,\ \textcolor{keywordtype}{void}\ *\ param);}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00021\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classABuilding}{ABuilding}}}
+\DoxyCodeLine{00022\ \{}
+\DoxyCodeLine{00023\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classABuilding_a98bf462b460dd4d1e64298404bdedd9c}{m\_price\_gold}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classABuilding_ae9b1ccc77bfb8c54b759ad96aa8b78fa}{m\_price\_stone}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classABuilding_aad9488461848227304084f55276dd4bd}{m\_price\_wood}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ \mbox{\hyperlink{classABuilding_a545d9ed9f8380bbf1d10d39acadf0ab9}{m\_resource\_base}};\ \ \ }
+\DoxyCodeLine{00028\ \ \ \ \ SDL\_TimerID\ \mbox{\hyperlink{classABuilding_a0310fa31528ee7922c0badbc54696b56}{m\_timer}};\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00029\ \ \ \ \ Uint32\ \mbox{\hyperlink{classABuilding_a1db445776b1eb90687e8751b023a675c}{m\_interval}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00030\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00040\ \ \ \ \ \mbox{\hyperlink{classABuilding}{ABuilding}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval);}
+\DoxyCodeLine{00041\ }
+\DoxyCodeLine{00045\ \ \ \ \ \mbox{\hyperlink{classABuilding_adbf0a823aea428bc54b33c3f628b05ae}{\string~ABuilding}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00050\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classABuilding_ae6248c593e178a851da77d2cec8f6af1}{update\_resources}}();}
+\DoxyCodeLine{00051\ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classABuilding_a6427e7dd555ad0ec29632522fe6d9395}{reset\_timer}}();}
+\DoxyCodeLine{00056\ \};}
+\DoxyCodeLine{00057\ }
+\DoxyCodeLine{00061\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCHalupa}{CHalupa}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classABuilding}{ABuilding}}\ \textcolor{comment}{//\ 0}}
+\DoxyCodeLine{00062\ \{}
+\DoxyCodeLine{00063\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_residents\_amount;}
+\DoxyCodeLine{00064\ \textcolor{keyword}{public}:\ }
+\DoxyCodeLine{00065\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ type\ =\ 0;}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00076\ \ \ \ \ \mbox{\hyperlink{classCHalupa}{CHalupa}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval,\ \textcolor{keywordtype}{int}\ people);}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00081\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCHalupa_ad86bb10dd7c06faa3e0a4b8964e8e59d}{update\_resources}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00082\ \};}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00087\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCLumber}{CLumber}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classABuilding}{ABuilding}}\ \textcolor{comment}{//\ 1}}
+\DoxyCodeLine{00088\ \{}
+\DoxyCodeLine{00089\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00090\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ type\ =\ 1;}
+\DoxyCodeLine{00091\ }
+\DoxyCodeLine{00100\ \ \ \ \ \mbox{\hyperlink{classCLumber}{CLumber}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval);}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00105\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCLumber_a06ae06bf16ab47b0537101aec5e54986}{update\_resources}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00106\ \};}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00111\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCMine}{CMine}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classABuilding}{ABuilding}}\ \textcolor{comment}{//\ 2}}
+\DoxyCodeLine{00112\ \{}
+\DoxyCodeLine{00113\ \ \ \ \ \textcolor{keywordtype}{bool}\ m\_gold;}
+\DoxyCodeLine{00114\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00115\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ type\ =\ 2;}
+\DoxyCodeLine{00116\ }
+\DoxyCodeLine{00126\ \ \ \ \ \mbox{\hyperlink{classCMine}{CMine}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval,\ \textcolor{keywordtype}{bool}\ gold);}
+\DoxyCodeLine{00127\ }
+\DoxyCodeLine{00131\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMine_aed912362870362fc4ca158b72237d9b5}{update\_resources}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00132\ \};}
+\DoxyCodeLine{00133\ }
+\DoxyCodeLine{00134\ }
+\DoxyCodeLine{00138\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCFisher}{CFisher}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classABuilding}{ABuilding}}\ \textcolor{comment}{//\ 3}}
+\DoxyCodeLine{00139\ \{}
+\DoxyCodeLine{00140\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00141\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ type\ =\ 3;}
+\DoxyCodeLine{00142\ }
+\DoxyCodeLine{00151\ \ \ \ \ \mbox{\hyperlink{classCFisher}{CFisher}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval);}
+\DoxyCodeLine{00152\ }
+\DoxyCodeLine{00156\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCFisher_aa3c197a376b318aa24fa2c8154fff837}{update\_resources}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00157\ \};}
+\DoxyCodeLine{00158\ }
+\DoxyCodeLine{00162\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCFarm}{CFarm}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classABuilding}{ABuilding}}\ \textcolor{comment}{//\ 4}}
+\DoxyCodeLine{00163\ \{}
+\DoxyCodeLine{00164\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00165\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{int}\ type\ =\ 4;}
+\DoxyCodeLine{00166\ }
+\DoxyCodeLine{00175\ \ \ \ \ \mbox{\hyperlink{classCFarm}{CFarm}}(\textcolor{keywordtype}{int}\ g,\ \textcolor{keywordtype}{int}\ s,\ \textcolor{keywordtype}{int}\ w,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base,\ Uint32\ interval);}
+\DoxyCodeLine{00176\ }
+\DoxyCodeLine{00180\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCFarm_a22a309eabf7bd1a63916f25339deb7bf}{update\_resources}}()\ \textcolor{keyword}{override};}
+\DoxyCodeLine{00181\ \};}
+\DoxyCodeLine{00182\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00183\ }
+\DoxyCodeLine{00187\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}}
+\DoxyCodeLine{00188\ \{}
+\DoxyCodeLine{00189\ \ \ \ \ std::map<int,\ std::shared\_ptr<ABuilding>>\ m\_building\_map;}
+\DoxyCodeLine{00190\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00191\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{int}\ m\_max\_id;}
+\DoxyCodeLine{00192\ }
+\DoxyCodeLine{00199\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{class}\ T>}
+\DoxyCodeLine{00200\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCBuildingMap_a386e15c46c841ac67708978db48e90ad}{add\_building}}(std::shared\_ptr<T>\ building)}
+\DoxyCodeLine{00201\ \ \ \ \ \{}
+\DoxyCodeLine{00202\ \ \ \ \ \ \ \ \ m\_building\_map.insert(\{m\_max\_id,\ building\});}
+\DoxyCodeLine{00203\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ m\_max\_id++;\ \ \ \ }
+\DoxyCodeLine{00204\ \ \ \ \ \}}
+\DoxyCodeLine{00205\ \ \ \ \ \textcolor{keyword}{template}\ <\textcolor{keyword}{class}\ T>}
+\DoxyCodeLine{00206\ }
+\DoxyCodeLine{00214\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCBuildingMap_a474b116a941c7765c3141f8444d62fd5}{add\_building\_id}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id},\ std::shared\_ptr<T>\ building)}
+\DoxyCodeLine{00215\ \ \ \ \ \{}
+\DoxyCodeLine{00216\ \ \ \ \ \ \ \ \ m\_building\_map.insert(\{id,\ building\});}
+\DoxyCodeLine{00217\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{if}\ (\textcolor{keywordtype}{id}\ >\ m\_max\_id)\ m\_max\_id\ =\ \textcolor{keywordtype}{id}\ +\ 1;}
+\DoxyCodeLine{00218\ \ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ m\_max\_id;\ \ \ \ }
+\DoxyCodeLine{00219\ \ \ \ \ \}}
+\DoxyCodeLine{00220\ }
+\DoxyCodeLine{00225\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCBuildingMap_a6c2a81666c2f14daa07c8dce0ac26e14}{remove\_building}}(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00226\ }
+\DoxyCodeLine{00230\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCBuildingMap_a8e0a14aaff53b65fb8a2c5019d118022}{clear}}();}
+\DoxyCodeLine{00231\ \};}
+
+\end{DoxyCode}

@@ -1,0 +1,121 @@
+\doxysection{CResource\+Text Class Reference}
+\hypertarget{classCResourceText}{}\label{classCResourceText}\index{CResourceText@{CResourceText}}
+
+
+Represents the text display for resources.  
+
+
+
+
+{\ttfamily \#include $<$Resources.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCResourceText_a9ee16e1d392d42d96d066fd924c348b1}{CResource\+Text}} (\mbox{\hyperlink{classCResources}{CResources}} \texorpdfstring{$\ast$}{*}base, SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCResourceText}{CResource\+Text} with a base \doxylink{classCResources}{CResources} object. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCResourceText_abbee1be393168097b22c548945162e58}{CResource\+Text}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCResourceText}{CResource\+Text} without a base \doxylink{classCResources}{CResources} object. \end{DoxyCompactList}\item 
+\Hypertarget{classCResourceText_a7ba2c4dd9c71d5e1b1766317be68220f}\label{classCResourceText_a7ba2c4dd9c71d5e1b1766317be68220f} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+CResource\+Text} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classCResourceText}{CResource\+Text}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResourceText_ab786b2ccaec1eefa0b0b52b03b02e398}{change\+\_\+base}} (\mbox{\hyperlink{classCResources}{CResources}} \texorpdfstring{$\ast$}{*}base)
+\begin{DoxyCompactList}\small\item\em Changes the base \doxylink{classCResources}{CResources} object. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResourceText_abdc0a3fb0bbfa69cc5fb0722dab9f4fa}{render\+\_\+text}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Renders the resource text on the screen. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResourceText_a8b56a1013fab4108fa52ae169eb0c932}{render\+\_\+numbers}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Renders the resource numbers on the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the text display for resources. 
+
+This class manages the rendering of resource information on the screen. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCResourceText_a9ee16e1d392d42d96d066fd924c348b1}\label{classCResourceText_a9ee16e1d392d42d96d066fd924c348b1} 
+\index{CResourceText@{CResourceText}!CResourceText@{CResourceText}}
+\index{CResourceText@{CResourceText}!CResourceText@{CResourceText}}
+\doxysubsubsection{\texorpdfstring{CResourceText()}{CResourceText()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily CResource\+Text\+::\+CResource\+Text (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCResources}{CResources}} \texorpdfstring{$\ast$}{*}}]{base,  }\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCResourceText}{CResource\+Text} with a base \doxylink{classCResources}{CResources} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & Pointer to the base \doxylink{classCResources}{CResources} object. \\
+\hline
+{\em rend} & The SDL renderer for rendering the text. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCResourceText_abbee1be393168097b22c548945162e58}\label{classCResourceText_abbee1be393168097b22c548945162e58} 
+\index{CResourceText@{CResourceText}!CResourceText@{CResourceText}}
+\index{CResourceText@{CResourceText}!CResourceText@{CResourceText}}
+\doxysubsubsection{\texorpdfstring{CResourceText()}{CResourceText()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily CResource\+Text\+::\+CResource\+Text (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCResourceText}{CResource\+Text} without a base \doxylink{classCResources}{CResources} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer for rendering the text. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCResourceText_ab786b2ccaec1eefa0b0b52b03b02e398}\label{classCResourceText_ab786b2ccaec1eefa0b0b52b03b02e398} 
+\index{CResourceText@{CResourceText}!change\_base@{change\_base}}
+\index{change\_base@{change\_base}!CResourceText@{CResourceText}}
+\doxysubsubsection{\texorpdfstring{change\_base()}{change\_base()}}
+{\footnotesize\ttfamily void CResource\+Text\+::change\+\_\+base (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCResources}{CResources}} \texorpdfstring{$\ast$}{*}}]{base }\end{DoxyParamCaption})}
+
+
+
+Changes the base \doxylink{classCResources}{CResources} object. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em base} & Pointer to the new base \doxylink{classCResources}{CResources} object. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCResourceText_a8b56a1013fab4108fa52ae169eb0c932}\label{classCResourceText_a8b56a1013fab4108fa52ae169eb0c932} 
+\index{CResourceText@{CResourceText}!render\_numbers@{render\_numbers}}
+\index{render\_numbers@{render\_numbers}!CResourceText@{CResourceText}}
+\doxysubsubsection{\texorpdfstring{render\_numbers()}{render\_numbers()}}
+{\footnotesize\ttfamily void CResource\+Text\+::render\+\_\+numbers (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Renders the resource numbers on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer for rendering the text. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCResourceText_abdc0a3fb0bbfa69cc5fb0722dab9f4fa}\label{classCResourceText_abdc0a3fb0bbfa69cc5fb0722dab9f4fa} 
+\index{CResourceText@{CResourceText}!render\_text@{render\_text}}
+\index{render\_text@{render\_text}!CResourceText@{CResourceText}}
+\doxysubsubsection{\texorpdfstring{render\_text()}{render\_text()}}
+{\footnotesize\ttfamily void CResource\+Text\+::render\+\_\+text (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Renders the resource text on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer for rendering the text. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Resources.\+hpp\item 
+src/Resources.\+cpp\end{DoxyCompactItemize}

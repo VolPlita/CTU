@@ -1,0 +1,9 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "deque": "cpp",
+        "list": "cpp",
+        "iosfwd": "cpp",
+        "stdexcept": "cpp"
+    }
+}

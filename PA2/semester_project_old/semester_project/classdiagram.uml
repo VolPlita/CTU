@@ -1,0 +1,176 @@
+  @startuml
+  
+  skin rose
+  
+  title "City-building game"
+  
+  Frame GameControll {
+  
+  class CRenderWindow {
+    SDL_Window * m_window
+    SDL_Renderer * m_renderer
+    CRenderWindow(const char * title, int w, int h)
+    \~CRenderWindow()
+    SDL_Texture * loadTexture(const char * file_path)
+    void clearScreen()
+    void render(T & h)
+    void display()
+    void saveWorld()
+    void loadWorld()
+  }
+  class CGameManager {
+    CPlayerState m_state 
+    CRenderWindow m_windowobj
+    CTilemap m_tilemap
+    vector<CBuilding>
+    vector<unique_ptr<IEvent>>
+    startGame()
+    pauseGame()
+    resumeGame()
+    endGame()
+    addBuilding()
+    removeBuilding()
+    updateGameState()
+    handleInput()
+    handleEvents()
+    renderGame()
+    saveGame()
+    loadGame()
+  }
+  class CPlayerState {
+    int score
+    int resourceA
+    int resourceB
+      ...
+    void savestate()
+    void loadstate()
+  }
+  }
+  note top of GameControll 
+    GameControll may seem overly cluttered, 
+    however it will be left this way for a 
+    while to be more descriptive
+  end note
+Frame Map{
+  class CTilemap {
+    vector<vector<CTile>> m_tiles
+    int m_tileSize "like a side of a square"
+    int m_width
+    int m_height
+    CTilemap(int width, int height, int tileSize)
+    \~CTilemap()
+    void setTile(int x, int y, CTile *tile)
+    CTile *getTile(int x, int y) const
+    int getWidth() const
+    int getHeight() const
+    int getTileSize() const
+    void render(CRenderWindow &window)
+  }
+  
+  class CTile {
+    double m_x
+    double m_y
+    SDL_Texture * m_texture
+    CBuilding * m_building
+    CTile(double x, double y, SDL_Texture *texture)
+    \~CTile()
+    void setBuilding(CBuilding *building)
+    CBuilding *getBuilding() const
+    double getX() const
+    double getY() const
+    SDL_Texture *getTexture() const
+    void render(CRenderWindow &window)
+  }
+}
+Frame Buildings {
+  abstract class CBuilding {
+    int m_cost
+    int m_inputA
+    int m_inputB
+    int m_outputA
+    int m_outputB
+    int m_numWorkers
+    bool m_isBuilt
+    void Build()
+    void Upgrade()
+    void Demolish()
+    void AssignWorker()
+    void UnassignWorker()
+  }
+  class CHouse {
+    int m_numResidents
+    void SetNumResidents()
+  }
+  class CLumberjack {
+    int m_numTrees
+    void SetNumTrees()
+  }
+  class CFarm {
+    int m_numCrops
+    void SetNumCrops()
+  }
+  class CMine {
+    int m_numOres
+    void SetNumOres()
+  }
+}
+  interface IOnScreenObj {
+    double m_x
+    double m_y
+    SDL_Rect m_currentFrame
+    SDL_Texture * m_texture
+    IOnScreenObj(double x, double y, SDL_Texture * tx)
+    \~IOnScreenObj
+    getter functions()
+  }
+Frame Event {
+  interface IEvent {
+    string m_name
+    string m_description
+    int m_duration
+    void start()
+    void end()
+    void update()
+    bool isActive()
+    void applyEffect()
+    void revertEffect()
+  }
+  class CHuricane {
+    int m_damageLevel
+    int m_duration
+    void applyEffect()
+    void end()
+    ...
+  }
+  class CBlessing {
+    int m_blessingLevel
+    int m_duration
+    void applyEffect()
+    void end()
+    ...
+  }
+  class CFamine {
+    int m_intensity
+    int m_duration
+    void applyEffect()
+    void end()
+    ...
+  }
+}
+  CGameManager -- CTilemap
+  CBuilding "1"--"0..1"CTile
+  CGameManager -down- CPlayerState
+  CGameManager -up- CRenderWindow 
+  IEvent }-- CGameManager
+  IEvent <-- CHuricane
+  IEvent <-- CBlessing
+  IEvent <-- CFamine
+  IOnScreenObj }-- CRenderWindow
+  CTile }-- CTilemap
+  CBuilding <-- CHouse
+  CBuilding <-- CLumberjack
+  CBuilding <-- CFarm
+  CBuilding <-- CMine
+  IOnScreenObj <-- CTile
+  IOnScreenObj <-- CBuilding
+  @enduml

@@ -1,0 +1,52 @@
+\doxysection{Buttons.\+hpp}
+\hypertarget{Buttons_8hpp_source}{}\label{Buttons_8hpp_source}\index{src/Buttons.hpp@{src/Buttons.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCButton}{CButton}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \ \ \ \ SDL\_Rect\ m\_sprite;\ \ \ \ }
+\DoxyCodeLine{00015\ \ \ \ \ SDL\_Rect\ m\_dst\_rect;\ \ }
+\DoxyCodeLine{00016\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00017\ }
+\DoxyCodeLine{00027\ \ \ \ \ \mbox{\hyperlink{classCButton}{CButton}}(\textcolor{keywordtype}{int}\ sx,\ \textcolor{keywordtype}{int}\ sy,\ \textcolor{keywordtype}{int}\ dx,\ \textcolor{keywordtype}{int}\ dy);}
+\DoxyCodeLine{00028\ }
+\DoxyCodeLine{00034\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButton_a96a885f51db99b03fc411dd8c4cc470a}{render}}(SDL\_Renderer\ *\&\ rend,\ SDL\_Texture\ *\ texture\_set)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00035\ }
+\DoxyCodeLine{00040\ \ \ \ \ SDL\_Rect\ \textcolor{keyword}{const}\ \&\ \mbox{\hyperlink{classCButton_a036abbcf270fe63d9edb6421d2992665}{get\_dst}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00041\ \};}
+\DoxyCodeLine{00042\ }
+\DoxyCodeLine{00049\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCButtonList}{CButtonList}}}
+\DoxyCodeLine{00050\ \{}
+\DoxyCodeLine{00051\ \ \ \ \ SDL\_Texture\ *\ m\_texture\_set;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00052\ \ \ \ \ SDL\_Rect\ m\_hover\_sprite;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00053\ \ \ \ \ SDL\_Rect\ m\_select\_sprite;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00054\ \ \ \ \ std::vector<CButton>\ m\_button\_list;\ \ \ \ \ }
+\DoxyCodeLine{00055\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_selected;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00056\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_hovering;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00057\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00058\ }
+\DoxyCodeLine{00066\ \ \ \ \ \mbox{\hyperlink{classCButtonList}{CButtonList}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\ texture\_src);}
+\DoxyCodeLine{00067\ }
+\DoxyCodeLine{00073\ \ \ \ \ \mbox{\hyperlink{classCButtonList_a28a4722ad019c172f891d76cb42d7eb8}{\string~CButtonList}}();}
+\DoxyCodeLine{00074\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButtonList_af95f20e93d973d9fd387a1591abd0122}{add\_button}}(\textcolor{keywordtype}{int}\ sx,\ \textcolor{keywordtype}{int}\ sy,\ \textcolor{keywordtype}{int}\ dx,\ \textcolor{keywordtype}{int}\ dy);}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButtonList_ab97150f33de4ba87d715a12dba010d9a}{set\_selected}}(\textcolor{keywordtype}{int}\ x);}
+\DoxyCodeLine{00089\ }
+\DoxyCodeLine{00094\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButtonList_a63bbdd67d85c8f24f679ea6958b433f1}{set\_hovering}}(\textcolor{keywordtype}{int}\ x);}
+\DoxyCodeLine{00095\ }
+\DoxyCodeLine{00100\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButtonList_a01cb09c1a1d9c16155eb14b00d4c1a43}{render}}(SDL\_Renderer\ *\&\ rend)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00101\ }
+\DoxyCodeLine{00106\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCButtonList_aa8a29ba6f03475de7eacb3e7c365619e}{get\_selected}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00107\ }
+\DoxyCodeLine{00114\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCButtonList_a731f213de652dd8170a828762953a8c7}{get\_hovering\_index}}(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y)\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00115\ }
+\DoxyCodeLine{00121\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCButtonList_a512c971d73f86c2c49d7bc3f4ce1efe0}{init\_list}}();}
+\DoxyCodeLine{00122\ \};}
+
+\end{DoxyCode}

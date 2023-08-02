@@ -1,0 +1,185 @@
+\doxysection{CButton\+List Class Reference}
+\hypertarget{classCButtonList}{}\label{classCButtonList}\index{CButtonList@{CButtonList}}
+
+
+Represents a list of buttons in the user interface.  
+
+
+
+
+{\ttfamily \#include $<$Buttons.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCButtonList_aeb23d842a3f8134462bd3f2ae6ca4e0c}{CButton\+List}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const char \texorpdfstring{$\ast$}{*}texture\+\_\+src)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCButtonList}{CButton\+List} class. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCButtonList_a28a4722ad019c172f891d76cb42d7eb8}{\texorpdfstring{$\sim$}{\string~}\+CButton\+List}} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classCButtonList}{CButton\+List} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButtonList_af95f20e93d973d9fd387a1591abd0122}{add\+\_\+button}} (int sx, int sy, int dx, int dy)
+\begin{DoxyCompactList}\small\item\em Adds a button to the button list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButtonList_ab97150f33de4ba87d715a12dba010d9a}{set\+\_\+selected}} (int x)
+\begin{DoxyCompactList}\small\item\em Sets the selected button in the button list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButtonList_a63bbdd67d85c8f24f679ea6958b433f1}{set\+\_\+hovering}} (int x)
+\begin{DoxyCompactList}\small\item\em Sets the hovering button in the button list. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButtonList_a01cb09c1a1d9c16155eb14b00d4c1a43}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend) const
+\begin{DoxyCompactList}\small\item\em Renders the button list on the renderer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCButtonList_aa8a29ba6f03475de7eacb3e7c365619e}{get\+\_\+selected}} () const
+\begin{DoxyCompactList}\small\item\em Retrieves the index of the selected button. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCButtonList_a731f213de652dd8170a828762953a8c7}{get\+\_\+hovering\+\_\+index}} (int x, int y) const
+\begin{DoxyCompactList}\small\item\em Retrieves the index of the hovering button at the specified coordinates. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButtonList_a512c971d73f86c2c49d7bc3f4ce1efe0}{init\+\_\+list}} ()
+\begin{DoxyCompactList}\small\item\em Initializes the button list. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a list of buttons in the user interface. 
+
+The \doxylink{classCButtonList}{CButton\+List} class represents a list of buttons in the user interface. It manages the buttons, their selection and hovering states. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCButtonList_aeb23d842a3f8134462bd3f2ae6ca4e0c}\label{classCButtonList_aeb23d842a3f8134462bd3f2ae6ca4e0c} 
+\index{CButtonList@{CButtonList}!CButtonList@{CButtonList}}
+\index{CButtonList@{CButtonList}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{CButtonList()}{CButtonList()}}
+{\footnotesize\ttfamily CButton\+List\+::\+CButton\+List (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{const char \texorpdfstring{$\ast$}{*}}]{texture\+\_\+src }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCButtonList}{CButton\+List} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL\+\_\+\+Renderer used for rendering. \\
+\hline
+{\em texture\+\_\+src} & The filename of the texture for the buttons.\\
+\hline
+\end{DoxyParams}
+Creates a button list with the specified renderer and texture source. \Hypertarget{classCButtonList_a28a4722ad019c172f891d76cb42d7eb8}\label{classCButtonList_a28a4722ad019c172f891d76cb42d7eb8} 
+\index{CButtonList@{CButtonList}!````~CButtonList@{\texorpdfstring{$\sim$}{\string~}CButtonList}}
+\index{````~CButtonList@{\texorpdfstring{$\sim$}{\string~}CButtonList}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{\texorpdfstring{$\sim$}{\string~}CButtonList()}{\string~CButtonList()}}
+{\footnotesize\ttfamily CButton\+List\+::\texorpdfstring{$\sim$}{\string~}\+CButton\+List (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Destructor for \doxylink{classCButtonList}{CButton\+List} class. 
+
+Cleans up the resources used by the button list. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCButtonList_af95f20e93d973d9fd387a1591abd0122}\label{classCButtonList_af95f20e93d973d9fd387a1591abd0122} 
+\index{CButtonList@{CButtonList}!add\_button@{add\_button}}
+\index{add\_button@{add\_button}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{add\_button()}{add\_button()}}
+{\footnotesize\ttfamily void CButton\+List\+::add\+\_\+button (\begin{DoxyParamCaption}\item[{int}]{sx,  }\item[{int}]{sy,  }\item[{int}]{dx,  }\item[{int}]{dy }\end{DoxyParamCaption})}
+
+
+
+Adds a button to the button list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sx} & The x-\/coordinate of the sprite rectangle of the button. \\
+\hline
+{\em sy} & The y-\/coordinate of the sprite rectangle of the button. \\
+\hline
+{\em dx} & The x-\/coordinate of the destination rectangle of the button. \\
+\hline
+{\em dy} & The y-\/coordinate of the destination rectangle of the button. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCButtonList_a731f213de652dd8170a828762953a8c7}\label{classCButtonList_a731f213de652dd8170a828762953a8c7} 
+\index{CButtonList@{CButtonList}!get\_hovering\_index@{get\_hovering\_index}}
+\index{get\_hovering\_index@{get\_hovering\_index}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{get\_hovering\_index()}{get\_hovering\_index()}}
+{\footnotesize\ttfamily int CButton\+List\+::get\+\_\+hovering\+\_\+index (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const}
+
+
+
+Retrieves the index of the hovering button at the specified coordinates. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The x-\/coordinate of the mouse pointer. \\
+\hline
+{\em y} & The y-\/coordinate of the mouse pointer. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The index of the hovering button, or -\/1 if no button is hovering at the specified coordinates. 
+\end{DoxyReturn}
+\Hypertarget{classCButtonList_aa8a29ba6f03475de7eacb3e7c365619e}\label{classCButtonList_aa8a29ba6f03475de7eacb3e7c365619e} 
+\index{CButtonList@{CButtonList}!get\_selected@{get\_selected}}
+\index{get\_selected@{get\_selected}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{get\_selected()}{get\_selected()}}
+{\footnotesize\ttfamily int CButton\+List\+::get\+\_\+selected (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retrieves the index of the selected button. 
+
+\begin{DoxyReturn}{Returns}
+The index of the selected button. 
+\end{DoxyReturn}
+\Hypertarget{classCButtonList_a512c971d73f86c2c49d7bc3f4ce1efe0}\label{classCButtonList_a512c971d73f86c2c49d7bc3f4ce1efe0} 
+\index{CButtonList@{CButtonList}!init\_list@{init\_list}}
+\index{init\_list@{init\_list}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{init\_list()}{init\_list()}}
+{\footnotesize\ttfamily void CButton\+List\+::init\+\_\+list (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Initializes the button list. 
+
+Initializes the button list by setting the selected and hovering buttons to -\/1. \Hypertarget{classCButtonList_a01cb09c1a1d9c16155eb14b00d4c1a43}\label{classCButtonList_a01cb09c1a1d9c16155eb14b00d4c1a43} 
+\index{CButtonList@{CButtonList}!render@{render}}
+\index{render@{render}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void CButton\+List\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption}) const}
+
+
+
+Renders the button list on the renderer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL\+\_\+\+Renderer used for rendering. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCButtonList_a63bbdd67d85c8f24f679ea6958b433f1}\label{classCButtonList_a63bbdd67d85c8f24f679ea6958b433f1} 
+\index{CButtonList@{CButtonList}!set\_hovering@{set\_hovering}}
+\index{set\_hovering@{set\_hovering}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{set\_hovering()}{set\_hovering()}}
+{\footnotesize\ttfamily void CButton\+List\+::set\+\_\+hovering (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Sets the hovering button in the button list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The index of the hovering button. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCButtonList_ab97150f33de4ba87d715a12dba010d9a}\label{classCButtonList_ab97150f33de4ba87d715a12dba010d9a} 
+\index{CButtonList@{CButtonList}!set\_selected@{set\_selected}}
+\index{set\_selected@{set\_selected}!CButtonList@{CButtonList}}
+\doxysubsubsection{\texorpdfstring{set\_selected()}{set\_selected()}}
+{\footnotesize\ttfamily void CButton\+List\+::set\+\_\+selected (\begin{DoxyParamCaption}\item[{int}]{x }\end{DoxyParamCaption})}
+
+
+
+Sets the selected button in the button list. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em x} & The index of the selected button. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buttons.\+hpp\item 
+src/Buttons.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,107 @@
+\doxysection{CFarm Class Reference}
+\hypertarget{classCFarm}{}\label{classCFarm}\index{CFarm@{CFarm}}
+
+
+Class for the Farm building.  
+
+
+
+
+{\ttfamily \#include $<$Buildings.\+hpp$>$}
+
+Inheritance diagram for CFarm\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCFarm}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCFarm_af4dd062a4b4dede701adc3a066400844}{CFarm}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCFarm}{CFarm} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCFarm_a22a309eabf7bd1a63916f25339deb7bf}{update\+\_\+resources}} () override
+\begin{DoxyCompactList}\small\item\em Update the resources of the Farm building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classABuilding_af2d2af095716b611527d8032f111664d}{ABuilding}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+ABuilding} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the building timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCFarm_a9195132230b885d6de42c118fbf028c3}\label{classCFarm_a9195132230b885d6de42c118fbf028c3} 
+static const int {\bfseries type} = 4
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+price\+\_\+gold}
+\begin{DoxyCompactList}\small\item\em Gold price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+stone}
+\begin{DoxyCompactList}\small\item\em Stone price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+wood}
+\begin{DoxyCompactList}\small\item\em Wood price of the building. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCResources}{CResources}} \& {\bfseries m\+\_\+resource\+\_\+base}
+\begin{DoxyCompactList}\small\item\em Reference to the resource base. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the Farm building. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCFarm_af4dd062a4b4dede701adc3a066400844}\label{classCFarm_af4dd062a4b4dede701adc3a066400844} 
+\index{CFarm@{CFarm}!CFarm@{CFarm}}
+\index{CFarm@{CFarm}!CFarm@{CFarm}}
+\doxysubsubsection{\texorpdfstring{CFarm()}{CFarm()}}
+{\footnotesize\ttfamily CFarm\+::\+CFarm (\begin{DoxyParamCaption}\item[{int}]{g,  }\item[{int}]{s,  }\item[{int}]{w,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res\+\_\+base,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCFarm}{CFarm} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Gold price of the building. \\
+\hline
+{\em s} & Stone price of the building. \\
+\hline
+{\em w} & Wood price of the building. \\
+\hline
+{\em res\+\_\+base} & Reference to the resource base. \\
+\hline
+{\em interval} & Time interval for the building. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCFarm_a22a309eabf7bd1a63916f25339deb7bf}\label{classCFarm_a22a309eabf7bd1a63916f25339deb7bf} 
+\index{CFarm@{CFarm}!update\_resources@{update\_resources}}
+\index{update\_resources@{update\_resources}!CFarm@{CFarm}}
+\doxysubsubsection{\texorpdfstring{update\_resources()}{update\_resources()}}
+{\footnotesize\ttfamily void CFarm\+::update\+\_\+resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Update the resources of the Farm building. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classABuilding_ae6248c593e178a851da77d2cec8f6af1}{ABuilding}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buildings.\+hpp\item 
+src/Buildings.\+cpp\end{DoxyCompactItemize}

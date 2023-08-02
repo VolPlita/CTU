@@ -1,0 +1,88 @@
+\doxysection{CButton Class Reference}
+\hypertarget{classCButton}{}\label{classCButton}\index{CButton@{CButton}}
+
+
+Represents a button in the user interface.  
+
+
+
+
+{\ttfamily \#include $<$Buttons.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCButton_a0fba538e463267a6f261da77fcf08e15}{CButton}} (int sx, int sy, int dx, int dy)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCButton}{CButton} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCButton_a96a885f51db99b03fc411dd8c4cc470a}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*}texture\+\_\+set) const
+\begin{DoxyCompactList}\small\item\em Renders the button on the renderer using the provided texture set. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Rect const \& \mbox{\hyperlink{classCButton_a036abbcf270fe63d9edb6421d2992665}{get\+\_\+dst}} () const
+\begin{DoxyCompactList}\small\item\em Retrieves the destination rectangle of the button. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a button in the user interface. 
+
+The \doxylink{classCButton}{CButton} class represents a button in the user interface. It encapsulates the sprite and destination rectangle of the button. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCButton_a0fba538e463267a6f261da77fcf08e15}\label{classCButton_a0fba538e463267a6f261da77fcf08e15} 
+\index{CButton@{CButton}!CButton@{CButton}}
+\index{CButton@{CButton}!CButton@{CButton}}
+\doxysubsubsection{\texorpdfstring{CButton()}{CButton()}}
+{\footnotesize\ttfamily CButton\+::\+CButton (\begin{DoxyParamCaption}\item[{int}]{sx,  }\item[{int}]{sy,  }\item[{int}]{dx,  }\item[{int}]{dy }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCButton}{CButton} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sx} & The x-\/coordinate of the sprite rectangle. \\
+\hline
+{\em sy} & The y-\/coordinate of the sprite rectangle. \\
+\hline
+{\em dx} & The x-\/coordinate of the destination rectangle. \\
+\hline
+{\em dy} & The y-\/coordinate of the destination rectangle.\\
+\hline
+\end{DoxyParams}
+Creates a button with the specified sprite and destination rectangles. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCButton_a036abbcf270fe63d9edb6421d2992665}\label{classCButton_a036abbcf270fe63d9edb6421d2992665} 
+\index{CButton@{CButton}!get\_dst@{get\_dst}}
+\index{get\_dst@{get\_dst}!CButton@{CButton}}
+\doxysubsubsection{\texorpdfstring{get\_dst()}{get\_dst()}}
+{\footnotesize\ttfamily SDL\+\_\+\+Rect const  \& CButton\+::get\+\_\+dst (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Retrieves the destination rectangle of the button. 
+
+\begin{DoxyReturn}{Returns}
+The destination rectangle of the button. 
+\end{DoxyReturn}
+\Hypertarget{classCButton_a96a885f51db99b03fc411dd8c4cc470a}\label{classCButton_a96a885f51db99b03fc411dd8c4cc470a} 
+\index{CButton@{CButton}!render@{render}}
+\index{render@{render}!CButton@{CButton}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void CButton\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*}}]{texture\+\_\+set }\end{DoxyParamCaption}) const}
+
+
+
+Renders the button on the renderer using the provided texture set. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL\+\_\+\+Renderer used for rendering. \\
+\hline
+{\em texture\+\_\+set} & The texture set used for rendering the button. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buttons.\+hpp\item 
+src/Buttons.\+cpp\end{DoxyCompactItemize}

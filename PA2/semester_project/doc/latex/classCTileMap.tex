@@ -1,0 +1,95 @@
+\doxysection{CTile\+Map Class Reference}
+\hypertarget{classCTileMap}{}\label{classCTileMap}\index{CTileMap@{CTileMap}}
+
+
+Represents a tile map.  
+
+
+
+
+{\ttfamily \#include $<$Tiles.\+hpp$>$}
+
+Inheritance diagram for CTile\+Map\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCTileMap}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCTileMap_a351b99f987258a6b4612ab69ee15eeca}\label{classCTileMap_a351b99f987258a6b4612ab69ee15eeca} 
+{\bfseries CTile\+Map} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const char \texorpdfstring{$\ast$}{*}texture\+\_\+src, int lenx, int leny)
+\item 
+void \mbox{\hyperlink{classCTileMap_a0be74961ef29902a66e899c578caf104}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend) const override
+\item 
+\Hypertarget{classCTileMap_abd93fffd3a2aaa3993acc0feaa95287e}\label{classCTileMap_abd93fffd3a2aaa3993acc0feaa95287e} 
+void {\bfseries populate} (\mbox{\hyperlink{structCWorldData}{CWorld\+Data}} data)
+\item 
+\Hypertarget{classCTileMap_a93b0a810af89539cb179c61d97fbcafa}\label{classCTileMap_a93b0a810af89539cb179c61d97fbcafa} 
+void {\bfseries populate} ()
+\item 
+\Hypertarget{classCTileMap_a8b9cc69d3d17e5f33da3de811fbd0259}\label{classCTileMap_a8b9cc69d3d17e5f33da3de811fbd0259} 
+std\+::vector$<$ std\+::vector$<$ \mbox{\hyperlink{classCTile}{CTile}} $>$ $>$ \texorpdfstring{$\ast$}{*} {\bfseries access\+\_\+map} ()
+\item 
+void \mbox{\hyperlink{classCTileMap_a0beb9f71545172326a505953a940a189}{get\+\_\+cell\+\_\+coord}} (int \&Wx, int \&Wy, int x, int y) const override
+\item 
+\Hypertarget{classCTileMap_a57a75367179f29b5563a158bb1842c12}\label{classCTileMap_a57a75367179f29b5563a158bb1842c12} 
+void {\bfseries set\+\_\+res\+\_\+to\+\_\+tile} (int x, int y, int res)
+\item 
+\Hypertarget{classCTileMap_aa61f58c484e236ba2cc5e9c8b1d2df2e}\label{classCTileMap_aa61f58c484e236ba2cc5e9c8b1d2df2e} 
+void {\bfseries build} (int x, int y, int building, \mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&buildmap, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classAMap}{AMap}}}
+\begin{DoxyCompactItemize}
+\item 
+{\bfseries AMap} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const char \texorpdfstring{$\ast$}{*}texture\+\_\+src, int lenx, int leny)
+\item 
+void {\bfseries set\+\_\+hover\+\_\+tile} (int x, int y)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classAMap}{AMap}}}
+\begin{DoxyCompactItemize}
+\item 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries m\+\_\+texture\+\_\+set}
+\item 
+int {\bfseries m\+\_\+len\+\_\+x}
+\item 
+int {\bfseries m\+\_\+len\+\_\+y}
+\item 
+int {\bfseries m\+\_\+hover\+\_\+x}
+\begin{DoxyCompactList}\small\item\em Coordinate x of currently hovering tile in World coordinate system. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+hover\+\_\+y}
+\begin{DoxyCompactList}\small\item\em Coordinate y of currently hovering tile in World coordinate system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a tile map. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCTileMap_a0beb9f71545172326a505953a940a189}\label{classCTileMap_a0beb9f71545172326a505953a940a189} 
+\index{CTileMap@{CTileMap}!get\_cell\_coord@{get\_cell\_coord}}
+\index{get\_cell\_coord@{get\_cell\_coord}!CTileMap@{CTileMap}}
+\doxysubsubsection{\texorpdfstring{get\_cell\_coord()}{get\_cell\_coord()}}
+{\footnotesize\ttfamily void CTile\+Map\+::get\+\_\+cell\+\_\+coord (\begin{DoxyParamCaption}\item[{int \&}]{Wx,  }\item[{int \&}]{Wy,  }\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classAMap}{AMap}}.
+
+\Hypertarget{classCTileMap_a0be74961ef29902a66e899c578caf104}\label{classCTileMap_a0be74961ef29902a66e899c578caf104} 
+\index{CTileMap@{CTileMap}!render@{render}}
+\index{render@{render}!CTileMap@{CTileMap}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void CTile\+Map\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{classAMap}{AMap}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Tiles.\+hpp\item 
+src/Tiles.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,107 @@
+\doxysection{CFisher Class Reference}
+\hypertarget{classCFisher}{}\label{classCFisher}\index{CFisher@{CFisher}}
+
+
+Class for the Fisher building.  
+
+
+
+
+{\ttfamily \#include $<$Buildings.\+hpp$>$}
+
+Inheritance diagram for CFisher\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCFisher}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCFisher_a8c910f87de91f0c362985cd3ecf5469c}{CFisher}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCFisher}{CFisher} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCFisher_aa3c197a376b318aa24fa2c8154fff837}{update\+\_\+resources}} () override
+\begin{DoxyCompactList}\small\item\em Update the resources of the Fisher building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classABuilding_af2d2af095716b611527d8032f111664d}{ABuilding}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+ABuilding} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the building timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCFisher_a905b1871112d23d644f256c7e0d2a9ff}\label{classCFisher_a905b1871112d23d644f256c7e0d2a9ff} 
+static const int {\bfseries type} = 3
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+price\+\_\+gold}
+\begin{DoxyCompactList}\small\item\em Gold price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+stone}
+\begin{DoxyCompactList}\small\item\em Stone price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+wood}
+\begin{DoxyCompactList}\small\item\em Wood price of the building. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCResources}{CResources}} \& {\bfseries m\+\_\+resource\+\_\+base}
+\begin{DoxyCompactList}\small\item\em Reference to the resource base. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the Fisher building. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCFisher_a8c910f87de91f0c362985cd3ecf5469c}\label{classCFisher_a8c910f87de91f0c362985cd3ecf5469c} 
+\index{CFisher@{CFisher}!CFisher@{CFisher}}
+\index{CFisher@{CFisher}!CFisher@{CFisher}}
+\doxysubsubsection{\texorpdfstring{CFisher()}{CFisher()}}
+{\footnotesize\ttfamily CFisher\+::\+CFisher (\begin{DoxyParamCaption}\item[{int}]{g,  }\item[{int}]{s,  }\item[{int}]{w,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res\+\_\+base,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCFisher}{CFisher} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Gold price of the building. \\
+\hline
+{\em s} & Stone price of the building. \\
+\hline
+{\em w} & Wood price of the building. \\
+\hline
+{\em res\+\_\+base} & Reference to the resource base. \\
+\hline
+{\em interval} & Time interval for the building. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCFisher_aa3c197a376b318aa24fa2c8154fff837}\label{classCFisher_aa3c197a376b318aa24fa2c8154fff837} 
+\index{CFisher@{CFisher}!update\_resources@{update\_resources}}
+\index{update\_resources@{update\_resources}!CFisher@{CFisher}}
+\doxysubsubsection{\texorpdfstring{update\_resources()}{update\_resources()}}
+{\footnotesize\ttfamily void CFisher\+::update\+\_\+resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Update the resources of the Fisher building. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classABuilding_ae6248c593e178a851da77d2cec8f6af1}{ABuilding}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buildings.\+hpp\item 
+src/Buildings.\+cpp\end{DoxyCompactItemize}

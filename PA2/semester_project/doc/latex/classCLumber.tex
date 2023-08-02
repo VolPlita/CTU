@@ -1,0 +1,107 @@
+\doxysection{CLumber Class Reference}
+\hypertarget{classCLumber}{}\label{classCLumber}\index{CLumber@{CLumber}}
+
+
+Class for the Lumber building.  
+
+
+
+
+{\ttfamily \#include $<$Buildings.\+hpp$>$}
+
+Inheritance diagram for CLumber\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCLumber}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCLumber_a2dd3420fc482eec3496864187bd513da}{CLumber}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCLumber}{CLumber} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCLumber_a06ae06bf16ab47b0537101aec5e54986}{update\+\_\+resources}} () override
+\begin{DoxyCompactList}\small\item\em Update the resources of the Lumber building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classABuilding_af2d2af095716b611527d8032f111664d}{ABuilding}} (int g, int s, int w, \mbox{\hyperlink{classCResources}{CResources}} \&res\+\_\+base, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+ABuilding} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classABuilding}{ABuilding} class. \end{DoxyCompactList}\item 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the building timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCLumber_ae5664ce409f9e0e3567e3be694bbd919}\label{classCLumber_ae5664ce409f9e0e3567e3be694bbd919} 
+static const int {\bfseries type} = 1
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classABuilding}{ABuilding}}}
+\begin{DoxyCompactItemize}
+\item 
+int {\bfseries m\+\_\+price\+\_\+gold}
+\begin{DoxyCompactList}\small\item\em Gold price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+stone}
+\begin{DoxyCompactList}\small\item\em Stone price of the building. \end{DoxyCompactList}\item 
+int {\bfseries m\+\_\+price\+\_\+wood}
+\begin{DoxyCompactList}\small\item\em Wood price of the building. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCResources}{CResources}} \& {\bfseries m\+\_\+resource\+\_\+base}
+\begin{DoxyCompactList}\small\item\em Reference to the resource base. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the building. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the Lumber building. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCLumber_a2dd3420fc482eec3496864187bd513da}\label{classCLumber_a2dd3420fc482eec3496864187bd513da} 
+\index{CLumber@{CLumber}!CLumber@{CLumber}}
+\index{CLumber@{CLumber}!CLumber@{CLumber}}
+\doxysubsubsection{\texorpdfstring{CLumber()}{CLumber()}}
+{\footnotesize\ttfamily CLumber\+::\+CLumber (\begin{DoxyParamCaption}\item[{int}]{g,  }\item[{int}]{s,  }\item[{int}]{w,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res\+\_\+base,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCLumber}{CLumber} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Gold price of the building. \\
+\hline
+{\em s} & Stone price of the building. \\
+\hline
+{\em w} & Wood price of the building. \\
+\hline
+{\em res\+\_\+base} & Reference to the resource base. \\
+\hline
+{\em interval} & Time interval for the building. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCLumber_a06ae06bf16ab47b0537101aec5e54986}\label{classCLumber_a06ae06bf16ab47b0537101aec5e54986} 
+\index{CLumber@{CLumber}!update\_resources@{update\_resources}}
+\index{update\_resources@{update\_resources}!CLumber@{CLumber}}
+\doxysubsubsection{\texorpdfstring{update\_resources()}{update\_resources()}}
+{\footnotesize\ttfamily void CLumber\+::update\+\_\+resources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Update the resources of the Lumber building. 
+
+
+
+Reimplemented from \mbox{\hyperlink{classABuilding_ae6248c593e178a851da77d2cec8f6af1}{ABuilding}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buildings.\+hpp\item 
+src/Buildings.\+cpp\end{DoxyCompactItemize}

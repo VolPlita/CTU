@@ -1,0 +1,59 @@
+\doxysection{AMap Class Reference}
+\hypertarget{classAMap}{}\label{classAMap}\index{AMap@{AMap}}
+
+
+Abstract class representing a map. Saves set of textures used for the \doxylink{classCTileMap}{CTile\+Map}.  
+
+
+
+
+{\ttfamily \#include $<$Tiles.\+hpp$>$}
+
+Inheritance diagram for AMap\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classAMap}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAMap_a7dd3e10a133cbb9ab5fee5747062a929}\label{classAMap_a7dd3e10a133cbb9ab5fee5747062a929} 
+{\bfseries AMap} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const char \texorpdfstring{$\ast$}{*}texture\+\_\+src, int lenx, int leny)
+\item 
+\Hypertarget{classAMap_ad27e8863496501f5abaedff58b842c8f}\label{classAMap_ad27e8863496501f5abaedff58b842c8f} 
+void {\bfseries set\+\_\+hover\+\_\+tile} (int x, int y)
+\item 
+\Hypertarget{classAMap_a9f2783672ff18f6adf672670e480be77}\label{classAMap_a9f2783672ff18f6adf672670e480be77} 
+virtual void {\bfseries render} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend) const =0
+\item 
+\Hypertarget{classAMap_a3926d0ca4c1d9a8127f2fb96f4cfb1fe}\label{classAMap_a3926d0ca4c1d9a8127f2fb96f4cfb1fe} 
+virtual void {\bfseries get\+\_\+cell\+\_\+coord} (int \&Wx, int \&Wy, int x, int y) const =0
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classAMap_a53032f90b374085ea2916c0d10b4eb45}\label{classAMap_a53032f90b374085ea2916c0d10b4eb45} 
+SDL\+\_\+\+Texture \texorpdfstring{$\ast$}{*} {\bfseries m\+\_\+texture\+\_\+set}
+\item 
+\Hypertarget{classAMap_a7e56daa8b67c3b1e07b5372a7c8ba6cc}\label{classAMap_a7e56daa8b67c3b1e07b5372a7c8ba6cc} 
+int {\bfseries m\+\_\+len\+\_\+x}
+\item 
+\Hypertarget{classAMap_aea5e985f642b8414e859042c017072a2}\label{classAMap_aea5e985f642b8414e859042c017072a2} 
+int {\bfseries m\+\_\+len\+\_\+y}
+\item 
+\Hypertarget{classAMap_ab0c42d43e1723602a67c824423e4b342}\label{classAMap_ab0c42d43e1723602a67c824423e4b342} 
+int {\bfseries m\+\_\+hover\+\_\+x}
+\begin{DoxyCompactList}\small\item\em Coordinate x of currently hovering tile in World coordinate system. \end{DoxyCompactList}\item 
+\Hypertarget{classAMap_a611b8d7c4b34b822bcb3e7821d53e576}\label{classAMap_a611b8d7c4b34b822bcb3e7821d53e576} 
+int {\bfseries m\+\_\+hover\+\_\+y}
+\begin{DoxyCompactList}\small\item\em Coordinate y of currently hovering tile in World coordinate system. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Abstract class representing a map. Saves set of textures used for the \doxylink{classCTileMap}{CTile\+Map}. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Tiles.\+hpp\item 
+src/Tiles.\+cpp\end{DoxyCompactItemize}

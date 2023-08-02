@@ -1,0 +1,11 @@
+The City-building game
+
+The City-building game is a simulation game in which players build and manage their own city. The game will have a graphical interface and will be built using C++ and the SDL2 library. The engine must provide the ability to load the world definition, building variables, and actions from a file, for which I am going to be using JSON file, thus JSON parser needs to be implemented. The game can be played in single-player, where occasional events will be generated simulating the AI.
+
+The game will have various classes for different game elements. CRenderWindow is going to be used primarily to display various game objects in the window, CGameManager will be used to generate Events, store information about current state of the map, buildings built and manage resources on the map. CPlayerState will be used to store/load state of the Player (score, amount of resources). CTilemap is going to be an implementation of grid, which is using individual CTiles, on which CBuildings will have an ability to be built and from which resources may be extracted. CBuilding is an abstract class which will be used as an interface to develop different types of buildings as it's children. 
+
+The game will allow players to build various types of buildings, such as houses, lumberjacks, farms, and mines. Each building will have its own specific parameters, such as cost, inputs, and outputs. The building parameters will be implemented using polymorphism, which will allow for easy modification and extension of the game in the future.
+
+Additionally, the game will have various events that can happen, such as floods, growth of trees. These events will have different effects on the city, such as destroying buildings, reducing or increasing resources, and others. Polymorphism will be used to implement these effects, allowing for easy modification and extension of the game. The base class for all events is IEvent. Through connection of CGameManager and IEvent, simulation of the world life will be handled. 
+
+Further classes may be added to the game in the future, to simulate living beings like settlers.

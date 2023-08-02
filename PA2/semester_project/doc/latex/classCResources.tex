@@ -1,0 +1,147 @@
+\doxysection{CResources Class Reference}
+\hypertarget{classCResources}{}\label{classCResources}\index{CResources@{CResources}}
+
+
+Represents a collection of resources.  
+
+
+
+
+{\ttfamily \#include $<$Resources.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCResources_aa3eddf2f3e237909220d7b9648820e71}{CResources}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{classCResources}{CResources}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCResources_ab90eca015e8fdd5288c89d678b03c44e}{CResources}} (int g, int s, int w, int b, int f, int p)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCResources}{CResources}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResources_ab6885f64ba66e7b50c43046ae7df112e}{add\+\_\+resource}} (const std\+::string \&res, int amount)
+\begin{DoxyCompactList}\small\item\em Adds a specified amount to a resource. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResources_a54000e2b244a55d47ac1fa03cbe1b4e8}{set\+\_\+resource}} (const std\+::string \&res, int amount)
+\begin{DoxyCompactList}\small\item\em Sets the amount of a resource to a specified value. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCResources_a6ba42e8799ac4176ed67fc51265f988a}{remove\+\_\+resource}} (const std\+::string \&res, int amount)
+\begin{DoxyCompactList}\small\item\em Removes a specified amount from a resource. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCResources_a15674cf3ecffd433451c79f9788d13d8}{get\+\_\+resource}} (const std\+::string \&res)
+\begin{DoxyCompactList}\small\item\em Gets the current amount of a resource. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a collection of resources. 
+
+This class manages different types of resources and their amounts. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCResources_aa3eddf2f3e237909220d7b9648820e71}\label{classCResources_aa3eddf2f3e237909220d7b9648820e71} 
+\index{CResources@{CResources}!CResources@{CResources}}
+\index{CResources@{CResources}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{CResources()}{CResources()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily CResources\+::\+CResources (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for \doxylink{classCResources}{CResources}. 
+
+Initializes the resources with default values. \Hypertarget{classCResources_ab90eca015e8fdd5288c89d678b03c44e}\label{classCResources_ab90eca015e8fdd5288c89d678b03c44e} 
+\index{CResources@{CResources}!CResources@{CResources}}
+\index{CResources@{CResources}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{CResources()}{CResources()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily CResources\+::\+CResources (\begin{DoxyParamCaption}\item[{int}]{g,  }\item[{int}]{s,  }\item[{int}]{w,  }\item[{int}]{b,  }\item[{int}]{f,  }\item[{int}]{p }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCResources}{CResources}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em g} & Initial amount of gold. \\
+\hline
+{\em s} & Initial amount of stone. \\
+\hline
+{\em w} & Initial amount of wood. \\
+\hline
+{\em b} & Initial amount of bread. \\
+\hline
+{\em f} & Initial amount of fish. \\
+\hline
+{\em p} & Initial population count. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCResources_ab6885f64ba66e7b50c43046ae7df112e}\label{classCResources_ab6885f64ba66e7b50c43046ae7df112e} 
+\index{CResources@{CResources}!add\_resource@{add\_resource}}
+\index{add\_resource@{add\_resource}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{add\_resource()}{add\_resource()}}
+{\footnotesize\ttfamily void CResources\+::add\+\_\+resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{res,  }\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Adds a specified amount to a resource. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em res} & The name of the resource. \\
+\hline
+{\em amount} & The amount to be added. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCResources_a15674cf3ecffd433451c79f9788d13d8}\label{classCResources_a15674cf3ecffd433451c79f9788d13d8} 
+\index{CResources@{CResources}!get\_resource@{get\_resource}}
+\index{get\_resource@{get\_resource}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{get\_resource()}{get\_resource()}}
+{\footnotesize\ttfamily int CResources\+::get\+\_\+resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{res }\end{DoxyParamCaption})}
+
+
+
+Gets the current amount of a resource. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em res} & The name of the resource. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The current amount of the resource. 
+\end{DoxyReturn}
+\Hypertarget{classCResources_a6ba42e8799ac4176ed67fc51265f988a}\label{classCResources_a6ba42e8799ac4176ed67fc51265f988a} 
+\index{CResources@{CResources}!remove\_resource@{remove\_resource}}
+\index{remove\_resource@{remove\_resource}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{remove\_resource()}{remove\_resource()}}
+{\footnotesize\ttfamily void CResources\+::remove\+\_\+resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{res,  }\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Removes a specified amount from a resource. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em res} & The name of the resource. \\
+\hline
+{\em amount} & The amount to be removed. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCResources_a54000e2b244a55d47ac1fa03cbe1b4e8}\label{classCResources_a54000e2b244a55d47ac1fa03cbe1b4e8} 
+\index{CResources@{CResources}!set\_resource@{set\_resource}}
+\index{set\_resource@{set\_resource}!CResources@{CResources}}
+\doxysubsubsection{\texorpdfstring{set\_resource()}{set\_resource()}}
+{\footnotesize\ttfamily void CResources\+::set\+\_\+resource (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{res,  }\item[{int}]{amount }\end{DoxyParamCaption})}
+
+
+
+Sets the amount of a resource to a specified value. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em res} & The name of the resource. \\
+\hline
+{\em amount} & The new amount for the resource. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Resources.\+hpp\item 
+src/Resources.\+cpp\end{DoxyCompactItemize}

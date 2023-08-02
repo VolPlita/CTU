@@ -1,0 +1,76 @@
+\doxysection{src/main.cpp File Reference}
+\hypertarget{main_8cpp}{}\label{main_8cpp}\index{src/main.cpp@{src/main.cpp}}
+
+
+Entry point of the program.  
+
+
+{\ttfamily \#include $<$iostream$>$}\newline
+{\ttfamily \#include $<$memory$>$}\newline
+{\ttfamily \#include $<$vector$>$}\newline
+{\ttfamily \#include $<$map$>$}\newline
+{\ttfamily \#include $<$SDL2/\+SDL.\+h$>$}\newline
+{\ttfamily \#include $<$SDL2/\+SDL\+\_\+ttf.\+h$>$}\newline
+{\ttfamily \#include $<$filesystem$>$}\newline
+{\ttfamily \#include \"{}define.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Text.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Resources.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Buildings.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Tiles.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Buttons.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Menu.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Parser.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Game.\+hpp\"{}}\newline
+{\ttfamily \#include \"{}Actions.\+hpp\"{}}\newline
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{main_8cpp_a0f5701f0f23f1bbe98449f41abc8af24}{init\+\_\+\+SDL}} (SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*}win, SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&ren)
+\begin{DoxyCompactList}\small\item\em Initializes SDL\+\_\+\+Window with title defined in \"{}define.\+hpp\"{} and SDL\+\_\+\+Renderer. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}{main}} (int argc, char \texorpdfstring{$\ast$}{*}argv\mbox{[}$\,$\mbox{]})
+\begin{DoxyCompactList}\small\item\em The main function of the program. Contains main loop with event polling. Instance of \doxylink{classCGame}{CGame} is constructed here as well aas two instances of \doxylink{classCMenu}{CMenu} which are used for initial and world loading menus. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Entry point of the program. 
+
+
+
+\doxysubsection{Function Documentation}
+\Hypertarget{main_8cpp_a0f5701f0f23f1bbe98449f41abc8af24}\label{main_8cpp_a0f5701f0f23f1bbe98449f41abc8af24} 
+\index{main.cpp@{main.cpp}!init\_SDL@{init\_SDL}}
+\index{init\_SDL@{init\_SDL}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{init\_SDL()}{init\_SDL()}}
+{\footnotesize\ttfamily void init\+\_\+\+SDL (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Window \texorpdfstring{$\ast$}{*}}]{win,  }\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{ren }\end{DoxyParamCaption})}
+
+
+
+Initializes SDL\+\_\+\+Window with title defined in \"{}define.\+hpp\"{} and SDL\+\_\+\+Renderer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em win} & Pointer to the window pointer \\
+\hline
+{\em ren} & Reference to the renderer pointer \\
+\hline
+\end{DoxyParams}
+\Hypertarget{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97}\label{main_8cpp_a0ddf1224851353fc92bfbff6f499fa97} 
+\index{main.cpp@{main.cpp}!main@{main}}
+\index{main@{main}!main.cpp@{main.cpp}}
+\doxysubsubsection{\texorpdfstring{main()}{main()}}
+{\footnotesize\ttfamily int main (\begin{DoxyParamCaption}\item[{int}]{argc,  }\item[{char \texorpdfstring{$\ast$}{*}}]{argv\mbox{[}$\,$\mbox{]} }\end{DoxyParamCaption})}
+
+
+
+The main function of the program. Contains main loop with event polling. Instance of \doxylink{classCGame}{CGame} is constructed here as well aas two instances of \doxylink{classCMenu}{CMenu} which are used for initial and world loading menus. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em argc} & Number of command-\/line arguments \\
+\hline
+{\em argv} & Array of command-\/line arguments \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Exit status 
+\end{DoxyReturn}

@@ -1,0 +1,44 @@
+\doxysection{Text.\+hpp}
+\hypertarget{Text_8hpp_source}{}\label{Text_8hpp_source}\index{src/Text.hpp@{src/Text.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <iostream>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <SDL2/SDL\_ttf.h>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00012\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCText}{CText}}}
+\DoxyCodeLine{00013\ \{}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keyword}{static}\ \textcolor{keywordtype}{bool}\ is\_initialized;\ \ \ \ \ }
+\DoxyCodeLine{00015\ \ \ \ \ SDL\_Texture\ *\ m\_texture;\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00016\ \ \ \ \ TTF\_Font\ *\ m\_font;\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00017\ \ \ \ \ SDL\_Rect\ m\_dst\_rect;\ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00018\ \ \ \ \ std::string\ m\_text;\ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ }
+\DoxyCodeLine{00024\ \ \ \ \ \mbox{\hyperlink{classCText_af837cea14f98ba12e37139cb702eb57e}{CText}}();}
+\DoxyCodeLine{00025\ }
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classCText_af837cea14f98ba12e37139cb702eb57e}{CText}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keyword}{const}\ std::string\ \&\ text);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classCText_acf85c241b5e80ef93883d2b25e330b49}{\string~CText}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCText_a60e84efe2dbcd66850d2dde9012b5cf4}{change\_text}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keyword}{const}\ std::string\ \&\ text);}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00052\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCText_a52a7e642102446278417d26f9308d21d}{change\_color}}(SDL\_Renderer\ *\&\ rend,\ SDL\_Color\ color);}
+\DoxyCodeLine{00053\ }
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCText_aa97c6d56482735b4539e8da7053b0aec}{get\_x}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00059\ }
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCText_a85baf43ea31b20eaad057c0c2089e0df}{get\_y}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00065\ }
+\DoxyCodeLine{00070\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCText_ae97dc4c356f2b5c5f8d4efe58bb78c34}{get\_w}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classCText_adf98f8ba76b10f16126efedbb604de46}{get\_h}}()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00077\ }
+\DoxyCodeLine{00082\ \ \ \ \ std::string\ \mbox{\hyperlink{classCText_acf1eac277a4b32656b0ea84afd8ac22a}{get\_string}}();}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00088\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCText_a6d9582b57e4539ea902add9674835239}{render}}(SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00089\ \};}
+
+\end{DoxyCode}

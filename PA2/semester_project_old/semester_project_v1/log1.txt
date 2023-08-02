@@ -1,0 +1,65 @@
+==9642== Memcheck, a memory error detector
+==9642== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==9642== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==9642== Command: ./game
+==9642== 
+==9642== Warning: set address range perms: large range [0x600000000000, 0x640000002000) (noaccess)
+==9642== Invalid free() / delete / delete[] / realloc()
+==9642==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9642==    by 0x56CD5EC: XFree (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==9642==    by 0x4F4DBFE: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4F1B2B2: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4F209A7: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4EF288D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4E52426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x10D94C: main (tile2.cpp:168)
+==9642==  Address 0x606000000000 is in a rw- anonymous segment
+==9642== 
+==9642== Invalid free() / delete / delete[] / realloc()
+==9642==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==9642==    by 0x56CD5EC: XFree (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==9642==    by 0x4F1BA2C: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4F209A7: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4EF288D: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x4E52426: ??? (in /usr/lib/x86_64-linux-gnu/libSDL2-2.0.so.0.18.2)
+==9642==    by 0x10D94C: main (tile2.cpp:168)
+==9642==  Address 0x606000000060 is in a rw- anonymous segment
+==9642== 
+LeakSanitizer: bad pointer 0x000007170ae0
+LeakSanitizer: CHECK failed: sanitizer_allocator_secondary.h:177 "((IsAligned(reinterpret_cast<uptr>(p), page_size_))) != (0)" (0x0, 0x0) (tid=9642)
+==9642== 
+==9642== Process terminating with default action of signal 11 (SIGSEGV)
+==9642==  General Protection Fault
+==9642==    at 0x53A4F42: __pthread_once_slow (pthread_once.c:114)
+==9642==    by 0x5473A52: __rpc_thread_variables (rpc_thread.c:59)
+==9642==    by 0x54C6D8C: free_mem (in /usr/lib/x86_64-linux-gnu/libc.so.6)
+==9642==    by 0x54C68C1: __libc_freeres (in /usr/lib/x86_64-linux-gnu/libc.so.6)
+==9642==    by 0x483F1B2: _vgnU_freeres (in /usr/libexec/valgrind/vgpreload_core-amd64-linux.so)
+==9642==    by 0x4963CBF: ???
+==9642==    by 0x489C0BB: __sanitizer::Die() (sanitizer_termination.cpp:59)
+==9642==    by 0x489C16A: __sanitizer::CheckFailed(char const*, int, char const*, unsigned long long, unsigned long long) (sanitizer_termination.cpp:87)
+==9642==    by 0x487A97B: GetMetaData (sanitizer_allocator_secondary.h:177)
+==9642==    by 0x487A97B: GetMetaData (sanitizer_allocator_combined.h:126)
+==9642==    by 0x487A97B: Metadata (lsan_allocator.cpp:57)
+==9642==    by 0x487A97B: RegisterDeallocation (lsan_allocator.cpp:72)
+==9642==    by 0x487A97B: RegisterDeallocation (lsan_allocator.cpp:70)
+==9642==    by 0x487A97B: __lsan::Reallocate(__sanitizer::StackTrace const&, void*, unsigned long, unsigned long) (lsan_allocator.cpp:130)
+==9642==    by 0x487ABB6: lsan_realloc (lsan_allocator.cpp:196)
+==9642==    by 0x487ABB6: __lsan::lsan_reallocarray(void*, unsigned long, unsigned long, __sanitizer::StackTrace const&) (lsan_allocator.cpp:207)
+==9642==    by 0x487D934: reallocarray (lsan_interceptors.cpp:105)
+==9642==    by 0x56D4164: ??? (in /usr/lib/x86_64-linux-gnu/libX11.so.6.4.0)
+==9642== 
+==9642== HEAP SUMMARY:
+==9642==     in use at exit: 217,247 bytes in 665 blocks
+==9642==   total heap usage: 1,022 allocs, 359 frees, 325,422 bytes allocated
+==9642== 
+==9642== LEAK SUMMARY:
+==9642==    definitely lost: 0 bytes in 0 blocks
+==9642==    indirectly lost: 0 bytes in 0 blocks
+==9642==      possibly lost: 2,640 bytes in 2 blocks
+==9642==    still reachable: 214,607 bytes in 663 blocks
+==9642==         suppressed: 0 bytes in 0 blocks
+==9642== Rerun with --leak-check=full to see details of leaked memory
+==9642== 
+==9642== For lists of detected and suppressed errors, rerun with: -s
+==9642== ERROR SUMMARY: 2 errors from 2 contexts (suppressed: 0 from 0)

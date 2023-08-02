@@ -1,0 +1,16 @@
+# Doxyfile configuration
+
+# Project name
+PROJECT_NAME = Super-puper_city-building_game_3000
+
+# Project version
+PROJECT_NUMBER = 1.0
+
+# Source code directory
+INPUT = src
+
+# Destination directory for generated documentation
+OUTPUT_DIRECTORY = doc
+
+# Enable/disable different output formats
+GENERATE_HTML = YES

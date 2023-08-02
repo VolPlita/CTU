@@ -1,0 +1,7 @@
+UNICODE -> UTF-32 (the only static encodeing)
+UTF-16   (dynamic, look at wiki)
+UTF-8    (dynamic, look at wiki)
+
+Used commands:
+1) hexdump           // in hex
+2) xxd -b text.txt   // in binary

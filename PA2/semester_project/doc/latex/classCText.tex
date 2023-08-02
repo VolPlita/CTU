@@ -1,0 +1,188 @@
+\doxysection{CText Class Reference}
+\hypertarget{classCText}{}\label{classCText}\index{CText@{CText}}
+
+
+Represents a text element to be rendered on the screen.  
+
+
+
+
+{\ttfamily \#include $<$Text.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCText_af837cea14f98ba12e37139cb702eb57e}\label{classCText_af837cea14f98ba12e37139cb702eb57e} 
+{\bfseries CText} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{classCText}{CText}. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCText_ab12d2217cd6036c5d48633e58a8ac5f8}{CText}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, int x, int y, const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCText}{CText}. \end{DoxyCompactList}\item 
+\Hypertarget{classCText_acf85c241b5e80ef93883d2b25e330b49}\label{classCText_acf85c241b5e80ef93883d2b25e330b49} 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+CText} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classCText}{CText}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCText_a60e84efe2dbcd66850d2dde9012b5cf4}{change\+\_\+text}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Changes the text string to be rendered. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCText_a52a7e642102446278417d26f9308d21d}{change\+\_\+color}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, SDL\+\_\+\+Color color)
+\begin{DoxyCompactList}\small\item\em Changes the color of the text. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCText_aa97c6d56482735b4539e8da7053b0aec}{get\+\_\+x}} () const
+\begin{DoxyCompactList}\small\item\em Gets the x-\/coordinate of the text position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCText_a85baf43ea31b20eaad057c0c2089e0df}{get\+\_\+y}} () const
+\begin{DoxyCompactList}\small\item\em Gets the y-\/coordinate of the text position. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCText_ae97dc4c356f2b5c5f8d4efe58bb78c34}{get\+\_\+w}} () const
+\begin{DoxyCompactList}\small\item\em Gets the width of the rendered text. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classCText_adf98f8ba76b10f16126efedbb604de46}{get\+\_\+h}} () const
+\begin{DoxyCompactList}\small\item\em Gets the height of the rendered text. \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{classCText_acf1eac277a4b32656b0ea84afd8ac22a}{get\+\_\+string}} ()
+\begin{DoxyCompactList}\small\item\em Gets the text string. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCText_a6d9582b57e4539ea902add9674835239}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Renders the text on the screen. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a text element to be rendered on the screen. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCText_ab12d2217cd6036c5d48633e58a8ac5f8}\label{classCText_ab12d2217cd6036c5d48633e58a8ac5f8} 
+\index{CText@{CText}!CText@{CText}}
+\index{CText@{CText}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{CText()}{CText()}}
+{\footnotesize\ttfamily CText\+::\+CText (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{int}]{x,  }\item[{int}]{y,  }\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCText}{CText}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer. \\
+\hline
+{\em x} & The x-\/coordinate of the text position. \\
+\hline
+{\em y} & The y-\/coordinate of the text position. \\
+\hline
+{\em text} & The text string to be rendered. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCText_a52a7e642102446278417d26f9308d21d}\label{classCText_a52a7e642102446278417d26f9308d21d} 
+\index{CText@{CText}!change\_color@{change\_color}}
+\index{change\_color@{change\_color}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{change\_color()}{change\_color()}}
+{\footnotesize\ttfamily void CText\+::change\+\_\+color (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{SDL\+\_\+\+Color}]{color }\end{DoxyParamCaption})}
+
+
+
+Changes the color of the text. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer. \\
+\hline
+{\em color} & The new color for the text. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCText_a60e84efe2dbcd66850d2dde9012b5cf4}\label{classCText_a60e84efe2dbcd66850d2dde9012b5cf4} 
+\index{CText@{CText}!change\_text@{change\_text}}
+\index{change\_text@{change\_text}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{change\_text()}{change\_text()}}
+{\footnotesize\ttfamily void CText\+::change\+\_\+text (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Changes the text string to be rendered. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer. \\
+\hline
+{\em text} & The new text string. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classCText_adf98f8ba76b10f16126efedbb604de46}\label{classCText_adf98f8ba76b10f16126efedbb604de46} 
+\index{CText@{CText}!get\_h@{get\_h}}
+\index{get\_h@{get\_h}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{get\_h()}{get\_h()}}
+{\footnotesize\ttfamily int CText\+::get\+\_\+h (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the height of the rendered text. 
+
+\begin{DoxyReturn}{Returns}
+The height of the text. 
+\end{DoxyReturn}
+\Hypertarget{classCText_acf1eac277a4b32656b0ea84afd8ac22a}\label{classCText_acf1eac277a4b32656b0ea84afd8ac22a} 
+\index{CText@{CText}!get\_string@{get\_string}}
+\index{get\_string@{get\_string}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{get\_string()}{get\_string()}}
+{\footnotesize\ttfamily std\+::string CText\+::get\+\_\+string (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the text string. 
+
+\begin{DoxyReturn}{Returns}
+The text string. 
+\end{DoxyReturn}
+\Hypertarget{classCText_ae97dc4c356f2b5c5f8d4efe58bb78c34}\label{classCText_ae97dc4c356f2b5c5f8d4efe58bb78c34} 
+\index{CText@{CText}!get\_w@{get\_w}}
+\index{get\_w@{get\_w}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{get\_w()}{get\_w()}}
+{\footnotesize\ttfamily int CText\+::get\+\_\+w (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the width of the rendered text. 
+
+\begin{DoxyReturn}{Returns}
+The width of the text. 
+\end{DoxyReturn}
+\Hypertarget{classCText_aa97c6d56482735b4539e8da7053b0aec}\label{classCText_aa97c6d56482735b4539e8da7053b0aec} 
+\index{CText@{CText}!get\_x@{get\_x}}
+\index{get\_x@{get\_x}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{get\_x()}{get\_x()}}
+{\footnotesize\ttfamily int CText\+::get\+\_\+x (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the x-\/coordinate of the text position. 
+
+\begin{DoxyReturn}{Returns}
+The x-\/coordinate. 
+\end{DoxyReturn}
+\Hypertarget{classCText_a85baf43ea31b20eaad057c0c2089e0df}\label{classCText_a85baf43ea31b20eaad057c0c2089e0df} 
+\index{CText@{CText}!get\_y@{get\_y}}
+\index{get\_y@{get\_y}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{get\_y()}{get\_y()}}
+{\footnotesize\ttfamily int CText\+::get\+\_\+y (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Gets the y-\/coordinate of the text position. 
+
+\begin{DoxyReturn}{Returns}
+The y-\/coordinate. 
+\end{DoxyReturn}
+\Hypertarget{classCText_a6d9582b57e4539ea902add9674835239}\label{classCText_a6d9582b57e4539ea902add9674835239} 
+\index{CText@{CText}!render@{render}}
+\index{render@{render}!CText@{CText}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void CText\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Renders the text on the screen. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL renderer. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Text.\+hpp\item 
+src/Text.\+cpp\end{DoxyCompactItemize}

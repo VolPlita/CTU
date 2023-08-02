@@ -1,0 +1,88 @@
+\doxysection{CFlood Class Reference}
+\hypertarget{classCFlood}{}\label{classCFlood}\index{CFlood@{CFlood}}
+
+
+{\ttfamily \#include $<$Actions.\+hpp$>$}
+
+Inheritance diagram for CFlood\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCFlood}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCFlood_a2e515b525b89fe65ec04f846023da6f0}{CFlood}} (\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&build, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCFlood}{CFlood} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCFlood_ae086f925eb2b66fc8ccd04ce6147b82b}{empose\+\_\+effect}} () const override
+\begin{DoxyCompactList}\small\item\em Apply the effect of the action. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classCAction}{CAction}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCAction_ada66bdebdde5c16adeee45da6dbdebef}{CAction}} (\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&build, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCAction}{CAction} class. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+CAction} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classCAction}{CAction} class. \end{DoxyCompactList}\item 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the action timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classCAction}{CAction}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \& {\bfseries m\+\_\+map\+\_\+ref}
+\begin{DoxyCompactList}\small\item\em Reference to the tile map. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \& {\bfseries m\+\_\+build\+\_\+ref}
+\begin{DoxyCompactList}\small\item\em Reference to the building map. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the action. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the flood action. Floods some random sand tiles and destroys buildings and resources located on this tiles. Bad for fishers. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCFlood_a2e515b525b89fe65ec04f846023da6f0}\label{classCFlood_a2e515b525b89fe65ec04f846023da6f0} 
+\index{CFlood@{CFlood}!CFlood@{CFlood}}
+\index{CFlood@{CFlood}!CFlood@{CFlood}}
+\doxysubsubsection{\texorpdfstring{CFlood()}{CFlood()}}
+{\footnotesize\ttfamily CFlood\+::\+CFlood (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&}]{map,  }\item[{\mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&}]{build,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCFlood}{CFlood} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Reference to the tile map. \\
+\hline
+{\em build} & Reference to the building map. \\
+\hline
+{\em interval} & Time interval for the action. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCFlood_ae086f925eb2b66fc8ccd04ce6147b82b}\label{classCFlood_ae086f925eb2b66fc8ccd04ce6147b82b} 
+\index{CFlood@{CFlood}!empose\_effect@{empose\_effect}}
+\index{empose\_effect@{empose\_effect}!CFlood@{CFlood}}
+\doxysubsubsection{\texorpdfstring{empose\_effect()}{empose\_effect()}}
+{\footnotesize\ttfamily void CFlood\+::empose\+\_\+effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Apply the effect of the action. 
+
+
+
+Implements \mbox{\hyperlink{classCAction_a9cb2e8f4cfc46b8fd94bffa11aba6ba7}{CAction}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Actions.\+hpp\item 
+src/Actions.\+cpp\end{DoxyCompactItemize}

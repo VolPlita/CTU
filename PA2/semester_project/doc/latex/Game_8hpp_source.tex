@@ -1,0 +1,38 @@
+\doxysection{Game.\+hpp}
+\hypertarget{Game_8hpp_source}{}\label{Game_8hpp_source}\index{src/Game.hpp@{src/Game.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ "{}Menu.hpp"{}}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}Buttons.hpp"{}}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ "{}Actions.hpp"{}}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCGame}{CGame}}}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00016\ \ \ \ \ \mbox{\hyperlink{classCMenu}{CMenu}}\ \mbox{\hyperlink{classCGame_a1d46813b95da0be2dbc2028cc057896d}{gameMenu}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00017\ \ \ \ \ \mbox{\hyperlink{classCButtonList}{CButtonList}}\ \mbox{\hyperlink{classCGame_ac23c3228cb5594f6668d23e3eed0d084}{buttonList}};\ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00018\ \ \ \ \ \mbox{\hyperlink{classCParser}{CParser}}\ \mbox{\hyperlink{classCGame_aecdcb7a0b1dc4ad660143d3e92bb2503}{parser}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{classCTileMap}{CTileMap}}\ \mbox{\hyperlink{classCGame_adc9bce1b264f32d1733f73f8865ce321}{gameMap}};\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classCResources}{CResources}}\ \mbox{\hyperlink{classCGame_a113c2c12353a87974acfa62b63f72915}{resourceList}};\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \mbox{\hyperlink{classCGame_af0c525fb1606f79e5b74624207be3d9c}{buildingMap}};\ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classCResourceText}{CResourceText}}\ \mbox{\hyperlink{classCGame_a6af00fa0432fb52246ddc48d752ab685}{resourceBar}};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00024\ }
+\DoxyCodeLine{00025\ \ \ \ \ std::vector<std::shared\_ptr<CAction>>\ \mbox{\hyperlink{classCGame_aa255eaf11a0d2fd0f47db8d6f4c12971}{m\_actions}};\ \ }
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00035\ \ \ \ \ \mbox{\hyperlink{classCGame}{CGame}}(\textcolor{keyword}{const}\ std::string\ \&\ tiletexture,\ \textcolor{keyword}{const}\ std::string\ \&\ buttontexture,\ SDL\_Renderer\ *\&\ renderer);}
+\DoxyCodeLine{00036\ }
+\DoxyCodeLine{00046\ \ \ \ \ \mbox{\hyperlink{classCGame}{CGame}}(\textcolor{keyword}{const}\ std::string\ \&\ tiletexture,\ \textcolor{keyword}{const}\ std::string\ \&\ buttontexture,\ SDL\_Renderer\ *\&\ renderer,\ \mbox{\hyperlink{structCWorldData}{CWorldData}}\ data);}
+\DoxyCodeLine{00047\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCGame_a9416e8edcc300b5312040085abd88361}{construct}}();}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCGame_a9416e8edcc300b5312040085abd88361}{construct}}(\mbox{\hyperlink{structCWorldData}{CWorldData}}\ data);}
+\DoxyCodeLine{00062\ \ \ \ \ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCGame_a8e531063c4f49aec755bfd4921c5d2ab}{add\_flood}}(Uint32\ interval);}
+\DoxyCodeLine{00070\ \ \ \ \ }
+\DoxyCodeLine{00077\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCGame_aec76a4dcb1a2cb4c740457b456ead095}{add\_treegrow}}(Uint32\ interval);}
+\DoxyCodeLine{00078\ \};}
+
+\end{DoxyCode}

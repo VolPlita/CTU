@@ -1,0 +1,88 @@
+\doxysection{CTree\+Growth Class Reference}
+\hypertarget{classCTreeGrowth}{}\label{classCTreeGrowth}\index{CTreeGrowth@{CTreeGrowth}}
+
+
+{\ttfamily \#include $<$Actions.\+hpp$>$}
+
+Inheritance diagram for CTree\+Growth\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classCTreeGrowth}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCTreeGrowth_a704b9d7ceece5ca8f0bf06b6728bd820}{CTree\+Growth}} (\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&build, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCTreeGrowth}{CTree\+Growth} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCTreeGrowth_abfce2395cbe1803827d99cfb15ddbd4f}{empose\+\_\+effect}} () const override
+\begin{DoxyCompactList}\small\item\em Apply the effect of the tree growth action. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions inherited from \mbox{\hyperlink{classCAction}{CAction}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCAction_ada66bdebdde5c16adeee45da6dbdebef}{CAction}} (\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&build, Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCAction}{CAction} class. \end{DoxyCompactList}\item 
+{\bfseries \texorpdfstring{$\sim$}{\string~}\+CAction} ()
+\begin{DoxyCompactList}\small\item\em Destructor for \doxylink{classCAction}{CAction} class. \end{DoxyCompactList}\item 
+void {\bfseries reset\+\_\+timer} ()
+\begin{DoxyCompactList}\small\item\em Reset the action timer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Additional Inherited Members}
+\doxysubsection*{Protected Attributes inherited from \mbox{\hyperlink{classCAction}{CAction}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \& {\bfseries m\+\_\+map\+\_\+ref}
+\begin{DoxyCompactList}\small\item\em Reference to the tile map. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \& {\bfseries m\+\_\+build\+\_\+ref}
+\begin{DoxyCompactList}\small\item\em Reference to the building map. \end{DoxyCompactList}\item 
+SDL\+\_\+\+Timer\+ID {\bfseries m\+\_\+timer}
+\begin{DoxyCompactList}\small\item\em Timer ID. \end{DoxyCompactList}\item 
+Uint32 {\bfseries m\+\_\+interval}
+\begin{DoxyCompactList}\small\item\em Time interval for the action. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the tree growth action. Grows some trees on free grass and flower tiles. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCTreeGrowth_a704b9d7ceece5ca8f0bf06b6728bd820}\label{classCTreeGrowth_a704b9d7ceece5ca8f0bf06b6728bd820} 
+\index{CTreeGrowth@{CTreeGrowth}!CTreeGrowth@{CTreeGrowth}}
+\index{CTreeGrowth@{CTreeGrowth}!CTreeGrowth@{CTreeGrowth}}
+\doxysubsubsection{\texorpdfstring{CTreeGrowth()}{CTreeGrowth()}}
+{\footnotesize\ttfamily CTree\+Growth\+::\+CTree\+Growth (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&}]{map,  }\item[{\mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} \&}]{build,  }\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCTreeGrowth}{CTree\+Growth} class. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & Reference to the tile map. \\
+\hline
+{\em build} & Reference to the building map. \\
+\hline
+{\em interval} & Time interval for the action. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCTreeGrowth_abfce2395cbe1803827d99cfb15ddbd4f}\label{classCTreeGrowth_abfce2395cbe1803827d99cfb15ddbd4f} 
+\index{CTreeGrowth@{CTreeGrowth}!empose\_effect@{empose\_effect}}
+\index{empose\_effect@{empose\_effect}!CTreeGrowth@{CTreeGrowth}}
+\doxysubsubsection{\texorpdfstring{empose\_effect()}{empose\_effect()}}
+{\footnotesize\ttfamily void CTree\+Growth\+::empose\+\_\+effect (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [override]}, {\ttfamily [virtual]}}
+
+
+
+Apply the effect of the tree growth action. 
+
+
+
+Implements \mbox{\hyperlink{classCAction_a9cb2e8f4cfc46b8fd94bffa11aba6ba7}{CAction}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Actions.\+hpp\item 
+src/Actions.\+cpp\end{DoxyCompactItemize}

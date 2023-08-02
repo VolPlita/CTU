@@ -1,0 +1,172 @@
+\doxysection{CMenu Class Reference}
+\hypertarget{classCMenu}{}\label{classCMenu}\index{CMenu@{CMenu}}
+
+
+Represents a menu with selectable options.  
+
+
+
+
+{\ttfamily \#include $<$Menu.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCMenu_a460ad6435608f72ee6b3a9a688f5a9b7}{CMenu}} ()
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{classCMenu}{CMenu} class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_a8470536d29a93bfac50c7417e9780c5e}{add\+\_\+option}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend, const std\+::string \&opt)
+\begin{DoxyCompactList}\small\item\em Adds a new option to the menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_ad6b1e6877a6699b6332c5842e3f037f7}{clear\+\_\+menu}} ()
+\begin{DoxyCompactList}\small\item\em Clears all options from the menu. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_a39993de842a004589010913a76d8ca29}{render}} (SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&rend)
+\begin{DoxyCompactList}\small\item\em Renders the menu on the provided renderer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_a9f264e5c283029b3f3b65d83a78e107d}{deal\+\_\+with\+\_\+menu}} (eventlist event, bool \&is\+Running, bool \&menuload, bool \&menugame, \mbox{\hyperlink{classCParser}{CParser}} \&parser, \mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCResources}{CResources}} \&res, bool \&generate\+\_\+rand, bool \&load\+\_\+updated)
+\begin{DoxyCompactList}\small\item\em Handles events related to the menu in the main menu state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_ae289aca784d4138c162987af2179fdde}{deal\+\_\+with\+\_\+init\+\_\+menu}} (eventlist event, bool \&is\+Running, bool \&menustart, bool \&menuload, bool \&generate\+\_\+rand)
+\begin{DoxyCompactList}\small\item\em Handles events related to the menu in the initial menu state. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCMenu_a491f443edfde7c2b34158adcf3980c68}{deal\+\_\+with\+\_\+load}} (eventlist event, bool \&is\+Running, bool \&menuload, std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Handles events related to loading a game from the menu. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents a menu with selectable options. 
+
+The \doxylink{classCMenu}{CMenu} class provides functionality for creating and managing a menu with selectable options. It utilizes the SDL library for rendering and user input. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCMenu_a460ad6435608f72ee6b3a9a688f5a9b7}\label{classCMenu_a460ad6435608f72ee6b3a9a688f5a9b7} 
+\index{CMenu@{CMenu}!CMenu@{CMenu}}
+\index{CMenu@{CMenu}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{CMenu()}{CMenu()}}
+{\footnotesize\ttfamily CMenu\+::\+CMenu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Default constructor for \doxylink{classCMenu}{CMenu} class. 
+
+Initializes the menu colors to default values. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCMenu_a8470536d29a93bfac50c7417e9780c5e}\label{classCMenu_a8470536d29a93bfac50c7417e9780c5e} 
+\index{CMenu@{CMenu}!add\_option@{add\_option}}
+\index{add\_option@{add\_option}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{add\_option()}{add\_option()}}
+{\footnotesize\ttfamily void CMenu\+::add\+\_\+option (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend,  }\item[{const std\+::string \&}]{opt }\end{DoxyParamCaption})}
+
+
+
+Adds a new option to the menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL\+\_\+\+Renderer used for rendering. \\
+\hline
+{\em opt} & The text of the option to be added.\\
+\hline
+\end{DoxyParams}
+Creates a new \doxylink{classCText}{CText} object representing the option and adds it to the menu. \Hypertarget{classCMenu_ad6b1e6877a6699b6332c5842e3f037f7}\label{classCMenu_ad6b1e6877a6699b6332c5842e3f037f7} 
+\index{CMenu@{CMenu}!clear\_menu@{clear\_menu}}
+\index{clear\_menu@{clear\_menu}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{clear\_menu()}{clear\_menu()}}
+{\footnotesize\ttfamily void CMenu\+::clear\+\_\+menu (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Clears all options from the menu. 
+
+Removes all options from the menu, clearing the menu completely. \Hypertarget{classCMenu_ae289aca784d4138c162987af2179fdde}\label{classCMenu_ae289aca784d4138c162987af2179fdde} 
+\index{CMenu@{CMenu}!deal\_with\_init\_menu@{deal\_with\_init\_menu}}
+\index{deal\_with\_init\_menu@{deal\_with\_init\_menu}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{deal\_with\_init\_menu()}{deal\_with\_init\_menu()}}
+{\footnotesize\ttfamily void CMenu\+::deal\+\_\+with\+\_\+init\+\_\+menu (\begin{DoxyParamCaption}\item[{eventlist}]{event,  }\item[{bool \&}]{is\+Running,  }\item[{bool \&}]{menustart,  }\item[{bool \&}]{menuload,  }\item[{bool \&}]{generate\+\_\+rand }\end{DoxyParamCaption})}
+
+
+
+Handles events related to the menu in the initial menu state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The type of event to handle. \\
+\hline
+{\em is\+Running} & A reference to a boolean indicating the running state of the program. \\
+\hline
+{\em menustart} & A reference to a boolean indicating the starting menu state. \\
+\hline
+{\em menuload} & A reference to a boolean indicating the loading menu state. \\
+\hline
+{\em generate\+\_\+rand} & A reference to a boolean indicating whether to generate a random game.\\
+\hline
+\end{DoxyParams}
+Handles different types of events related to the menu when in the initial menu state. \Hypertarget{classCMenu_a491f443edfde7c2b34158adcf3980c68}\label{classCMenu_a491f443edfde7c2b34158adcf3980c68} 
+\index{CMenu@{CMenu}!deal\_with\_load@{deal\_with\_load}}
+\index{deal\_with\_load@{deal\_with\_load}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{deal\_with\_load()}{deal\_with\_load()}}
+{\footnotesize\ttfamily void CMenu\+::deal\+\_\+with\+\_\+load (\begin{DoxyParamCaption}\item[{eventlist}]{event,  }\item[{bool \&}]{is\+Running,  }\item[{bool \&}]{menuload,  }\item[{std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Handles events related to loading a game from the menu. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The type of event to handle. \\
+\hline
+{\em is\+Running} & A reference to a boolean indicating the running state of the program. \\
+\hline
+{\em menuload} & A reference to a boolean indicating the loading menu state. \\
+\hline
+{\em filename} & A reference to a string storing the filename of the loaded game.\\
+\hline
+\end{DoxyParams}
+Handles different types of events related to loading a game from the menu. \Hypertarget{classCMenu_a9f264e5c283029b3f3b65d83a78e107d}\label{classCMenu_a9f264e5c283029b3f3b65d83a78e107d} 
+\index{CMenu@{CMenu}!deal\_with\_menu@{deal\_with\_menu}}
+\index{deal\_with\_menu@{deal\_with\_menu}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{deal\_with\_menu()}{deal\_with\_menu()}}
+{\footnotesize\ttfamily void CMenu\+::deal\+\_\+with\+\_\+menu (\begin{DoxyParamCaption}\item[{eventlist}]{event,  }\item[{bool \&}]{is\+Running,  }\item[{bool \&}]{menuload,  }\item[{bool \&}]{menugame,  }\item[{\mbox{\hyperlink{classCParser}{CParser}} \&}]{parser,  }\item[{\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&}]{map,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res,  }\item[{bool \&}]{generate\+\_\+rand,  }\item[{bool \&}]{load\+\_\+updated }\end{DoxyParamCaption})}
+
+
+
+Handles events related to the menu in the main menu state. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em event} & The type of event to handle. \\
+\hline
+{\em is\+Running} & A reference to a boolean indicating the running state of the program. \\
+\hline
+{\em menuload} & A reference to a boolean indicating the loading menu state. \\
+\hline
+{\em menugame} & A reference to a boolean indicating the game menu state. \\
+\hline
+{\em parser} & A reference to the \doxylink{classCParser}{CParser} object for parsing game data. \\
+\hline
+{\em map} & A reference to the \doxylink{classCTileMap}{CTile\+Map} object representing the game map. \\
+\hline
+{\em res} & A reference to the \doxylink{classCResources}{CResources} object containing game resources. \\
+\hline
+{\em generate\+\_\+rand} & A reference to a boolean indicating whether to generate a random game. \\
+\hline
+{\em load\+\_\+updated} & A reference to a boolean indicating whether the game load is updated.\\
+\hline
+\end{DoxyParams}
+Handles different types of events related to the menu when in the main menu state. \Hypertarget{classCMenu_a39993de842a004589010913a76d8ca29}\label{classCMenu_a39993de842a004589010913a76d8ca29} 
+\index{CMenu@{CMenu}!render@{render}}
+\index{render@{render}!CMenu@{CMenu}}
+\doxysubsubsection{\texorpdfstring{render()}{render()}}
+{\footnotesize\ttfamily void CMenu\+::render (\begin{DoxyParamCaption}\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{rend }\end{DoxyParamCaption})}
+
+
+
+Renders the menu on the provided renderer. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rend} & The SDL\+\_\+\+Renderer used for rendering.\\
+\hline
+\end{DoxyParams}
+Renders the menu options on the specified renderer. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Menu.\+hpp\item 
+src/Menu.\+cpp\end{DoxyCompactItemize}

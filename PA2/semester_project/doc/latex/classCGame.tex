@@ -1,0 +1,165 @@
+\doxysection{CGame Class Reference}
+\hypertarget{classCGame}{}\label{classCGame}\index{CGame@{CGame}}
+
+
+Represents the game and its components.  
+
+
+
+
+{\ttfamily \#include $<$Game.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classCGame_a333ceedc8120cb5fa97f43d6dc9fd080}{CGame}} (const std\+::string \&tiletexture, const std\+::string \&buttontexture, SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&renderer)
+\begin{DoxyCompactList}\small\item\em Default constructor for \doxylink{classCGame}{CGame} class with empty map. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classCGame_a17fe4146adeb7355a2115a789fba0e5e}{CGame}} (const std\+::string \&tiletexture, const std\+::string \&buttontexture, SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&renderer, \mbox{\hyperlink{structCWorldData}{CWorld\+Data}} data)
+\begin{DoxyCompactList}\small\item\em Constructor for \doxylink{classCGame}{CGame} class that loads data from \doxylink{structCWorldData}{CWorld\+Data}. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCGame_a9416e8edcc300b5312040085abd88361}{construct}} ()
+\begin{DoxyCompactList}\small\item\em Constructs the game components. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCGame_a21e77cf2e87e39b597a3c18d6f8fd11b}{construct}} (\mbox{\hyperlink{structCWorldData}{CWorld\+Data}} data)
+\begin{DoxyCompactList}\small\item\em Constructs the game components using the provided data. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCGame_a8e531063c4f49aec755bfd4921c5d2ab}{add\+\_\+flood}} (Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Adds a flood action to the game. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCGame_aec76a4dcb1a2cb4c740457b456ead095}{add\+\_\+treegrow}} (Uint32 interval)
+\begin{DoxyCompactList}\small\item\em Adds a tree growth action to the game. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCGame_a1d46813b95da0be2dbc2028cc057896d}\label{classCGame_a1d46813b95da0be2dbc2028cc057896d} 
+\mbox{\hyperlink{classCMenu}{CMenu}} {\bfseries game\+Menu}
+\begin{DoxyCompactList}\small\item\em The game menu object for managing the game menu. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_ac23c3228cb5594f6668d23e3eed0d084}\label{classCGame_ac23c3228cb5594f6668d23e3eed0d084} 
+\mbox{\hyperlink{classCButtonList}{CButton\+List}} {\bfseries button\+List}
+\begin{DoxyCompactList}\small\item\em The button list object for managing game buttons. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_aecdcb7a0b1dc4ad660143d3e92bb2503}\label{classCGame_aecdcb7a0b1dc4ad660143d3e92bb2503} 
+\mbox{\hyperlink{classCParser}{CParser}} {\bfseries parser}
+\begin{DoxyCompactList}\small\item\em The parser object for parsing game data. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_adc9bce1b264f32d1733f73f8865ce321}\label{classCGame_adc9bce1b264f32d1733f73f8865ce321} 
+\mbox{\hyperlink{classCTileMap}{CTile\+Map}} {\bfseries game\+Map}
+\begin{DoxyCompactList}\small\item\em The game map object representing the game world. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_a113c2c12353a87974acfa62b63f72915}\label{classCGame_a113c2c12353a87974acfa62b63f72915} 
+\mbox{\hyperlink{classCResources}{CResources}} {\bfseries resource\+List}
+\begin{DoxyCompactList}\small\item\em The resource list object for managing game resources. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_af0c525fb1606f79e5b74624207be3d9c}\label{classCGame_af0c525fb1606f79e5b74624207be3d9c} 
+\mbox{\hyperlink{classCBuildingMap}{CBuilding\+Map}} {\bfseries building\+Map}
+\begin{DoxyCompactList}\small\item\em The building map object for managing game buildings. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_a6af00fa0432fb52246ddc48d752ab685}\label{classCGame_a6af00fa0432fb52246ddc48d752ab685} 
+\mbox{\hyperlink{classCResourceText}{CResource\+Text}} {\bfseries resource\+Bar}
+\begin{DoxyCompactList}\small\item\em The resource bar object for displaying the available resources. \end{DoxyCompactList}\item 
+\Hypertarget{classCGame_aa255eaf11a0d2fd0f47db8d6f4c12971}\label{classCGame_aa255eaf11a0d2fd0f47db8d6f4c12971} 
+std\+::vector$<$ std\+::shared\+\_\+ptr$<$ \mbox{\hyperlink{classCAction}{CAction}} $>$ $>$ {\bfseries m\+\_\+actions}
+\begin{DoxyCompactList}\small\item\em Vector to store game actions as shared pointers to \doxylink{classCAction}{CAction} objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Represents the game and its components. 
+
+The \doxylink{classCGame}{CGame} class represents the game and includes various components such as the game menu, button list, parser, game map, resource list, building map, and resource bar. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classCGame_a333ceedc8120cb5fa97f43d6dc9fd080}\label{classCGame_a333ceedc8120cb5fa97f43d6dc9fd080} 
+\index{CGame@{CGame}!CGame@{CGame}}
+\index{CGame@{CGame}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{CGame()}{CGame()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily CGame\+::\+CGame (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tiletexture,  }\item[{const std\+::string \&}]{buttontexture,  }\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{renderer }\end{DoxyParamCaption})}
+
+
+
+Default constructor for \doxylink{classCGame}{CGame} class with empty map. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tiletexture} & The filename of the texture for tiles. \\
+\hline
+{\em buttontexture} & The filename of the texture for buttons. \\
+\hline
+{\em renderer} & The SDL\+\_\+\+Renderer used for rendering.\\
+\hline
+\end{DoxyParams}
+Creates an empty game map and initializes the game menu, button list, parser, resource list, building map, and resource bar. \Hypertarget{classCGame_a17fe4146adeb7355a2115a789fba0e5e}\label{classCGame_a17fe4146adeb7355a2115a789fba0e5e} 
+\index{CGame@{CGame}!CGame@{CGame}}
+\index{CGame@{CGame}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{CGame()}{CGame()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily CGame\+::\+CGame (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{tiletexture,  }\item[{const std\+::string \&}]{buttontexture,  }\item[{SDL\+\_\+\+Renderer \texorpdfstring{$\ast$}{*}\&}]{renderer,  }\item[{\mbox{\hyperlink{structCWorldData}{CWorld\+Data}}}]{data }\end{DoxyParamCaption})}
+
+
+
+Constructor for \doxylink{classCGame}{CGame} class that loads data from \doxylink{structCWorldData}{CWorld\+Data}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em tiletexture} & The filename of the texture for tiles. \\
+\hline
+{\em buttontexture} & The filename of the texture for buttons. \\
+\hline
+{\em renderer} & The SDL\+\_\+\+Renderer used for rendering. \\
+\hline
+{\em data} & The \doxylink{structCWorldData}{CWorld\+Data} object containing game data.\\
+\hline
+\end{DoxyParams}
+Creates a game map and initializes the game menu, button list, parser, resource list, building map, and resource bar using the provided data. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCGame_a8e531063c4f49aec755bfd4921c5d2ab}\label{classCGame_a8e531063c4f49aec755bfd4921c5d2ab} 
+\index{CGame@{CGame}!add\_flood@{add\_flood}}
+\index{add\_flood@{add\_flood}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{add\_flood()}{add\_flood()}}
+{\footnotesize\ttfamily void CGame\+::add\+\_\+flood (\begin{DoxyParamCaption}\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Adds a flood action to the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em interval} & The interval at which the flood action should occur.\\
+\hline
+\end{DoxyParams}
+Adds a flood action to the game with the specified interval. \Hypertarget{classCGame_aec76a4dcb1a2cb4c740457b456ead095}\label{classCGame_aec76a4dcb1a2cb4c740457b456ead095} 
+\index{CGame@{CGame}!add\_treegrow@{add\_treegrow}}
+\index{add\_treegrow@{add\_treegrow}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{add\_treegrow()}{add\_treegrow()}}
+{\footnotesize\ttfamily void CGame\+::add\+\_\+treegrow (\begin{DoxyParamCaption}\item[{Uint32}]{interval }\end{DoxyParamCaption})}
+
+
+
+Adds a tree growth action to the game. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em interval} & The interval at which the tree growth action should occur.\\
+\hline
+\end{DoxyParams}
+Adds a tree growth action to the game with the specified interval. \Hypertarget{classCGame_a9416e8edcc300b5312040085abd88361}\label{classCGame_a9416e8edcc300b5312040085abd88361} 
+\index{CGame@{CGame}!construct@{construct}}
+\index{construct@{construct}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{construct()}{construct()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void CGame\+::construct (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Constructs the game components. 
+
+Constructs the game components by initializing the game menu, button list, parser, resource list, building map, and resource bar. \Hypertarget{classCGame_a21e77cf2e87e39b597a3c18d6f8fd11b}\label{classCGame_a21e77cf2e87e39b597a3c18d6f8fd11b} 
+\index{CGame@{CGame}!construct@{construct}}
+\index{construct@{construct}!CGame@{CGame}}
+\doxysubsubsection{\texorpdfstring{construct()}{construct()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily void CGame\+::construct (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structCWorldData}{CWorld\+Data}}}]{data }\end{DoxyParamCaption})}
+
+
+
+Constructs the game components using the provided data. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & The \doxylink{structCWorldData}{CWorld\+Data} object containing game data.\\
+\hline
+\end{DoxyParams}
+Constructs the game components using the provided data by initializing the game menu, button list, parser, resource list, building map, and resource bar. 
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Game.\+hpp\item 
+src/Game.\+cpp\end{DoxyCompactItemize}

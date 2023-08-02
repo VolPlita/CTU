@@ -1,0 +1,38 @@
+\doxysection{Menu.\+hpp}
+\hypertarget{Menu_8hpp_source}{}\label{Menu_8hpp_source}\index{src/Menu.hpp@{src/Menu.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <memory>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}define.hpp"{}}}
+\DoxyCodeLine{00007\ \textcolor{preprocessor}{\#include\ "{}Text.hpp"{}}}
+\DoxyCodeLine{00008\ \textcolor{preprocessor}{\#include\ "{}Parser.hpp"{}}}
+\DoxyCodeLine{00009\ }
+\DoxyCodeLine{00010\ }
+\DoxyCodeLine{00017\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCMenu}{CMenu}}}
+\DoxyCodeLine{00018\ \{}
+\DoxyCodeLine{00019\ \ \ \ \ std::vector<std::shared\_ptr<CText>>\ m\_options;\ \ \ \ \ \ }
+\DoxyCodeLine{00020\ \ \ \ \ std::vector<bool>\ m\_selected;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00021\ \ \ \ \ SDL\_Color\ m\_colors[2];\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00022\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00029\ \ \ \ \ \mbox{\hyperlink{classCMenu_a460ad6435608f72ee6b3a9a688f5a9b7}{CMenu}}();}
+\DoxyCodeLine{00030\ }
+\DoxyCodeLine{00038\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_a8470536d29a93bfac50c7417e9780c5e}{add\_option}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keyword}{const}\ std::string\&\ opt);}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_ad6b1e6877a6699b6332c5842e3f037f7}{clear\_menu}}();}
+\DoxyCodeLine{00046\ }
+\DoxyCodeLine{00053\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_a39993de842a004589010913a76d8ca29}{render}}(SDL\_Renderer\ *\&\ rend);}
+\DoxyCodeLine{00054\ }
+\DoxyCodeLine{00069\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_a9f264e5c283029b3f3b65d83a78e107d}{deal\_with\_menu}}(eventlist\ event,\ \textcolor{keywordtype}{bool}\ \&\ isRunning,\ \textcolor{keywordtype}{bool}\ \&\ menuload,\ \textcolor{keywordtype}{bool}\ \&\ menugame,\ }
+\DoxyCodeLine{00070\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \mbox{\hyperlink{classCParser}{CParser}}\ \&\ parser,\ \mbox{\hyperlink{classCTileMap}{CTileMap}}\ \&\ map,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res,\ \textcolor{keywordtype}{bool}\ \&\ generate\_rand,\ \textcolor{keywordtype}{bool}\ \&\ load\_updated);}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00082\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_ae289aca784d4138c162987af2179fdde}{deal\_with\_init\_menu}}(eventlist\ event,\ \textcolor{keywordtype}{bool}\ \&\ isRunning,\ \textcolor{keywordtype}{bool}\ \&\ menustart,\ \textcolor{keywordtype}{bool}\ \&\ menuload,\ \textcolor{keywordtype}{bool}\ \&\ generate\_rand);}
+\DoxyCodeLine{00083\ }
+\DoxyCodeLine{00093\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCMenu_a491f443edfde7c2b34158adcf3980c68}{deal\_with\_load}}(eventlist\ event,\ \textcolor{keywordtype}{bool}\ \&\ isRunning,\ \textcolor{keywordtype}{bool}\ \&\ menuload,\ std::string\&\ filename);}
+\DoxyCodeLine{00094\ \};}
+
+\end{DoxyCode}

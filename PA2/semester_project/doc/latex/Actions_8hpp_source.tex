@@ -1,0 +1,45 @@
+\doxysection{Actions.\+hpp}
+\hypertarget{Actions_8hpp_source}{}\label{Actions_8hpp_source}\index{src/Actions.hpp@{src/Actions.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ "{}Tiles.hpp"{}}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00012\ Uint32\ callback\_action(Uint32\ interval,\ \textcolor{keywordtype}{void}\ *\ param);}
+\DoxyCodeLine{00013\ }
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCAction}{CAction}}}
+\DoxyCodeLine{00020\ \{}
+\DoxyCodeLine{00021\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{classCTileMap}{CTileMap}}\ \&\ \mbox{\hyperlink{classCAction_a9e1f8957de6aec198e70f0c8185cb795}{m\_map\_ref}};\ \ \ \ \ \ \ }
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \&\ \mbox{\hyperlink{classCAction_a51cb87d9bbc731d74bef4c7bbdfbebbe}{m\_build\_ref}};\ }
+\DoxyCodeLine{00024\ \ \ \ \ SDL\_TimerID\ \mbox{\hyperlink{classCAction_ac295a6bc562745d2f09676e4cd257df2}{m\_timer}};\ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00025\ \ \ \ \ Uint32\ \mbox{\hyperlink{classCAction_a9de66a0ef04c8ce96db1ceab82d903bd}{m\_interval}};\ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00026\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00033\ \ \ \ \ \mbox{\hyperlink{classCAction}{CAction}}(\mbox{\hyperlink{classCTileMap}{CTileMap}}\ \&\ map,\ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \&\ build,\ Uint32\ interval);}
+\DoxyCodeLine{00034\ \ \ \ \ }
+\DoxyCodeLine{00038\ \ \ \ \ \mbox{\hyperlink{classCAction_a45a8868d504060d8c1e8dd1f299b5854}{\string~CAction}}();}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCAction_aa6227dcf21f36349d45348dd303b4d05}{reset\_timer}}();}
+\DoxyCodeLine{00044\ }
+\DoxyCodeLine{00048\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCAction_a9cb2e8f4cfc46b8fd94bffa11aba6ba7}{empose\_effect}}()\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{00049\ \};}
+\DoxyCodeLine{00050\ }
+\DoxyCodeLine{00054\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCFlood}{CFlood}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classCAction}{CAction}}}
+\DoxyCodeLine{00055\ \{}
+\DoxyCodeLine{00056\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00063\ \ \ \ \ \mbox{\hyperlink{classCFlood}{CFlood}}(\mbox{\hyperlink{classCTileMap}{CTileMap}}\ \&\ map,\ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \&\ build,\ Uint32\ interval);}
+\DoxyCodeLine{00064\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCFlood_ae086f925eb2b66fc8ccd04ce6147b82b}{empose\_effect}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00065\ \};}
+\DoxyCodeLine{00066\ }
+\DoxyCodeLine{00070\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCTreeGrowth}{CTreeGrowth}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classCAction}{CAction}}}
+\DoxyCodeLine{00071\ \{}
+\DoxyCodeLine{00072\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00073\ }
+\DoxyCodeLine{00080\ \ \ \ \ \mbox{\hyperlink{classCTreeGrowth}{CTreeGrowth}}(\mbox{\hyperlink{classCTileMap}{CTileMap}}\ \&\ map,\ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \&\ build,\ Uint32\ interval);}
+\DoxyCodeLine{00081\ \ \ \ \ }
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{classCTreeGrowth_abfce2395cbe1803827d99cfb15ddbd4f}{empose\_effect}}()\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00086\ \};}
+
+\end{DoxyCode}

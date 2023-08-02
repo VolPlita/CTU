@@ -1,0 +1,65 @@
+\doxysection{CParser Class Reference}
+\hypertarget{classCParser}{}\label{classCParser}\index{CParser@{CParser}}
+
+
+Class for reading and saving map data from/to a file.  
+
+
+
+
+{\ttfamily \#include $<$Parser.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{structCWorldData}{CWorld\+Data}} \mbox{\hyperlink{classCParser_adebfcae80ee49f2f0aa3cdfcd9c9defa}{read\+\_\+map}} (const std\+::string \&filename)
+\begin{DoxyCompactList}\small\item\em Reads map data from a file. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCParser_a293ef92aec62381fd4dd43f16fd6062f}{save\+\_\+map}} (\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&map, \mbox{\hyperlink{classCResources}{CResources}} \&res) const
+\begin{DoxyCompactList}\small\item\em Saves map data and resource information to a file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for reading and saving map data from/to a file. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCParser_adebfcae80ee49f2f0aa3cdfcd9c9defa}\label{classCParser_adebfcae80ee49f2f0aa3cdfcd9c9defa} 
+\index{CParser@{CParser}!read\_map@{read\_map}}
+\index{read\_map@{read\_map}!CParser@{CParser}}
+\doxysubsubsection{\texorpdfstring{read\_map()}{read\_map()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structCWorldData}{CWorld\+Data}} CParser\+::read\+\_\+map (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Reads map data from a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & The name of the file to read. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The read \doxylink{structCWorldData}{CWorld\+Data} object. 
+\end{DoxyReturn}
+\Hypertarget{classCParser_a293ef92aec62381fd4dd43f16fd6062f}\label{classCParser_a293ef92aec62381fd4dd43f16fd6062f} 
+\index{CParser@{CParser}!save\_map@{save\_map}}
+\index{save\_map@{save\_map}!CParser@{CParser}}
+\doxysubsubsection{\texorpdfstring{save\_map()}{save\_map()}}
+{\footnotesize\ttfamily void CParser\+::save\+\_\+map (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classCTileMap}{CTile\+Map}} \&}]{map,  }\item[{\mbox{\hyperlink{classCResources}{CResources}} \&}]{res }\end{DoxyParamCaption}) const}
+
+
+
+Saves map data and resource information to a file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em map} & The \doxylink{classCTileMap}{CTile\+Map} object containing the map data. \\
+\hline
+{\em res} & The \doxylink{classCResources}{CResources} object containing the resource information. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Parser.\+hpp\item 
+src/Parser.\+cpp\end{DoxyCompactItemize}

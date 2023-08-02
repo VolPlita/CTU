@@ -1,0 +1,106 @@
+\doxysection{CBuilding\+Map Class Reference}
+\hypertarget{classCBuildingMap}{}\label{classCBuildingMap}\index{CBuildingMap@{CBuildingMap}}
+
+
+Class for the building map. Stores a map of ABuildings with ids of each building as key.  
+
+
+
+
+{\ttfamily \#include $<$Buildings.\+hpp$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+{\footnotesize template$<$class T $>$ }\\int \mbox{\hyperlink{classCBuildingMap_a386e15c46c841ac67708978db48e90ad}{add\+\_\+building}} (std\+::shared\+\_\+ptr$<$ T $>$ building)
+\begin{DoxyCompactList}\small\item\em Add a building to the building map. \end{DoxyCompactList}\item 
+{\footnotesize template$<$class T $>$ }\\int \mbox{\hyperlink{classCBuildingMap_a474b116a941c7765c3141f8444d62fd5}{add\+\_\+building\+\_\+id}} (int id, std\+::shared\+\_\+ptr$<$ T $>$ building)
+\begin{DoxyCompactList}\small\item\em Add a building to the building map with a specified ID. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classCBuildingMap_a6c2a81666c2f14daa07c8dce0ac26e14}{remove\+\_\+building}} (int id)
+\begin{DoxyCompactList}\small\item\em Remove a building from the building map. \end{DoxyCompactList}\item 
+\Hypertarget{classCBuildingMap_a8e0a14aaff53b65fb8a2c5019d118022}\label{classCBuildingMap_a8e0a14aaff53b65fb8a2c5019d118022} 
+void {\bfseries clear} ()
+\begin{DoxyCompactList}\small\item\em Clear the building map. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{classCBuildingMap_a95b5bcbc1282c31128e432f4ae05f451}\label{classCBuildingMap_a95b5bcbc1282c31128e432f4ae05f451} 
+static int {\bfseries m\+\_\+max\+\_\+id} = 0
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Class for the building map. Stores a map of ABuildings with ids of each building as key. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classCBuildingMap_a386e15c46c841ac67708978db48e90ad}\label{classCBuildingMap_a386e15c46c841ac67708978db48e90ad} 
+\index{CBuildingMap@{CBuildingMap}!add\_building@{add\_building}}
+\index{add\_building@{add\_building}!CBuildingMap@{CBuildingMap}}
+\doxysubsubsection{\texorpdfstring{add\_building()}{add\_building()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int CBuilding\+Map\+::add\+\_\+building (\begin{DoxyParamCaption}\item[{std\+::shared\+\_\+ptr$<$ T $>$}]{building }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add a building to the building map. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of the building. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em building} & Shared pointer to the building object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The ID of the added building. 
+\end{DoxyReturn}
+\Hypertarget{classCBuildingMap_a474b116a941c7765c3141f8444d62fd5}\label{classCBuildingMap_a474b116a941c7765c3141f8444d62fd5} 
+\index{CBuildingMap@{CBuildingMap}!add\_building\_id@{add\_building\_id}}
+\index{add\_building\_id@{add\_building\_id}!CBuildingMap@{CBuildingMap}}
+\doxysubsubsection{\texorpdfstring{add\_building\_id()}{add\_building\_id()}}
+{\footnotesize\ttfamily template$<$class T $>$ \\
+int CBuilding\+Map\+::add\+\_\+building\+\_\+id (\begin{DoxyParamCaption}\item[{int}]{id,  }\item[{std\+::shared\+\_\+ptr$<$ T $>$}]{building }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Add a building to the building map with a specified ID. 
+
+
+\begin{DoxyTemplParams}{Template Parameters}
+{\em T} & Type of the building. \\
+\hline
+\end{DoxyTemplParams}
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The ID of the building. \\
+\hline
+{\em building} & Shared pointer to the building object. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The ID of the added building. 
+\end{DoxyReturn}
+\Hypertarget{classCBuildingMap_a6c2a81666c2f14daa07c8dce0ac26e14}\label{classCBuildingMap_a6c2a81666c2f14daa07c8dce0ac26e14} 
+\index{CBuildingMap@{CBuildingMap}!remove\_building@{remove\_building}}
+\index{remove\_building@{remove\_building}!CBuildingMap@{CBuildingMap}}
+\doxysubsubsection{\texorpdfstring{remove\_building()}{remove\_building()}}
+{\footnotesize\ttfamily void CBuilding\+Map\+::remove\+\_\+building (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Remove a building from the building map. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & The ID of the building to be removed. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Buildings.\+hpp\item 
+src/Buildings.\+cpp\end{DoxyCompactItemize}

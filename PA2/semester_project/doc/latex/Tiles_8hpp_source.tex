@@ -1,0 +1,83 @@
+\doxysection{Tiles.\+hpp}
+\hypertarget{Tiles_8hpp_source}{}\label{Tiles_8hpp_source}\index{src/Tiles.hpp@{src/Tiles.hpp}}
+
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#pragma\ once}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00003\ \textcolor{preprocessor}{\#include\ <SDL2/SDL.h>}}
+\DoxyCodeLine{00004\ }
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ "{}define.hpp"{}}}
+\DoxyCodeLine{00006\ \textcolor{preprocessor}{\#include\ "{}Buildings.hpp"{}}}
+\DoxyCodeLine{00007\ }
+\DoxyCodeLine{00013\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCTile}{CTile}}}
+\DoxyCodeLine{00014\ \{}
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_type;}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_resource;}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_building;}
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_building\_id;}
+\DoxyCodeLine{00019\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00020\ \ \ \ \ \mbox{\hyperlink{classCTile}{CTile}}();}
+\DoxyCodeLine{00021\ \ \ \ \ \mbox{\hyperlink{classCTile}{CTile}}(\textcolor{keywordtype}{int}\ t,\ \textcolor{keywordtype}{int}\ r);}
+\DoxyCodeLine{00022\ \ \ \ \ \mbox{\hyperlink{classCTile}{CTile}}(\textcolor{keywordtype}{int}\ t,\ \textcolor{keywordtype}{int}\ r,\ \textcolor{keywordtype}{int}\ b);}
+\DoxyCodeLine{00023\ \ \ \ \ \mbox{\hyperlink{classCTile}{CTile}}(\textcolor{keywordtype}{int}\ t,\ \textcolor{keywordtype}{int}\ r,\ \textcolor{keywordtype}{int}\ b,\ \textcolor{keywordtype}{int}\ bid);}
+\DoxyCodeLine{00024\ \ \ \ \ \textcolor{keywordtype}{int}\ get\_type()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00025\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_type(\textcolor{keywordtype}{int}\ x);}
+\DoxyCodeLine{00026\ \ \ \ \ \textcolor{keywordtype}{int}\ get\_resource()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00027\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_resource(\textcolor{keywordtype}{int}\ x);}
+\DoxyCodeLine{00028\ \ \ \ \ \textcolor{keywordtype}{int}\ get\_building()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00029\ \ \ \ \ \textcolor{keywordtype}{int}\ get\_building\_id()\ \textcolor{keyword}{const};}
+\DoxyCodeLine{00030\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_building(\textcolor{keywordtype}{int}\ x);}
+\DoxyCodeLine{00031\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_building\_id(\textcolor{keywordtype}{int}\ \textcolor{keywordtype}{id});}
+\DoxyCodeLine{00032\ \};}
+\DoxyCodeLine{00033\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00039\ \textcolor{keyword}{struct\ }\mbox{\hyperlink{structCWorldData}{CWorldData}}}
+\DoxyCodeLine{00040\ \{}
+\DoxyCodeLine{00041\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_types[MAP\_SIZE\ *\ MAP\_SIZE];}
+\DoxyCodeLine{00042\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_resources[MAP\_SIZE\ *\ MAP\_SIZE];}
+\DoxyCodeLine{00043\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_buildings[MAP\_SIZE\ *\ MAP\_SIZE];}
+\DoxyCodeLine{00044\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_building\_ids[MAP\_SIZE\ *\ MAP\_SIZE];}
+\DoxyCodeLine{00045\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_res\_bar[6];}
+\DoxyCodeLine{00046\ \};}
+\DoxyCodeLine{00047\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00048\ }
+\DoxyCodeLine{00053\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classAMap}{AMap}}}
+\DoxyCodeLine{00054\ \{}
+\DoxyCodeLine{00055\ \textcolor{keyword}{protected}:}
+\DoxyCodeLine{00056\ \ \ \ \ SDL\_Texture\ *\ m\_texture\_set;\ \ \ \ \ \ \ \ \ \ \ \ \textcolor{comment}{//\ set\ of\ textures\ for\ tilemap}}
+\DoxyCodeLine{00057\ \ \ \ \ \textcolor{comment}{//\ Size\ of\ tilemap}}
+\DoxyCodeLine{00058\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_len\_x;}
+\DoxyCodeLine{00059\ \ \ \ \ \textcolor{keywordtype}{int}\ m\_len\_y;}
+\DoxyCodeLine{00060\ \ \ \ \ \textcolor{comment}{//\ Coordinates\ of\ currently\ hovering\ tile}}
+\DoxyCodeLine{00061\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classAMap_ab0c42d43e1723602a67c824423e4b342}{m\_hover\_x}};\ }
+\DoxyCodeLine{00062\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{classAMap_a611b8d7c4b34b822bcb3e7821d53e576}{m\_hover\_y}};\ }
+\DoxyCodeLine{00063\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00064\ \ \ \ \ \mbox{\hyperlink{classAMap}{AMap}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\ texture\_src,\ \textcolor{keywordtype}{int}\ lenx,\ \textcolor{keywordtype}{int}\ leny);}
+\DoxyCodeLine{00065\ \ \ \ \ \mbox{\hyperlink{classAMap}{\string~AMap}}();}
+\DoxyCodeLine{00066\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_hover\_tile(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y);}
+\DoxyCodeLine{00067\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ render(SDL\_Renderer\ *\&\ rend)\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{00068\ \ \ \ \ \textcolor{keyword}{virtual}\ \textcolor{keywordtype}{void}\ get\_cell\_coord(\textcolor{keywordtype}{int}\ \&\ Wx,\ \textcolor{keywordtype}{int}\ \&\ Wy,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y)\ \textcolor{keyword}{const}\ =\ 0;}
+\DoxyCodeLine{00069\ \};}
+\DoxyCodeLine{00070\ \textcolor{comment}{//-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/-\/}}
+\DoxyCodeLine{00071\ }
+\DoxyCodeLine{00076\ \textcolor{keyword}{class\ }\mbox{\hyperlink{classCTileMap}{CTileMap}}\ :\ \textcolor{keyword}{public}\ \mbox{\hyperlink{classAMap}{AMap}}}
+\DoxyCodeLine{00077\ \{}
+\DoxyCodeLine{00078\ \ \ \ \ std::vector<std::vector<CTile>>\ m\_map;\ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00079\ \ \ \ \ std::vector<std::vector<SDL\_Rect>>\ m\_dst\_rect;\ \ \ \ \ \ }
+\DoxyCodeLine{00080\ \ \ \ \ std::vector<SDL\_Rect>\ m\_sprites;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ }
+\DoxyCodeLine{00081\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00082\ \ \ \ \ \mbox{\hyperlink{classCTileMap}{CTileMap}}(SDL\_Renderer\ *\&\ rend,\ \textcolor{keyword}{const}\ \textcolor{keywordtype}{char}\ *\ texture\_src,\ \textcolor{keywordtype}{int}\ lenx,\ \textcolor{keywordtype}{int}\ leny);}
+\DoxyCodeLine{00083\ \ \ \ \ \mbox{\hyperlink{classCTileMap}{\string~CTileMap}}();}
+\DoxyCodeLine{00084\ }
+\DoxyCodeLine{00085\ \ \ \ \ \textcolor{keywordtype}{void}\ render(SDL\_Renderer\ *\&\ rend)\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00086\ \ \ \ \ \textcolor{keywordtype}{void}\ populate(\mbox{\hyperlink{structCWorldData}{CWorldData}}\ data);}
+\DoxyCodeLine{00087\ \ \ \ \ \textcolor{keywordtype}{void}\ populate();}
+\DoxyCodeLine{00088\ }
+\DoxyCodeLine{00089\ \ \ \ \ std::vector<std::vector<CTile>>\ *\ access\_map();}
+\DoxyCodeLine{00090\ }
+\DoxyCodeLine{00091\ \ \ \ \ \textcolor{keywordtype}{void}\ get\_cell\_coord(\textcolor{keywordtype}{int}\ \&\ Wx,\ \textcolor{keywordtype}{int}\ \&\ Wy,\ \textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y)\ \textcolor{keyword}{const\ override};}
+\DoxyCodeLine{00092\ \ \ \ \ \textcolor{keywordtype}{void}\ set\_res\_to\_tile(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ res);}
+\DoxyCodeLine{00093\ \ \ \ \ \textcolor{keywordtype}{void}\ build(\textcolor{keywordtype}{int}\ x,\ \textcolor{keywordtype}{int}\ y,\ \textcolor{keywordtype}{int}\ building,\ \mbox{\hyperlink{classCBuildingMap}{CBuildingMap}}\ \&\ buildmap,\ \mbox{\hyperlink{classCResources}{CResources}}\ \&\ res\_base);}
+\DoxyCodeLine{00094\ \};}
+
+\end{DoxyCode}
