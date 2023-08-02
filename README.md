@@ -10,11 +10,11 @@ Courses at 1<sup>st</sup> semester:
 - BIE-TZP;
 
 Courses at 2<sup>nd</sup> semester:
-- BIE-PA2;
-- BIE-PSI;
+- [BIE-PA2](/PA2); Semester project [here](/PA2/semester_project)
+- [BIE-PSI](/PSI);
 - BIE-DBS;
 - BIE-MA1;
-- BIE-SAP;
+- [BIE-SAP](/SAP);
 - BIE-SKJ;
 - BIE-VAK;
 - BIE-PRR;
@@ -28,5 +28,3 @@ Courses at 3<sup>rd</sup> semester:
 - BIE-TJV;
 
 ![fit ctu emblem](images/fitemblem.png)
-
-# Personal
