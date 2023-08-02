@@ -28,3 +28,5 @@ Courses at 3<sup>rd</sup> semester:
 - BIE-TJV;
 
 ![fit ctu emblem](images/fitemblem.png)
+
+# Personal
